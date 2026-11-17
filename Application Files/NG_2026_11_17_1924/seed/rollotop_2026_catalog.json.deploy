@@ -1,0 +1,3363 @@
+{
+  "catalog": {
+    "name": "Rollotop",
+    "price_list_year": 2026,
+    "currency": "HUF",
+    "price_basis": "net_retail_price",
+    "vat_included": false,
+    "source_file": "Rollotop_arlista_2026.pdf",
+    "publisher": "Lendvai és Társa Kft.",
+    "validity_note": "Az árak visszavonásig vagy 410 Ft/EUR MNB középárfolyamig érvényesek; a kibocsátó fenntartja az árváltoztatás és műszaki tartalom változtatásának jogát.",
+    "source_date": "2025-12-01"
+  },
+  "lamella_options": {
+    "pvc": {
+      "material": "PVC",
+      "colors": [
+        "fehér",
+        "világosszürke",
+        "sötétszürke",
+        "homok",
+        "bézs",
+        "világoskék"
+      ],
+      "price_net_huf_per_m2": 34860
+    },
+    "polycarbonate_transparent": {
+      "material": "polikarbonát",
+      "colors": [
+        "áttetsző víztiszta",
+        "áttetsző kékes"
+      ],
+      "price_net_huf_per_m2": 62250
+    },
+    "polycarbonate_solar": {
+      "material": "polikarbonát szolár",
+      "colors": [
+        "szolár víztiszta",
+        "szolár kékes"
+      ],
+      "price_net_huf_per_m2": 62250
+    },
+    "elite": {
+      "material": "Elite sorozat",
+      "colors": [
+        "szolár ezüst",
+        "szolár arany",
+        "szolár grafit"
+      ],
+      "price_net_huf_per_m2": 66400
+    }
+  },
+  "calculation_rules": {
+    "lamella_area_formula": "F = H × SZ + HL × SZL",
+    "length_dimension_rule": "A hosszmérethez (H) hozzáadandó a vízfelszín és a csévélőtengely közötti távolság.",
+    "width_rounding_rule": "A szélességi méretek (SZ és SZL) minden esetben felfelé kerekítendők 0,5 m-re.",
+    "cutting_surcharge": {
+      "description": "Ferde kivágás (letörés), római lépcső, íves kivágás; a medence hosszoldalával párhuzamos irányban értendő.",
+      "price_net_huf_per_m": 40800
+    },
+    "solar_lamella_effect": "A szolár lamellák a leírás szerint 7–8 °C-kal növelik a víz hőmérsékletét."
+  },
+  "reel_diameter_cm": {
+    "water_surface_length_m": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      20,
+      25
+    ],
+    "pool_width_up_to_4_5m": [
+      34,
+      37,
+      40,
+      43,
+      46,
+      48,
+      52,
+      56,
+      60,
+      67,
+      74
+    ],
+    "pool_width_up_to_6m": [
+      34,
+      37,
+      40,
+      43,
+      46,
+      48,
+      54,
+      58,
+      67,
+      72,
+      78
+    ],
+    "note": "Tájékoztató adat, tartalék lamellák nélkül."
+  },
+  "accessories": [
+    {
+      "code": "safety_rail_a4",
+      "name": "Biztonsági korlát A4",
+      "price_net_huf_per_unit": 99000,
+      "unit": "fm",
+      "notes": "Anyag + felszerelés díja."
+    },
+    {
+      "code": "rail_liner_kit",
+      "name": "Fóliás készlet korláthoz",
+      "price_net_huf_per_unit": 16500,
+      "unit": "fm"
+    },
+    {
+      "code": "fixing_strap",
+      "name": "Rögzítőheveder",
+      "price_net_huf_per_unit": 22000,
+      "unit": "db",
+      "notes": "Anyag + felszerelés díja."
+    },
+    {
+      "code": "concealed_fixing",
+      "name": "Rejtett rögzítés süllyesztett víztükrű medencéhez",
+      "price_net_huf_per_unit": 49500,
+      "unit": "db",
+      "notes": "Anyag + felszerelés díja."
+    }
+  ],
+  "accessory_condition": "A fenti kiegészítő árak kizárólag medencetakarással együtt történő megrendelés esetén érvényesek.",
+  "general_terms": {
+    "quotation_validity_days": 30,
+    "order_acceptance": "Megrendelést csak írásban fogadnak el, visszaigazolással.",
+    "payment_terms": [
+      "A megrendelés az előleg megfizetésével válik hatályossá; az előleg általánosan a bruttó termékár 50%-a.",
+      "A termék fennmaradó 50%-a átvétel vagy telepítési helyre történő kiszállítás előtt fizetendő.",
+      "A szerződéses vételárban szereplő szállítási, telepítési és beüzemelési díj az üzembe helyezett átadást követően fizetendő."
+    ],
+    "free_storage_days": 14,
+    "warranty_months": 36,
+    "ownership_retained_until_full_payment": true
+  },
+  "models": [
+    {
+      "code": "VF1",
+      "name": "Standard",
+      "description": "medenceparton álló roló, burkolat nélkül",
+      "source_page": 4,
+      "pricing_mode": "fixed_size_matrix",
+      "price_rows": [
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 1781325,
+            "polycarbonate_transparent": 2157938,
+            "polycarbonate_solar": 2157938,
+            "elite": 2215000
+          },
+          "width_m": 2.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 1868475,
+            "polycarbonate_transparent": 2313563,
+            "polycarbonate_solar": 2313563,
+            "elite": 2381000
+          },
+          "width_m": 2.5
+        },
+        {
+          "width_m": 2.5,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 1955625,
+            "polycarbonate_transparent": 2469188,
+            "polycarbonate_solar": 2469188,
+            "elite": 2547000
+          }
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2042775,
+            "polycarbonate_transparent": 2624813,
+            "polycarbonate_solar": 2624813,
+            "elite": 2713000
+          },
+          "width_m": 2.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2129925,
+            "polycarbonate_transparent": 2780438,
+            "polycarbonate_solar": 2780438,
+            "elite": 2879000
+          },
+          "width_m": 2.5
+        },
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 1877190,
+            "polycarbonate_transparent": 2329125,
+            "polycarbonate_solar": 2329125,
+            "elite": 2397600
+          },
+          "width_m": 2.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 1981770,
+            "polycarbonate_transparent": 2515875,
+            "polycarbonate_solar": 2515875,
+            "elite": 2596800
+          },
+          "width_m": 2.5
+        },
+        {
+          "width_m": 3.0,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2086350,
+            "polycarbonate_transparent": 2702625,
+            "polycarbonate_solar": 2702625,
+            "elite": 2796000
+          }
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2190930,
+            "polycarbonate_transparent": 2889375,
+            "polycarbonate_solar": 2889375,
+            "elite": 2995200
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2295510,
+            "polycarbonate_transparent": 3076125,
+            "polycarbonate_solar": 3076125,
+            "elite": 3194400
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2132065,
+            "polycarbonate_transparent": 2755188,
+            "polycarbonate_solar": 2755188,
+            "elite": 2849600
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2254075,
+            "polycarbonate_transparent": 2973063,
+            "polycarbonate_solar": 2973063,
+            "elite": 3082000
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.5,
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2376085,
+            "polycarbonate_transparent": 3190938,
+            "polycarbonate_solar": 3190938,
+            "elite": 3314400
+          }
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2498095,
+            "polycarbonate_transparent": 3408813,
+            "polycarbonate_solar": 3408813,
+            "elite": 3546800
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 2620105,
+            "polycarbonate_transparent": 3626688,
+            "polycarbonate_solar": 3626688,
+            "elite": 3779200
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2245360,
+            "polycarbonate_transparent": 2957500,
+            "polycarbonate_solar": 2957500,
+            "elite": 3065400
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2384800,
+            "polycarbonate_transparent": 3206500,
+            "polycarbonate_solar": 3206500,
+            "elite": 3331000
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2524240,
+            "polycarbonate_transparent": 3455500,
+            "polycarbonate_solar": 3455500,
+            "elite": 3596600
+          },
+          "width_m": 3.5
+        },
+        {
+          "width_m": 4.0,
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2663680,
+            "polycarbonate_transparent": 3704500,
+            "polycarbonate_solar": 3704500,
+            "elite": 3862200
+          }
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 2803120,
+            "polycarbonate_transparent": 3953500,
+            "polycarbonate_solar": 3953500,
+            "elite": 4127800
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 2942560,
+            "polycarbonate_transparent": 4202500,
+            "polycarbonate_solar": 4202500,
+            "elite": 4393400
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3082000,
+            "polycarbonate_transparent": 4451500,
+            "polycarbonate_solar": 4451500,
+            "elite": 4659000
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2588525,
+            "polycarbonate_transparent": 3512938,
+            "polycarbonate_solar": 3512938,
+            "elite": 3653000
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2745395,
+            "polycarbonate_transparent": 3793063,
+            "polycarbonate_solar": 3793063,
+            "elite": 3951800
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2902265,
+            "polycarbonate_transparent": 4073188,
+            "polycarbonate_solar": 4073188,
+            "elite": 4250600
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3059135,
+            "polycarbonate_transparent": 4353313,
+            "polycarbonate_solar": 4353313,
+            "elite": 4549400
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3692550,
+            "polycarbonate_transparent": 4856625,
+            "polycarbonate_solar": 4856625,
+            "elite": 5033000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3866850,
+            "polycarbonate_transparent": 5167875,
+            "polycarbonate_solar": 5167875,
+            "elite": 5365000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4041150,
+            "polycarbonate_transparent": 5479125,
+            "polycarbonate_solar": 5479125,
+            "elite": 5697000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4389750,
+            "polycarbonate_transparent": 6101625,
+            "polycarbonate_solar": 6101625,
+            "elite": 6361000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4224165,
+            "polycarbonate_transparent": 5805938,
+            "polycarbonate_solar": 5805938,
+            "elite": 6045600
+          },
+          "width_m": 5.0
+        },
+        {
+          "width_m": 5.5,
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 4415895,
+            "polycarbonate_transparent": 6148313,
+            "polycarbonate_solar": 6148313,
+            "elite": 6410800
+          }
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4607625,
+            "polycarbonate_transparent": 6490688,
+            "polycarbonate_solar": 6490688,
+            "elite": 6776000
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4198020,
+            "polycarbonate_transparent": 5759250,
+            "polycarbonate_solar": 5759250,
+            "elite": 5995800
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4407180,
+            "polycarbonate_transparent": 6132750,
+            "polycarbonate_solar": 6132750,
+            "elite": 6394200
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5056500,
+            "polycarbonate_transparent": 7110750,
+            "polycarbonate_solar": 7110750,
+            "elite": 7422000
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5474820,
+            "polycarbonate_transparent": 7857750,
+            "polycarbonate_solar": 7857750,
+            "elite": 8218800
+          },
+          "width_m": 6.0
+        }
+      ],
+      "fees_net_huf": {
+        "installation_distance_tiers": [
+          {
+            "distance_from_pilisszentivan_km": "0-100",
+            "price_net_huf": 395000
+          },
+          {
+            "distance_from_pilisszentivan_km": "101-200",
+            "price_net_huf": 485000
+          },
+          {
+            "distance_from_pilisszentivan_km": "201-300",
+            "price_net_huf": 570000
+          }
+        ]
+      },
+      "crosswise_price_rows": [
+        {
+          "pool_width_m": 6.0,
+          "pool_length_m": 3.0,
+          "prices_net_huf": {
+            "pvc": 2144060,
+            "polycarbonate_transparent": 2719250,
+            "polycarbonate_solar": 2719250,
+            "elite": 2806400
+          }
+        },
+        {
+          "pool_width_m": 6.0,
+          "pool_length_m": 4.0,
+          "prices_net_huf": {
+            "pvc": 2353220,
+            "polycarbonate_transparent": 3092750,
+            "polycarbonate_solar": 3092750,
+            "elite": 3204800
+          }
+        },
+        {
+          "pool_width_m": 7.0,
+          "pool_length_m": 4.0,
+          "prices_net_huf": {
+            "pvc": 2510090,
+            "polycarbonate_transparent": 3372875,
+            "polycarbonate_solar": 3372875,
+            "elite": 3503600
+          }
+        },
+        {
+          "pool_width_m": 7.0,
+          "pool_length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 2754110,
+            "polycarbonate_transparent": 3808625,
+            "polycarbonate_solar": 3808625,
+            "elite": 3968400
+          }
+        }
+      ],
+      "notes": [
+        "Komplett roló motorral, vezérléssel, kapcsolóval és lamellákkal; burkolat nélkül.",
+        "Elsősorban beltéri medencékhez ajánlott. Fehér lamellák kivételével kültéren a rolócséve árnyékolása/takarása kötelező."
+      ]
+    },
+    {
+      "code": "VF2",
+      "name": "Maxi",
+      "description": "medenceparton álló roló alumínium burkolattal",
+      "source_page": 5,
+      "pricing_mode": "fixed_size_matrix",
+      "price_rows": [
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 3999190,
+            "polycarbonate_transparent": 4451125,
+            "polycarbonate_solar": 4451125,
+            "elite": 4519600
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 4103770,
+            "polycarbonate_transparent": 4637875,
+            "polycarbonate_solar": 4637875,
+            "elite": 4718800
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.0,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 4208350,
+            "polycarbonate_transparent": 4824625,
+            "polycarbonate_solar": 4824625,
+            "elite": 4918000
+          }
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 4312930,
+            "polycarbonate_transparent": 5011375,
+            "polycarbonate_solar": 5011375,
+            "elite": 5117200
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4417510,
+            "polycarbonate_transparent": 5198125,
+            "polycarbonate_solar": 5198125,
+            "elite": 5316400
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 4217065,
+            "polycarbonate_transparent": 4840188,
+            "polycarbonate_solar": 4840188,
+            "elite": 4934600
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 4339075,
+            "polycarbonate_transparent": 5058063,
+            "polycarbonate_solar": 5058063,
+            "elite": 5167000
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.5,
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 4461085,
+            "polycarbonate_transparent": 5275938,
+            "polycarbonate_solar": 5275938,
+            "elite": 5399400
+          }
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4583095,
+            "polycarbonate_transparent": 5493813,
+            "polycarbonate_solar": 5493813,
+            "elite": 5631800
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4705105,
+            "polycarbonate_transparent": 5711688,
+            "polycarbonate_solar": 5711688,
+            "elite": 5864200
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 4330360,
+            "polycarbonate_transparent": 5042500,
+            "polycarbonate_solar": 5042500,
+            "elite": 5150400
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 4469800,
+            "polycarbonate_transparent": 5291500,
+            "polycarbonate_solar": 5291500,
+            "elite": 5416000
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 4609240,
+            "polycarbonate_transparent": 5540500,
+            "polycarbonate_solar": 5540500,
+            "elite": 5681600
+          },
+          "width_m": 3.5
+        },
+        {
+          "width_m": 4.0,
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4748680,
+            "polycarbonate_transparent": 5789500,
+            "polycarbonate_solar": 5789500,
+            "elite": 5947200
+          }
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 5252120,
+            "polycarbonate_transparent": 6402500,
+            "polycarbonate_solar": 6402500,
+            "elite": 6576800
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5391560,
+            "polycarbonate_transparent": 6651500,
+            "polycarbonate_solar": 6651500,
+            "elite": 6842400
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5531000,
+            "polycarbonate_transparent": 6900500,
+            "polycarbonate_solar": 6900500,
+            "elite": 7108000
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 4600525,
+            "polycarbonate_transparent": 5524938,
+            "polycarbonate_solar": 5524938,
+            "elite": 5665000
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 4757395,
+            "polycarbonate_transparent": 5805063,
+            "polycarbonate_solar": 5805063,
+            "elite": 5963800
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4914265,
+            "polycarbonate_transparent": 6085188,
+            "polycarbonate_solar": 6085188,
+            "elite": 6262600
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 5435135,
+            "polycarbonate_transparent": 6729313,
+            "polycarbonate_solar": 6729313,
+            "elite": 6925400
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5592005,
+            "polycarbonate_transparent": 7009438,
+            "polycarbonate_solar": 7009438,
+            "elite": 7224200
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5748875,
+            "polycarbonate_transparent": 7289563,
+            "polycarbonate_solar": 7289563,
+            "elite": 7523000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 5806850,
+            "polycarbonate_transparent": 7107875,
+            "polycarbonate_solar": 7107875,
+            "elite": 7305000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 5981150,
+            "polycarbonate_transparent": 7419125,
+            "polycarbonate_solar": 7419125,
+            "elite": 7637000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 7565150,
+            "polycarbonate_transparent": 9003125,
+            "polycarbonate_solar": 9003125,
+            "elite": 9221000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 7739450,
+            "polycarbonate_transparent": 9314375,
+            "polycarbonate_solar": 9314375,
+            "elite": 9553000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 7913750,
+            "polycarbonate_transparent": 9625625,
+            "polycarbonate_solar": 9625625,
+            "elite": 9885000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 8088050,
+            "polycarbonate_transparent": 9936875,
+            "polycarbonate_solar": 9936875,
+            "elite": 10217000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 5972435,
+            "polycarbonate_transparent": 7403563,
+            "polycarbonate_solar": 7403563,
+            "elite": 7620400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 6164165,
+            "polycarbonate_transparent": 7745938,
+            "polycarbonate_solar": 7745938,
+            "elite": 7985600
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 7939895,
+            "polycarbonate_transparent": 9672313,
+            "polycarbonate_solar": 9672313,
+            "elite": 9934800
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 8131625,
+            "polycarbonate_transparent": 10014688,
+            "polycarbonate_solar": 10014688,
+            "elite": 10300000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 8323355,
+            "polycarbonate_transparent": 10357063,
+            "polycarbonate_solar": 10357063,
+            "elite": 10665200
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 8515085,
+            "polycarbonate_transparent": 10699438,
+            "polycarbonate_solar": 10699438,
+            "elite": 11030400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 6138020,
+            "polycarbonate_transparent": 7699250,
+            "polycarbonate_solar": 7699250,
+            "elite": 7935800
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 6347180,
+            "polycarbonate_transparent": 8072750,
+            "polycarbonate_solar": 8072750,
+            "elite": 8334200
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 8140340,
+            "polycarbonate_transparent": 10030250,
+            "polycarbonate_solar": 10030250,
+            "elite": 10316600
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 8558660,
+            "polycarbonate_transparent": 10777250,
+            "polycarbonate_solar": 10777250,
+            "elite": 11113400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 8767820,
+            "polycarbonate_transparent": 11150750,
+            "polycarbonate_solar": 11150750,
+            "elite": 11511800
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 15.0,
+          "prices_net_huf": {
+            "pvc": 8976980,
+            "polycarbonate_transparent": 11524250,
+            "polycarbonate_solar": 11524250,
+            "elite": 11910200
+          },
+          "width_m": 5.0
+        }
+      ],
+      "fees_net_huf": {
+        "tensioned_water_level_surcharge": 265000,
+        "installation_distance_tiers": [
+          {
+            "distance_from_pilisszentivan_km": "0-100",
+            "price_net_huf": 530000
+          },
+          {
+            "distance_from_pilisszentivan_km": "101-200",
+            "price_net_huf": 615000
+          },
+          {
+            "distance_from_pilisszentivan_km": "201-300",
+            "price_net_huf": 705000
+          }
+        ]
+      },
+      "notes": [
+        "Komplett roló motorral, vezérléssel, kapcsolóval, alumínium burkolattal és lamellákkal.",
+        "Alap burkolatszínek: fehér (RAL 9010), fehéralumínium (RAL 9006), szürkealumínium (RAL 9007), antracit (RAL 7016), bézs (RAL 1015).",
+        "Süllyesztett víztükrű medencénél szegélykő belmérete, feszített víztükrű medencénél a vályú maximális külmérete 5,8 m."
+      ]
+    },
+    {
+      "code": "VA2",
+      "name": "Deep",
+      "description": "fenékvályúba rejtett roló, tengely 2,0 m mélyen",
+      "source_page": 6,
+      "pricing_mode": "fixed_size_matrix",
+      "price_rows": [
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 2611518,
+            "polycarbonate_transparent": 3194925,
+            "polycarbonate_solar": 3194925,
+            "elite": 3283320
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2716098,
+            "polycarbonate_transparent": 3381675,
+            "polycarbonate_solar": 3381675,
+            "elite": 3482520
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.0,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2820678,
+            "polycarbonate_transparent": 3568425,
+            "polycarbonate_solar": 3568425,
+            "elite": 3681720
+          },
+          "mandatory_cover_options_net_huf": {
+            "tileable_plastic_tray": 1110000,
+            "stainless_steel_tray": 1644300
+          }
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2925258,
+            "polycarbonate_transparent": 3755175,
+            "polycarbonate_solar": 3755175,
+            "elite": 3880920
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3029838,
+            "polycarbonate_transparent": 3941925,
+            "polycarbonate_solar": 3941925,
+            "elite": 4080120
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2857281,
+            "polycarbonate_transparent": 3633788,
+            "polycarbonate_solar": 3633788,
+            "elite": 3751440
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2979291,
+            "polycarbonate_transparent": 3851663,
+            "polycarbonate_solar": 3851663,
+            "elite": 3983840
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.5,
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3101301,
+            "polycarbonate_transparent": 4069538,
+            "polycarbonate_solar": 4069538,
+            "elite": 4216240
+          },
+          "mandatory_cover_options_net_huf": {
+            "tileable_plastic_tray": 1295000,
+            "stainless_steel_tray": 1918350
+          }
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3223311,
+            "polycarbonate_transparent": 4287413,
+            "polycarbonate_solar": 4287413,
+            "elite": 4448640
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3345321,
+            "polycarbonate_transparent": 4505288,
+            "polycarbonate_solar": 4505288,
+            "elite": 4681040
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2998464,
+            "polycarbonate_transparent": 3885900,
+            "polycarbonate_solar": 3885900,
+            "elite": 4020360
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 3137904,
+            "polycarbonate_transparent": 4134900,
+            "polycarbonate_solar": 4134900,
+            "elite": 4285960
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 4.0,
+          "prices_net_huf": {
+            "pvc": 3416784,
+            "polycarbonate_transparent": 4632900,
+            "polycarbonate_solar": 4632900,
+            "elite": 4817160
+          },
+          "width_m": 3.5,
+          "mandatory_cover_options_net_huf": {
+            "tileable_plastic_tray": 1480000,
+            "stainless_steel_tray": 2192400
+          }
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3556224,
+            "polycarbonate_transparent": 4881900,
+            "polycarbonate_solar": 4881900,
+            "elite": 5082760
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3695664,
+            "polycarbonate_transparent": 5130900,
+            "polycarbonate_solar": 5130900,
+            "elite": 5348360
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3835104,
+            "polycarbonate_transparent": 5379900,
+            "polycarbonate_solar": 5379900,
+            "elite": 5613960
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 3296517,
+            "polycarbonate_transparent": 4418138,
+            "polycarbonate_solar": 4418138,
+            "elite": 4588080
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3453387,
+            "polycarbonate_transparent": 4698263,
+            "polycarbonate_solar": 4698263,
+            "elite": 4886880
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3610257,
+            "polycarbonate_transparent": 4978388,
+            "polycarbonate_solar": 4978388,
+            "elite": 5185680
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4919127,
+            "polycarbonate_transparent": 6410513,
+            "polycarbonate_solar": 6410513,
+            "elite": 6636480
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5075997,
+            "polycarbonate_transparent": 6690638,
+            "polycarbonate_solar": 6690638,
+            "elite": 6935280
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5232867,
+            "polycarbonate_transparent": 6970763,
+            "polycarbonate_solar": 6970763,
+            "elite": 7234080
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 4781430,
+            "polycarbonate_transparent": 6164625,
+            "polycarbonate_solar": 6164625,
+            "elite": 6374200
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4955730,
+            "polycarbonate_transparent": 6475875,
+            "polycarbonate_solar": 6475875,
+            "elite": 6706200
+          },
+          "width_m": 4.5
+        },
+        {
+          "width_m": 5.0,
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 5130030,
+            "polycarbonate_transparent": 6787125,
+            "polycarbonate_solar": 6787125,
+            "elite": 7038200
+          },
+          "mandatory_cover_options_net_huf": {
+            "tileable_plastic_tray": 2050000,
+            "stainless_steel_tray": 3423000
+          }
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5304330,
+            "polycarbonate_transparent": 7098375,
+            "polycarbonate_solar": 7098375,
+            "elite": 7370200
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5478630,
+            "polycarbonate_transparent": 7409625,
+            "polycarbonate_solar": 7409625,
+            "elite": 7702200
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 5652930,
+            "polycarbonate_transparent": 7720875,
+            "polycarbonate_solar": 7720875,
+            "elite": 8034200
+          },
+          "width_m": 5.0,
+          "mandatory_cover_options_net_huf": {
+            "tileable_plastic_tray": 2460000,
+            "stainless_steel_tray": 4095000
+          }
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 5149203,
+            "polycarbonate_transparent": 6821363,
+            "polycarbonate_solar": 6821363,
+            "elite": 7074720
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 5340933,
+            "polycarbonate_transparent": 7163738,
+            "polycarbonate_solar": 7163738,
+            "elite": 7439920
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5532663,
+            "polycarbonate_transparent": 7506113,
+            "polycarbonate_solar": 7506113,
+            "elite": 7805120
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5724393,
+            "polycarbonate_transparent": 7848488,
+            "polycarbonate_solar": 7848488,
+            "elite": 8170320
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 6305123,
+            "polycarbonate_transparent": 8579863,
+            "polycarbonate_solar": 8579863,
+            "elite": 8924520
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 6496853,
+            "polycarbonate_transparent": 8922238,
+            "polycarbonate_solar": 8922238,
+            "elite": 9289720
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 5731676,
+            "polycarbonate_transparent": 7555850,
+            "polycarbonate_solar": 7555850,
+            "elite": 7832240
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 5940836,
+            "polycarbonate_transparent": 7929350,
+            "polycarbonate_solar": 7929350,
+            "elite": 8230640
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 6149996,
+            "polycarbonate_transparent": 8302850,
+            "polycarbonate_solar": 8302850,
+            "elite": 8629040
+          },
+          "width_m": 5.5
+        },
+        {
+          "width_m": 6.0,
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 6359156,
+            "polycarbonate_transparent": 8676350,
+            "polycarbonate_solar": 8676350,
+            "elite": 9027440
+          }
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 6568316,
+            "polycarbonate_transparent": 9049850,
+            "polycarbonate_solar": 9049850,
+            "elite": 9425840
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 6777476,
+            "polycarbonate_transparent": 9423350,
+            "polycarbonate_solar": 9423350,
+            "elite": 9824240
+          },
+          "width_m": 6.0,
+          "mandatory_cover_options_net_huf": {
+            "tileable_plastic_tray": 2952000,
+            "stainless_steel_tray": 4914000
+          }
+        },
+        {
+          "length_m": 15.0,
+          "prices_net_huf": {
+            "pvc": 6986636,
+            "polycarbonate_transparent": 9796850,
+            "polycarbonate_solar": 9796850,
+            "elite": 10222640
+          },
+          "width_m": 6.0
+        }
+      ],
+      "fees_net_huf": {
+        "installation_distance_tiers": [
+          {
+            "distance_from_pilisszentivan_km": "0-100",
+            "price_net_huf": 790000
+          },
+          {
+            "distance_from_pilisszentivan_km": "101-200",
+            "price_net_huf": 925000
+          },
+          {
+            "distance_from_pilisszentivan_km": "201-300",
+            "price_net_huf": 1055000
+          }
+        ]
+      },
+      "notes": [
+        "A burkolat kötelező tartozék.",
+        "Csőmotorral nem rendelhető.",
+        "A burkolható műanyag tálca fóliával, csempével vagy mozaikkal burkolható; a burkolás ára nincs benne. Sós vizes rendszerhez ajánlott.",
+        "A KO tálca mozaikkal burkolható; a mozaikburkolás ára nincs benne; A4 anyagminőség, sós vizes rendszerhez nem ajánlott."
+      ]
+    },
+    {
+      "code": "VA1",
+      "name": "Bottom",
+      "description": "medencefenékbe elhelyezett roló, tengely 1,5 m mélyen",
+      "source_page": 7,
+      "pricing_mode": "fixed_size_matrix",
+      "price_rows": [
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 2391900,
+            "polycarbonate_transparent": 2802750,
+            "polycarbonate_solar": 2802750,
+            "elite": 2865000
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2496480,
+            "polycarbonate_transparent": 2989500,
+            "polycarbonate_solar": 2989500,
+            "elite": 3064200
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.0,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2601060,
+            "polycarbonate_transparent": 3176250,
+            "polycarbonate_solar": 3176250,
+            "elite": 3263400
+          }
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2705640,
+            "polycarbonate_transparent": 3363000,
+            "polycarbonate_solar": 3363000,
+            "elite": 3462600
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2810220,
+            "polycarbonate_transparent": 3549750,
+            "polycarbonate_solar": 3549750,
+            "elite": 3661800
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2601060,
+            "polycarbonate_transparent": 3176250,
+            "polycarbonate_solar": 3176250,
+            "elite": 3263400
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2723070,
+            "polycarbonate_transparent": 3394125,
+            "polycarbonate_solar": 3394125,
+            "elite": 3495800
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.5,
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2845080,
+            "polycarbonate_transparent": 3612000,
+            "polycarbonate_solar": 3612000,
+            "elite": 3728200
+          }
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2967090,
+            "polycarbonate_transparent": 3829875,
+            "polycarbonate_solar": 3829875,
+            "elite": 3960600
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3089100,
+            "polycarbonate_transparent": 4047750,
+            "polycarbonate_solar": 4047750,
+            "elite": 4193000
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2705640,
+            "polycarbonate_transparent": 3363000,
+            "polycarbonate_solar": 3363000,
+            "elite": 3462600
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2845080,
+            "polycarbonate_transparent": 3612000,
+            "polycarbonate_solar": 3612000,
+            "elite": 3728200
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2984520,
+            "polycarbonate_transparent": 3861000,
+            "polycarbonate_solar": 3861000,
+            "elite": 3993800
+          },
+          "width_m": 3.5
+        },
+        {
+          "width_m": 4.0,
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3123960,
+            "polycarbonate_transparent": 4110000,
+            "polycarbonate_solar": 4110000,
+            "elite": 4259400
+          }
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3263400,
+            "polycarbonate_transparent": 4359000,
+            "polycarbonate_solar": 4359000,
+            "elite": 4525000
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3402840,
+            "polycarbonate_transparent": 4608000,
+            "polycarbonate_solar": 4608000,
+            "elite": 4790600
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3542280,
+            "polycarbonate_transparent": 4857000,
+            "polycarbonate_solar": 4857000,
+            "elite": 5056200
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2967090,
+            "polycarbonate_transparent": 3829875,
+            "polycarbonate_solar": 3829875,
+            "elite": 3960600
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3123960,
+            "polycarbonate_transparent": 4110000,
+            "polycarbonate_solar": 4110000,
+            "elite": 4259400
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3280830,
+            "polycarbonate_transparent": 4390125,
+            "polycarbonate_solar": 4390125,
+            "elite": 4558200
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3437700,
+            "polycarbonate_transparent": 4670250,
+            "polycarbonate_solar": 4670250,
+            "elite": 4857000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3594570,
+            "polycarbonate_transparent": 4950375,
+            "polycarbonate_solar": 4950375,
+            "elite": 5155800
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3751440,
+            "polycarbonate_transparent": 5230500,
+            "polycarbonate_solar": 5230500,
+            "elite": 5454600
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3263400,
+            "polycarbonate_transparent": 4359000,
+            "polycarbonate_solar": 4359000,
+            "elite": 4525000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3437700,
+            "polycarbonate_transparent": 4670250,
+            "polycarbonate_solar": 4670250,
+            "elite": 4857000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3612000,
+            "polycarbonate_transparent": 4981500,
+            "polycarbonate_solar": 4981500,
+            "elite": 5189000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3786300,
+            "polycarbonate_transparent": 5292750,
+            "polycarbonate_solar": 5292750,
+            "elite": 5521000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3960600,
+            "polycarbonate_transparent": 5604000,
+            "polycarbonate_solar": 5604000,
+            "elite": 5853000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 4134900,
+            "polycarbonate_transparent": 5915250,
+            "polycarbonate_solar": 5915250,
+            "elite": 6185000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3979570,
+            "polycarbonate_transparent": 5335375,
+            "polycarbonate_solar": 5335375,
+            "elite": 5540800
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4171300,
+            "polycarbonate_transparent": 5677750,
+            "polycarbonate_solar": 5677750,
+            "elite": 5906000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5130030,
+            "polycarbonate_transparent": 6787125,
+            "polycarbonate_solar": 6787125,
+            "elite": 7038200
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5321760,
+            "polycarbonate_transparent": 7129500,
+            "polycarbonate_solar": 7129500,
+            "elite": 7403400
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 5513490,
+            "polycarbonate_transparent": 7471875,
+            "polycarbonate_solar": 7471875,
+            "elite": 7768600
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5705220,
+            "polycarbonate_transparent": 7814250,
+            "polycarbonate_solar": 7814250,
+            "elite": 8133800
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4136440,
+            "polycarbonate_transparent": 5615500,
+            "polycarbonate_solar": 5615500,
+            "elite": 5839600
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 5501600,
+            "polycarbonate_transparent": 7145000,
+            "polycarbonate_solar": 7145000,
+            "elite": 7394000
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5710760,
+            "polycarbonate_transparent": 7518500,
+            "polycarbonate_solar": 7518500,
+            "elite": 7792400
+          },
+          "width_m": 5.5
+        },
+        {
+          "width_m": 6.0,
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5919920,
+            "polycarbonate_transparent": 7892000,
+            "polycarbonate_solar": 7892000,
+            "elite": 8190800
+          }
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 6129080,
+            "polycarbonate_transparent": 8265500,
+            "polycarbonate_solar": 8265500,
+            "elite": 8589200
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 6338240,
+            "polycarbonate_transparent": 8639000,
+            "polycarbonate_solar": 8639000,
+            "elite": 8987600
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 15.0,
+          "prices_net_huf": {
+            "pvc": 6547400,
+            "polycarbonate_transparent": 9012500,
+            "polycarbonate_solar": 9012500,
+            "elite": 9386000
+          },
+          "width_m": 6.0
+        }
+      ],
+      "fees_net_huf": {
+        "tube_motor_surcharge": 385000,
+        "installation_distance_tiers": [
+          {
+            "distance_from_pilisszentivan_km": "0-100",
+            "price_net_huf": 595000
+          },
+          {
+            "distance_from_pilisszentivan_km": "101-200",
+            "price_net_huf": 725000
+          },
+          {
+            "distance_from_pilisszentivan_km": "201-300",
+            "price_net_huf": 860000
+          }
+        ]
+      },
+      "notes": [
+        "A burkolat opcionális, egyedi ajánlat alapján.",
+        "A csévélőszerkezet aknában elhelyezett külső motorral, vezérléssel, fali kapcsolóval és lamellákkal készül."
+      ]
+    },
+    {
+      "code": "VA6",
+      "name": "Recess",
+      "description": "falfülkébe rejtett roló, tengely 1,2 m mélyen",
+      "source_page": 8,
+      "pricing_mode": "fixed_size_matrix",
+      "price_rows": [
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 2413170,
+            "polycarbonate_transparent": 2947275,
+            "polycarbonate_solar": 2947275,
+            "elite": 3028200
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2517750,
+            "polycarbonate_transparent": 3134025,
+            "polycarbonate_solar": 3134025,
+            "elite": 3227400
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.0,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2622330,
+            "polycarbonate_transparent": 3320775,
+            "polycarbonate_solar": 3320775,
+            "elite": 3426600
+          }
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2726910,
+            "polycarbonate_transparent": 3507525,
+            "polycarbonate_solar": 3507525,
+            "elite": 3625800
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2831490,
+            "polycarbonate_transparent": 3694275,
+            "polycarbonate_solar": 3694275,
+            "elite": 3825000
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2951275,
+            "polycarbonate_transparent": 3670263,
+            "polycarbonate_solar": 3670263,
+            "elite": 3779200
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 3073285,
+            "polycarbonate_transparent": 3888138,
+            "polycarbonate_solar": 3888138,
+            "elite": 4011600
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.5,
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3195295,
+            "polycarbonate_transparent": 4106013,
+            "polycarbonate_solar": 4106013,
+            "elite": 4244000
+          }
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3317305,
+            "polycarbonate_transparent": 4323888,
+            "polycarbonate_solar": 4323888,
+            "elite": 4476400
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3439315,
+            "polycarbonate_transparent": 4541763,
+            "polycarbonate_solar": 4541763,
+            "elite": 4708800
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 3082000,
+            "polycarbonate_transparent": 3903700,
+            "polycarbonate_solar": 3903700,
+            "elite": 4028200
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 3221440,
+            "polycarbonate_transparent": 4152700,
+            "polycarbonate_solar": 4152700,
+            "elite": 4293800
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3360880,
+            "polycarbonate_transparent": 4401700,
+            "polycarbonate_solar": 4401700,
+            "elite": 4559400
+          },
+          "width_m": 3.5
+        },
+        {
+          "width_m": 4.0,
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3500320,
+            "polycarbonate_transparent": 4650700,
+            "polycarbonate_solar": 4650700,
+            "elite": 4825000
+          }
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3639760,
+            "polycarbonate_transparent": 4899700,
+            "polycarbonate_solar": 4899700,
+            "elite": 5090600
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3779200,
+            "polycarbonate_transparent": 5148700,
+            "polycarbonate_solar": 5148700,
+            "elite": 5356200
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3918640,
+            "polycarbonate_transparent": 5397700,
+            "polycarbonate_solar": 5397700,
+            "elite": 5621800
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 3411395,
+            "polycarbonate_transparent": 4459063,
+            "polycarbonate_solar": 4459063,
+            "elite": 4617800
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3568265,
+            "polycarbonate_transparent": 4739188,
+            "polycarbonate_solar": 4739188,
+            "elite": 4916600
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3725135,
+            "polycarbonate_transparent": 5019313,
+            "polycarbonate_solar": 5019313,
+            "elite": 5215400
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3882005,
+            "polycarbonate_transparent": 5299438,
+            "polycarbonate_solar": 5299438,
+            "elite": 5514200
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 4038875,
+            "polycarbonate_transparent": 5579563,
+            "polycarbonate_solar": 5579563,
+            "elite": 5813000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4195745,
+            "polycarbonate_transparent": 5859688,
+            "polycarbonate_solar": 5859688,
+            "elite": 6111800
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3733850,
+            "polycarbonate_transparent": 5034875,
+            "polycarbonate_solar": 5034875,
+            "elite": 5232000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3908150,
+            "polycarbonate_transparent": 5346125,
+            "polycarbonate_solar": 5346125,
+            "elite": 5564000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4082450,
+            "polycarbonate_transparent": 5657375,
+            "polycarbonate_solar": 5657375,
+            "elite": 5896000
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 4256750,
+            "polycarbonate_transparent": 5968625,
+            "polycarbonate_solar": 5968625,
+            "elite": 6228000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4431050,
+            "polycarbonate_transparent": 6279875,
+            "polycarbonate_solar": 6279875,
+            "elite": 6560000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 4605350,
+            "polycarbonate_transparent": 6591125,
+            "polycarbonate_solar": 6591125,
+            "elite": 6892000
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4132965,
+            "polycarbonate_transparent": 5714738,
+            "polycarbonate_solar": 5714738,
+            "elite": 5954400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4324695,
+            "polycarbonate_transparent": 6057113,
+            "polycarbonate_solar": 6057113,
+            "elite": 6319600
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 4516425,
+            "polycarbonate_transparent": 6399488,
+            "polycarbonate_solar": 6399488,
+            "elite": 6684800
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4708155,
+            "polycarbonate_transparent": 6741863,
+            "polycarbonate_solar": 6741863,
+            "elite": 7050000
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 5284885,
+            "polycarbonate_transparent": 7469238,
+            "polycarbonate_solar": 7469238,
+            "elite": 7800200
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5476615,
+            "polycarbonate_transparent": 7811613,
+            "polycarbonate_solar": 7811613,
+            "elite": 8165400
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4700980,
+            "polycarbonate_transparent": 6426550,
+            "polycarbonate_solar": 6426550,
+            "elite": 6688000
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4910140,
+            "polycarbonate_transparent": 6800050,
+            "polycarbonate_solar": 6800050,
+            "elite": 7086400
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 5119300,
+            "polycarbonate_transparent": 7173550,
+            "polycarbonate_solar": 7173550,
+            "elite": 7484800
+          },
+          "width_m": 5.5
+        },
+        {
+          "width_m": 6.0,
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5328460,
+            "polycarbonate_transparent": 7547050,
+            "polycarbonate_solar": 7547050,
+            "elite": 7883200
+          }
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 5537620,
+            "polycarbonate_transparent": 7920550,
+            "polycarbonate_solar": 7920550,
+            "elite": 8281600
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5746780,
+            "polycarbonate_transparent": 8294050,
+            "polycarbonate_solar": 8294050,
+            "elite": 8680000
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 15.0,
+          "prices_net_huf": {
+            "pvc": 5955940,
+            "polycarbonate_transparent": 8667550,
+            "polycarbonate_solar": 8667550,
+            "elite": 9078400
+          },
+          "width_m": 6.0
+        }
+      ],
+      "fees_net_huf": {
+        "tube_motor_surcharge": 385000,
+        "installation_distance_tiers": [
+          {
+            "distance_from_pilisszentivan_km": "0-100",
+            "price_net_huf": 595000
+          },
+          {
+            "distance_from_pilisszentivan_km": "101-200",
+            "price_net_huf": 725000
+          },
+          {
+            "distance_from_pilisszentivan_km": "201-300",
+            "price_net_huf": 860000
+          }
+        ]
+      },
+      "notes": [
+        "A burkolat opcionális, egyedi ajánlat alapján.",
+        "A leírás szerint nem igényel kamratakarást; igény esetén külön függőleges panellel rejthető el."
+      ]
+    },
+    {
+      "code": "VA3",
+      "name": "Relax",
+      "description": "pihenőpad alá rejtett roló, tengely 1,0 m mélyen",
+      "source_page": 9,
+      "pricing_mode": "fixed_size_matrix",
+      "price_rows": [
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 2256396,
+            "polycarbonate_transparent": 2765850,
+            "polycarbonate_solar": 2765850,
+            "elite": 2843040
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2360976,
+            "polycarbonate_transparent": 2952600,
+            "polycarbonate_solar": 2952600,
+            "elite": 3042240
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.0,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2465556,
+            "polycarbonate_transparent": 3139350,
+            "polycarbonate_solar": 3139350,
+            "elite": 3241440
+          },
+          "additional_prices_net_huf": [
+            1110000,
+            1644300
+          ],
+          "additional_prices_net_huf_note": "A PDF táblázatban további ár oszlop(ok) szerepelnek; a pontos oszlop-hozzárendelés ellenőrzendő."
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2570136,
+            "polycarbonate_transparent": 3326100,
+            "polycarbonate_solar": 3326100,
+            "elite": 3440640
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2674716,
+            "polycarbonate_transparent": 3512850,
+            "polycarbonate_solar": 3512850,
+            "elite": 3639840
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2486472,
+            "polycarbonate_transparent": 3176700,
+            "polycarbonate_solar": 3176700,
+            "elite": 3281280
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2608482,
+            "polycarbonate_transparent": 3394575,
+            "polycarbonate_solar": 3394575,
+            "elite": 3513680
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.5,
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2730492,
+            "polycarbonate_transparent": 3612450,
+            "polycarbonate_solar": 3612450,
+            "elite": 3746080
+          },
+          "additional_prices_net_huf": [
+            1295000,
+            1918350
+          ],
+          "additional_prices_net_huf_note": "A PDF táblázatban további ár oszlop(ok) szerepelnek; a pontos oszlop-hozzárendelés ellenőrzendő."
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2852502,
+            "polycarbonate_transparent": 3830325,
+            "polycarbonate_solar": 3830325,
+            "elite": 3978480
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3235512,
+            "polycarbonate_transparent": 4309200,
+            "polycarbonate_solar": 4309200,
+            "elite": 4471880
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2872968,
+            "polycarbonate_transparent": 3661800,
+            "polycarbonate_solar": 3661800,
+            "elite": 3781320
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 3012408,
+            "polycarbonate_transparent": 3910800,
+            "polycarbonate_solar": 3910800,
+            "elite": 4046920
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3151848,
+            "polycarbonate_transparent": 4159800,
+            "polycarbonate_solar": 4159800,
+            "elite": 4312520
+          },
+          "width_m": 3.5
+        },
+        {
+          "width_m": 4.0,
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3291288,
+            "polycarbonate_transparent": 4408800,
+            "polycarbonate_solar": 4408800,
+            "elite": 4578120
+          },
+          "additional_prices_net_huf": [
+            1480000,
+            2192400
+          ],
+          "additional_prices_net_huf_note": "A PDF táblázatban további ár oszlop(ok) szerepelnek; a pontos oszlop-hozzárendelés ellenőrzendő."
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3430728,
+            "polycarbonate_transparent": 4657800,
+            "polycarbonate_solar": 4657800,
+            "elite": 4843720
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3570168,
+            "polycarbonate_transparent": 4906800,
+            "polycarbonate_solar": 4906800,
+            "elite": 5109320
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3709608,
+            "polycarbonate_transparent": 5155800,
+            "polycarbonate_solar": 5155800,
+            "elite": 5374920
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 3155334,
+            "polycarbonate_transparent": 4166025,
+            "polycarbonate_solar": 4166025,
+            "elite": 4319160
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3312204,
+            "polycarbonate_transparent": 4446150,
+            "polycarbonate_solar": 4446150,
+            "elite": 4617960
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3469074,
+            "polycarbonate_transparent": 4726275,
+            "polycarbonate_solar": 4726275,
+            "elite": 4916760
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3625944,
+            "polycarbonate_transparent": 5006400,
+            "polycarbonate_solar": 5006400,
+            "elite": 5215560
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3782814,
+            "polycarbonate_transparent": 5286525,
+            "polycarbonate_solar": 5286525,
+            "elite": 5514360
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3939684,
+            "polycarbonate_transparent": 5566650,
+            "polycarbonate_solar": 5566650,
+            "elite": 5813160
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3472560,
+            "polycarbonate_transparent": 4732500,
+            "polycarbonate_solar": 4732500,
+            "elite": 4923400
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3646860,
+            "polycarbonate_transparent": 5043750,
+            "polycarbonate_solar": 5043750,
+            "elite": 5255400
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3821160,
+            "polycarbonate_transparent": 5355000,
+            "polycarbonate_solar": 5355000,
+            "elite": 5587400
+          },
+          "additional_prices_net_huf": [
+            2050000,
+            3423000
+          ],
+          "width_m": 4.5,
+          "additional_prices_net_huf_note": "A PDF táblázatban további ár oszlop(ok) szerepelnek; a pontos oszlop-hozzárendelés ellenőrzendő."
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3995460,
+            "polycarbonate_transparent": 5666250,
+            "polycarbonate_solar": 5666250,
+            "elite": 5919400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4169760,
+            "polycarbonate_transparent": 5977500,
+            "polycarbonate_solar": 5977500,
+            "elite": 6251400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 4344060,
+            "polycarbonate_transparent": 6288750,
+            "polycarbonate_solar": 6288750,
+            "elite": 6583400
+          },
+          "additional_prices_net_huf": [
+            2460000,
+            4095000
+          ],
+          "width_m": 5.0,
+          "additional_prices_net_huf_note": "A PDF táblázatban további ár oszlop(ok) szerepelnek; a pontos oszlop-hozzárendelés ellenőrzendő."
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3824646,
+            "polycarbonate_transparent": 5361225,
+            "polycarbonate_solar": 5361225,
+            "elite": 5594040
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4016376,
+            "polycarbonate_transparent": 5703600,
+            "polycarbonate_solar": 5703600,
+            "elite": 5959240
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 4208106,
+            "polycarbonate_transparent": 6045975,
+            "polycarbonate_solar": 6045975,
+            "elite": 6324440
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4399836,
+            "polycarbonate_transparent": 6388350,
+            "polycarbonate_solar": 6388350,
+            "elite": 6689640
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 4976566,
+            "polycarbonate_transparent": 7115725,
+            "polycarbonate_solar": 7115725,
+            "elite": 7439840
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5168296,
+            "polycarbonate_transparent": 7458100,
+            "polycarbonate_solar": 7458100,
+            "elite": 7805040
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4387432,
+            "polycarbonate_transparent": 6063700,
+            "polycarbonate_solar": 6063700,
+            "elite": 6317680
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4596592,
+            "polycarbonate_transparent": 6437200,
+            "polycarbonate_solar": 6437200,
+            "elite": 6716080
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 4805752,
+            "polycarbonate_transparent": 6810700,
+            "polycarbonate_solar": 6810700,
+            "elite": 7114480
+          },
+          "width_m": 5.5
+        },
+        {
+          "width_m": 6.0,
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 5014912,
+            "polycarbonate_transparent": 7184200,
+            "polycarbonate_solar": 7184200,
+            "elite": 7512880
+          }
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 5224072,
+            "polycarbonate_transparent": 7557700,
+            "polycarbonate_solar": 7557700,
+            "elite": 7911280
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5433232,
+            "polycarbonate_transparent": 7931200,
+            "polycarbonate_solar": 7931200,
+            "elite": 8309680
+          },
+          "additional_prices_net_huf": [
+            2952000,
+            4914000
+          ],
+          "width_m": 6.0,
+          "additional_prices_net_huf_note": "A PDF táblázatban további ár oszlop(ok) szerepelnek; a pontos oszlop-hozzárendelés ellenőrzendő."
+        },
+        {
+          "length_m": 15.0,
+          "prices_net_huf": {
+            "pvc": 5642392,
+            "polycarbonate_transparent": 8304700,
+            "polycarbonate_solar": 8304700,
+            "elite": 8708080
+          },
+          "width_m": 6.0
+        }
+      ],
+      "fees_net_huf": {
+        "tube_motor_surcharge": 385000,
+        "installation_distance_tiers": [
+          {
+            "distance_from_pilisszentivan_km": "0-100",
+            "price_net_huf": 790000
+          },
+          {
+            "distance_from_pilisszentivan_km": "101-200",
+            "price_net_huf": 925000
+          },
+          {
+            "distance_from_pilisszentivan_km": "201-300",
+            "price_net_huf": 1055000
+          }
+        ]
+      },
+      "notes": [
+        "Burkolattal együtt szereplő telepítési költség.",
+        "A burkolat pihenő/napozópadként funkcionál; kemény PVC lemez vagy KO L profil alkalmazható."
+      ]
+    },
+    {
+      "code": "VA9",
+      "name": "Sundeck",
+      "description": "felső kamrába rejtett roló, tengely 0,4 m mélyen",
+      "source_page": 12,
+      "pricing_mode": "fixed_size_matrix",
+      "price_rows": [
+        {
+          "length_m": 5.0,
+          "prices_net_huf": {
+            "pvc": 2256396,
+            "polycarbonate_transparent": 2765850,
+            "polycarbonate_solar": 2765850,
+            "elite": 2843040
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2360976,
+            "polycarbonate_transparent": 2952600,
+            "polycarbonate_solar": 2952600,
+            "elite": 3042240
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.0,
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2465556,
+            "polycarbonate_transparent": 3139350,
+            "polycarbonate_solar": 3139350,
+            "elite": 3241440
+          },
+          "optional_cover_options_net_huf": {
+            "larch_grate": 1030600,
+            "one_pair_bridge_beams": 647800
+          }
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2570136,
+            "polycarbonate_transparent": 3326100,
+            "polycarbonate_solar": 3326100,
+            "elite": 3440640
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2674716,
+            "polycarbonate_transparent": 3512850,
+            "polycarbonate_solar": 3512850,
+            "elite": 3639840
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2486472,
+            "polycarbonate_transparent": 3176700,
+            "polycarbonate_solar": 3176700,
+            "elite": 3281280
+          },
+          "width_m": 3.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2608482,
+            "polycarbonate_transparent": 3394575,
+            "polycarbonate_solar": 3394575,
+            "elite": 3513680
+          },
+          "width_m": 3.0
+        },
+        {
+          "width_m": 3.5,
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2730492,
+            "polycarbonate_transparent": 3612450,
+            "polycarbonate_solar": 3612450,
+            "elite": 3746080
+          },
+          "optional_cover_options_net_huf": {
+            "larch_grate": 1202300,
+            "one_pair_bridge_beams": 755800
+          }
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 2852502,
+            "polycarbonate_transparent": 3830325,
+            "polycarbonate_solar": 3830325,
+            "elite": 3978480
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 2974512,
+            "polycarbonate_transparent": 4048200,
+            "polycarbonate_solar": 4048200,
+            "elite": 4210880
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 6.0,
+          "prices_net_huf": {
+            "pvc": 2611968,
+            "polycarbonate_transparent": 3400800,
+            "polycarbonate_solar": 3400800,
+            "elite": 3520320
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2751408,
+            "polycarbonate_transparent": 3649800,
+            "polycarbonate_solar": 3649800,
+            "elite": 3785920
+          },
+          "width_m": 3.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 2890848,
+            "polycarbonate_transparent": 3898800,
+            "polycarbonate_solar": 3898800,
+            "elite": 4051520
+          },
+          "width_m": 3.5
+        },
+        {
+          "width_m": 4.0,
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3030288,
+            "polycarbonate_transparent": 4147800,
+            "polycarbonate_solar": 4147800,
+            "elite": 4317120
+          },
+          "optional_cover_options_net_huf": {
+            "larch_grate": 1374100,
+            "one_pair_bridge_beams": 863700
+          }
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3169728,
+            "polycarbonate_transparent": 4396800,
+            "polycarbonate_solar": 4396800,
+            "elite": 4582720
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3309168,
+            "polycarbonate_transparent": 4645800,
+            "polycarbonate_solar": 4645800,
+            "elite": 4848320
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3448608,
+            "polycarbonate_transparent": 4894800,
+            "polycarbonate_solar": 4894800,
+            "elite": 5113920
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 7.0,
+          "prices_net_huf": {
+            "pvc": 2894334,
+            "polycarbonate_transparent": 3905025,
+            "polycarbonate_solar": 3905025,
+            "elite": 4058160
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3051204,
+            "polycarbonate_transparent": 4185150,
+            "polycarbonate_solar": 4185150,
+            "elite": 4356960
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3208074,
+            "polycarbonate_transparent": 4465275,
+            "polycarbonate_solar": 4465275,
+            "elite": 4655760
+          },
+          "width_m": 4.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3364944,
+            "polycarbonate_transparent": 4745400,
+            "polycarbonate_solar": 4745400,
+            "elite": 4954560
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3521814,
+            "polycarbonate_transparent": 5025525,
+            "polycarbonate_solar": 5025525,
+            "elite": 5253360
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3678684,
+            "polycarbonate_transparent": 5305650,
+            "polycarbonate_solar": 5305650,
+            "elite": 5552160
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 8.0,
+          "prices_net_huf": {
+            "pvc": 3211560,
+            "polycarbonate_transparent": 4471500,
+            "polycarbonate_solar": 4471500,
+            "elite": 4662400
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3385860,
+            "polycarbonate_transparent": 4782750,
+            "polycarbonate_solar": 4782750,
+            "elite": 4994400
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3560160,
+            "polycarbonate_transparent": 5094000,
+            "polycarbonate_solar": 5094000,
+            "elite": 5326400
+          },
+          "width_m": 4.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3734460,
+            "polycarbonate_transparent": 5405250,
+            "polycarbonate_solar": 5405250,
+            "elite": 5658400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 3908760,
+            "polycarbonate_transparent": 5716500,
+            "polycarbonate_solar": 5716500,
+            "elite": 5990400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 4083060,
+            "polycarbonate_transparent": 6027750,
+            "polycarbonate_solar": 6027750,
+            "elite": 6322400
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 3563646,
+            "polycarbonate_transparent": 5100225,
+            "polycarbonate_solar": 5100225,
+            "elite": 5333040
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 3755376,
+            "polycarbonate_transparent": 5442600,
+            "polycarbonate_solar": 5442600,
+            "elite": 5698240
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 3947106,
+            "polycarbonate_transparent": 5784975,
+            "polycarbonate_solar": 5784975,
+            "elite": 6063440
+          },
+          "width_m": 5.0
+        },
+        {
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4138836,
+            "polycarbonate_transparent": 6127350,
+            "polycarbonate_solar": 6127350,
+            "elite": 6428640
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 4976566,
+            "polycarbonate_transparent": 7115725,
+            "polycarbonate_solar": 7115725,
+            "elite": 7439840
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5168296,
+            "polycarbonate_transparent": 7458100,
+            "polycarbonate_solar": 7458100,
+            "elite": 7805040
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 9.0,
+          "prices_net_huf": {
+            "pvc": 4002432,
+            "polycarbonate_transparent": 5678700,
+            "polycarbonate_solar": 5678700,
+            "elite": 5932680
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 10.0,
+          "prices_net_huf": {
+            "pvc": 4211592,
+            "polycarbonate_transparent": 6052200,
+            "polycarbonate_solar": 6052200,
+            "elite": 6331080
+          },
+          "width_m": 5.5
+        },
+        {
+          "length_m": 11.0,
+          "prices_net_huf": {
+            "pvc": 4420752,
+            "polycarbonate_transparent": 6425700,
+            "polycarbonate_solar": 6425700,
+            "elite": 6729480
+          },
+          "width_m": 5.5
+        },
+        {
+          "width_m": 6.0,
+          "length_m": 12.0,
+          "prices_net_huf": {
+            "pvc": 4629912,
+            "polycarbonate_transparent": 6799200,
+            "polycarbonate_solar": 6799200,
+            "elite": 7127880
+          },
+          "optional_cover_options_net_huf": {
+            "larch_grate": 2061200,
+            "one_pair_bridge_beams": 1295600
+          }
+        },
+        {
+          "length_m": 13.0,
+          "prices_net_huf": {
+            "pvc": 5224072,
+            "polycarbonate_transparent": 7557700,
+            "polycarbonate_solar": 7557700,
+            "elite": 7911280
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 14.0,
+          "prices_net_huf": {
+            "pvc": 5433232,
+            "polycarbonate_transparent": 7931200,
+            "polycarbonate_solar": 7931200,
+            "elite": 8309680
+          },
+          "width_m": 6.0
+        },
+        {
+          "length_m": 15.0,
+          "prices_net_huf": {
+            "pvc": 5642392,
+            "polycarbonate_transparent": 8304700,
+            "polycarbonate_solar": 8304700,
+            "elite": 8708080
+          },
+          "width_m": 6.0
+        }
+      ],
+      "fees_net_huf": {
+        "tube_motor_surcharge": 385000,
+        "installation_distance_tiers": [
+          {
+            "distance_from_pilisszentivan_km": "0-100",
+            "price_net_huf": 790000
+          },
+          {
+            "distance_from_pilisszentivan_km": "101-200",
+            "price_net_huf": 925000
+          },
+          {
+            "distance_from_pilisszentivan_km": "201-300",
+            "price_net_huf": 1055000
+          }
+        ]
+      },
+      "notes": [
+        "A burkolat opcionális; a vörösfenyő rács és az áthidaló gerenda külön opcióként szerepel.",
+        "A tengely középpontja 40–50 cm vízmélységben helyezkedik el."
+      ]
+    },
+    {
+      "code": "VA8",
+      "name": "Ellipse",
+      "description": "medencefenékbe rejtett, automata fedlappal takart roló",
+      "source_page": 13,
+      "pricing_mode": "custom_quote_required",
+      "price_rows": [],
+      "notes": [
+        "Nagyméretű, szabálytalan, íves formájú medencék letakarására alkalmazzák.",
+        "A fenékvályú-takarást külön motor mozgatja, a csévélőtengely hajtásával szinkronban.",
+        "A műszaki megoldás minden esetben bonyolult és egyedi; kérni kell az adott medencére szabott árajánlatot."
+      ]
+    }
+  ],
+  "extraction_notes": [
+    "A táblázatos árak a PDF-ből kinyert nettó HUF értékek. A méretárak méret (szélesség × hossz) és lamellakategória szerint szerepelnek.",
+    "A VF1 külön, keresztirányú takarási táblázata külön crosswise_price_rows mezőbe került.",
+    "A VA8 Ellipse esetén a PDF nem közöl fix árakat: egyedi ajánlat szükséges.",
+    "A VA1 és VA6 burkolata egyedi ajánlat alapján árazandó.",
+    "A VA2 és VA9 egyes kiegészítő burkolatárainak táblázati megjelenítése méretcsoportokhoz igazodik; ezeket külön ár-opcióként kell kezelni, nem minden méretű rolóhoz automatikusan hozzáadni.",
+    "A VF2 táblázatában 5,5 m és 5,8 m szélességnél a megjegyzés szerinti méretkorlátozás érvényes.",
+    "Ajánlatkészítés előtt az eredeti PDF-fel történő végső vizuális ellenőrzés javasolt, különösen a táblázatok oszlopainak és méretcsoportjainak megfeleltetésénél."
+  ]
+}

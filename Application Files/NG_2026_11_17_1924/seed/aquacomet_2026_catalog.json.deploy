@@ -1,0 +1,763 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_id": "aquacomet_pool_covers_2026",
+  "supplier": {
+    "name": "Aquacomet Kft.",
+    "brand": "Aquacomet"
+  },
+  "source_document": {
+    "file_name": "medencefedes_arlista_2026_EUR_hu.pdf",
+    "page_count": 26,
+    "source_ref": "turn3file0",
+    "effective_from": "2026-04-15",
+    "validity": "visszavonásig",
+    "currency": "EUR",
+    "prices_include_vat": false,
+    "vat_rate_percent": 27,
+    "language": "hu"
+  },
+  "extraction": {
+    "method": "PDF text extraction with page-level source preservation",
+    "status": "draft_requires_verification",
+    "note": "A táblázatok szöveges átirata forráshűen megőrizve. A végleges ajánlatkalkuláció előtt a táblázatok vizuális ellenőrzése szükséges, különösen a többoszlopos mérettáblázatoknál. A JSON nem állítja, hogy minden sor teljesen normalizált."
+  },
+  "products": [
+    {
+      "product_id": "horizon",
+      "name": "Horizon",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        6
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 6,
+          "text": "6      \nHORIZON\b\nSzuperlapos medencefedés  \ntömör polikarbonát üvegezéssel\n5,50 méternél szélesebb Horizon fedés NEM rendelhető. Köztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nEgyeztetés alapján akár egy oldali sínpályával is rendelhető (azonos ár), ebben az esetben az arretálás változik. \nAlapfelszereltség: 150-180 mm felnyitható küszöb a homlokfalon. \nTolóajtó a Horizon modellhez nem rendelhető!\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n3 szegmens\nMagasság       \n[mm]\n4 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n6,276\n6,348\n7,698\n8,35\n8,446\n10,246\n3,50\n6153\n6888\n7462\n382\n8154\n9146\n9880\n475\n3,75\n6547\n7331\n7930\n386\n8440\n9522\n10277\n479\n4,00\n6908\n7727\n8349\n389\n8548\n9705\n10462\n483\n4,25\n7012\n7890\n8517\n393\n8661\n9887\n10648\n486\n4,50\n7185\n8051\n8680\n397\n8843\n10066\n10828\n490\n4,75\n7291\n8215\n8846\n401\n8981\n10279\n11049\n494\n5,00\n7399\n8379\n9015\n405\n9455\n10882\n11684\n498\n5,25\n7549\n8539\n9179\n409\n9928\n11388\n12218\n502\n5,50\n7831\n8893\n9549\n412\n10400\n11958\n12818\n505\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n5 szegmens\nMagasság       \n[mm]\n6 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n10,424\n10,544\n12,794\n12,498\n12,642\n15,342\n3,50\n10121\n11328\n12168\n568\n11698\n13053\n14055\n661\n3,75\n10329\n11527\n12376\n572\n11924\n13329\n14334\n665\n4,00\n10450\n11731\n12587\n576\n12160\n13612\n14620\n669\n4,25\n10642\n11932\n12795\n579\n12386\n13890\n14903\n673\n4,50\n10785\n12136\n13007\n583\n12620\n14171\n15188\n676\n4,75\n11254\n12733\n13638\n587\n13265\n14914\n15968\n680\n5,00\n11847\n13471\n14421\n591\n14060\n15826\n16927\n684\n5,25\n12439\n14087\n15074\n595\n14721\n16597\n17736\n688\n5,50\n13031\n14799\n15829\n599\n15510\n17484\n18668\n692\n"
+        }
+      ],
+      "pricing_notes": "3-6 szegmens; 2/3 bordás; max hosszúság szerinti árak",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "horizon_high",
+      "name": "Horizon High",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        7
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 7,
+          "text": "       7\nHORIZON HIGH\nSzuperlapos medencefedés \ntömör polikarbonát üvegezéssel\n6,25 méternél szélesebb Horizon High fedés NEM rendelhető. Köztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nEgyeztetés alapján akár egyoldali sínpályával is rendelhető (azonos ár), ebben az esetben az arretálás változik. \nAlapfelszereltség: 150-180 mm felnyitható küszöb a homlokfalon\nAz eltolható oldalajtó nem része az alapfelszereltségnek, opcionálisan rendelhető, listaára 814 EUR. \n(2 bordás kivitel esetén, az 1. elem 3 bordásra készül!)\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a nagyelem külső széleinél mért távolság. \nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n3 szegmens\nMagasság       \n[mm]\n4 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n6,276\n6,348\n7,698\n8,35\n8,446\n10,246\n3,50\n6627\n7364\n7936\n552\n8629\n9620\n10355\n643\n3,75\n7029\n7815\n8413\n563\n8921\n10006\n10760\n654\n4,00\n7400\n8217\n8840\n574\n9040\n10195\n10954\n665\n4,25\n7510\n8389\n9015\n584\n9158\n10386\n11146\n676\n4,50\n7691\n8557\n9186\n595\n9349\n10572\n11335\n686\n4,75\n7805\n8729\n9361\n606\n9496\n10793\n11562\n697\n5,00\n7920\n8898\n9537\n617\n9977\n11402\n12206\n708\n5,25\n8079\n9069\n9709\n628\n10457\n11918\n12747\n719\n5,50\n8368\n9430\n10087\n639\n10938\n12495\n13354\n730\n5,75\n8733\n10123\n10872\n650\n11418\n12605\n13525\n741\n6,00\n9096\n11041\n11934\n661\n11899\n13007\n14022\n752\n6,25\n9725\n11026\n11982\n672\n12378\n14128\n15303\n763\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n5 szegmens\nMagasság       \n[mm]\n6 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n10,424\n10,544\n12,794\n12,498\n12,642\n15,342\n3,50\n10597\n11803\n12643\n734\n12214\n13528\n14529\n825\n3,75\n10812\n12011\n12859\n745\n12448\n13812\n14817\n836\n4,00\n10941\n12223\n13078\n756\n12693\n14102\n15112\n847\n4,25\n11140\n12431\n13294\n767\n12928\n14388\n15401\n858\n4,50\n11290\n12641\n13513\n778\n13171\n14678\n15696\n869\n4,75\n11769\n13245\n14151\n789\n13827\n15426\n16482\n880\n5,00\n12368\n13992\n14944\n800\n14631\n16346\n17449\n890\n5,25\n12969\n14616\n15603\n811\n15303\n17127\n18264\n901\n5,50\n13568\n15336\n16364\n822\n16100\n18021\n19205\n912\n5,75\n14169\n16140\n17257\n833\n16942\n18974\n20287\n923\n6,00\n14768\n16126\n17345\n843\n16712\n18773\n20130\n934\n6,25\n15368\n17403\n18769\n854\n17895\n20082\n21599\n945\n"
+        }
+      ],
+      "pricing_notes": "3-6 szegmens; 2/3 bordás; max hosszúság szerinti árak",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "zenith_standard_clear",
+      "name": "Zenith Standard Clear",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        8
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 8,
+          "text": "8      \nFLAT \nKosárgörbe keresztmetszetű lefedés \nTömör polikarbonát üvegezés\nSTANDARD\nKörív keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nSzélesség \n[m]\nHosszúság [m]\nMagasság \nStandard/ \nFlat [m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,28\n7,63\n8,36\n10,16\n10,4\n12,69\n12,53\n15,17\n3,5\n4843\n5182\n5835\n6415\n6547\n7463\n7624\n8629\n 1,15/\n0,82\n3,75\n5235\n5600\n6292\n6966\n7105\n8087\n8123\n9408\n1,2/\n0,83\n4\n5617\n6038\n6804\n7492\n7691\n8727\n8785\n9922\n1,25/\n0,84\n4,25\n5997\n6375\n7057\n7642\n8278\n8848\n9037\n10055\n1,3/\n0,85\n4,5\n6119\n6482\n7191\n7777\n8428\n9000\n9449\n10209\n1,4/\n0,87\n4,75\n6176\n6521\n7255\n7845\n8507\n9083\n9834\n10294\n1,5/\n0,89\n5\n6298\n6627\n7387\n7980\n8654\n9236\n10193\n10676\n1,55/\n0,91\n5,25\n6354\n6666\n7456\n8236\n8734\n9678\n10528\n11307\n1,6/\n0,93\n5,5\n6824\n7258\n8118\n8763\n9434\n10209\n10843\n11948\n1,7/\n0,96\n5,50 méternél szélesebb Zenith fedés NEM rendelhető. Köztes méret a következő sor / oszlop árának figyelembevételével \nrendelhető. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nAlapfelszereltség: \n- 150-180 mm felnyitható küszöb a homlokfalon    \nAz eltolható oldalajtó nem része az alapfelszereltségnek, opcionálisan rendelhető, listaára 590 EUR.\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nZENITH Standard Clear / Flat Clear\nZenith Thermo (üregkamrás polikarbonát üvegezés): Zenith Clear alapár -12%\n"
+        }
+      ],
+      "pricing_notes": "3-6 részes; hosszúság oszlopok",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "zenith_flat_clear",
+      "name": "Zenith Flat Clear",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        8
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 8,
+          "text": "8      \nFLAT \nKosárgörbe keresztmetszetű lefedés \nTömör polikarbonát üvegezés\nSTANDARD\nKörív keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nSzélesség \n[m]\nHosszúság [m]\nMagasság \nStandard/ \nFlat [m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,28\n7,63\n8,36\n10,16\n10,4\n12,69\n12,53\n15,17\n3,5\n4843\n5182\n5835\n6415\n6547\n7463\n7624\n8629\n 1,15/\n0,82\n3,75\n5235\n5600\n6292\n6966\n7105\n8087\n8123\n9408\n1,2/\n0,83\n4\n5617\n6038\n6804\n7492\n7691\n8727\n8785\n9922\n1,25/\n0,84\n4,25\n5997\n6375\n7057\n7642\n8278\n8848\n9037\n10055\n1,3/\n0,85\n4,5\n6119\n6482\n7191\n7777\n8428\n9000\n9449\n10209\n1,4/\n0,87\n4,75\n6176\n6521\n7255\n7845\n8507\n9083\n9834\n10294\n1,5/\n0,89\n5\n6298\n6627\n7387\n7980\n8654\n9236\n10193\n10676\n1,55/\n0,91\n5,25\n6354\n6666\n7456\n8236\n8734\n9678\n10528\n11307\n1,6/\n0,93\n5,5\n6824\n7258\n8118\n8763\n9434\n10209\n10843\n11948\n1,7/\n0,96\n5,50 méternél szélesebb Zenith fedés NEM rendelhető. Köztes méret a következő sor / oszlop árának figyelembevételével \nrendelhető. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nAlapfelszereltség: \n- 150-180 mm felnyitható küszöb a homlokfalon    \nAz eltolható oldalajtó nem része az alapfelszereltségnek, opcionálisan rendelhető, listaára 590 EUR.\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nZENITH Standard Clear / Flat Clear\nZenith Thermo (üregkamrás polikarbonát üvegezés): Zenith Clear alapár -12%\n"
+        }
+      ],
+      "pricing_notes": "3-6 részes; hosszúság oszlopok",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "star_plus",
+      "name": "Star Plus",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        9
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 9,
+          "text": "       9\n\b\nSTAR PLUS\nKosárgörbe keresztmetszetű lefedés \nTömör polikarbonát üvegezés\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. 6 méteres szélesség feletti fedések rendelése \nkülön egyeztetés alapján lehetséges. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nAz eltolható oldalajtó az alapfelszereltség része!\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,32\n7,67\n8,41\n10,21\n10,5\n12,75\n12,59\n15,29\n3,5\n6504\n7660\n8367\n9374\n9152\n10932\n11645\n12633\n0,82\n3,75\n6942\n7859\n8642\n9518\n9323\n11120\n11825\n12815\n0,83\n4\n7457\n8007\n8900\n9738\n9644\n11731\n12081\n13070\n0,84\n4,25\n7554\n8079\n9081\n9981\n10246\n12464\n12759\n13740\n0,85\n4,5\n7812\n8335\n9285\n10568\n10849\n13198\n13510\n14549\n0,87\n4,75\n7997\n8514\n9413\n11156\n11451\n13931\n14259\n15357\n0,89\n5\n8258\n8833\n9664\n11743\n12055\n14664\n15010\n16165\n0,91\n5,25\n8441\n9275\n10148\n12330\n12658\n15396\n15761\n16974\n0,93\n5,5\n8782\n9717\n10631\n12916\n13260\n16130\n16511\n17781\n0,96\n5,75\n9123\n10158\n11114\n13503\n13863\n16864\n17262\n18589\n0,99\n6\n9728\n10600\n11726\n14091\n14464\n17597\n18012\n19397\n1,03\nStar (üregkamrás polikarbonát üvegezés): Star Plus alapár -12%\n"
+        }
+      ],
+      "pricing_notes": "3-6 részes; hosszúság oszlopok",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "sky",
+      "name": "Sky",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        10
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 10,
+          "text": "10      \nSKY\nKörív keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. 6 méteres szélesség feletti fedések rendelése \nkülön egyeztetés alapján lehetséges. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nEltolható oldalajtó az alapfelszereltség része!\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,32\n7,67\n8,41\n10,21\n10,5\n12,75\n12,59\n15,29\n3,5\n6504\n7660\n8367\n9374\n9152\n10932\n11645\n12633\n1,15\n3,75\n6942\n7859\n8642\n9518\n9323\n11120\n11825\n12815\n1,2\n4\n7457\n8007\n8900\n9738\n9644\n11731\n12081\n13070\n1,25\n4,25\n7554\n8079\n9081\n9981\n10246\n12464\n12759\n13740\n1,3\n4,5\n7812\n8335\n9285\n10568\n10849\n13198\n13510\n14549\n1,4\n4,75\n7997\n8514\n9413\n11156\n11451\n13931\n14259\n15357\n1,5\n5\n8258\n8833\n9664\n11743\n12055\n14664\n15010\n16165\n1,55\n5,25\n8441\n9275\n10148\n12330\n12658\n15396\n15761\n16974\n1,6\n5,5\n8782\n9717\n10631\n12916\n13260\n16130\n16511\n17781\n1,7\n5,75\n9123\n10158\n11114\n13503\n13863\n16864\n17262\n18589\n1,75\n6\n9728\n10600\n11726\n14091\n14464\n17597\n18012\n19398\n1,8\nSun (üregkamrás polikarbonát üvegezés): Sky alapár -12%\n"
+        }
+      ],
+      "pricing_notes": "3-6 részes; hosszúság oszlopok",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "harmonie_plus",
+      "name": "Harmonie Plus",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        11
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 11,
+          "text": "       11\n\b\nHARMONIE PLUS\nMagasított kosárgörbe keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. 6 méteres szélesség feletti fedések rendelése külön \negyeztetés alapján lehetséges. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nAz eltolható oldal vagy homlokfali ajtó az alapfelszereltség része!\n \nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,32\n7,67\n8,41\n10,21\n10,5\n12,75\n12,59\n15,29\n4\n8949\n9608\n10680\n11685\n11573\n14077\n14498\n15684\n2,1\n4,25\n9064\n9694\n10898\n11978\n12296\n14957\n15311\n16488\n2,1\n4,5\n9376\n10001\n11142\n12683\n13019\n15837\n16212\n17457\n2,15\n4,75\n9596\n10218\n11296\n13387\n13743\n16717\n17110\n18428\n2,15\n5\n9909\n10600\n11598\n14091\n14465\n17597\n18012\n19398\n2,2\n5,25\n10130\n11130\n12177\n14795\n15188\n18477\n18913\n20368\n2,2\n5,5\n10539\n11659\n12757\n15500\n15912\n19355\n19813\n21338\n2,25\n5,75\n10948\n12190\n13337\n16205\n16636\n20237\n20714\n22307\n2,25\n6\n11675\n12719\n14071\n16909\n17359\n21117\n21615\n23277\n2,3\nHarmonie (üregkamrás polikarbonát üvegezés): Harmonie Plus alapár -12%\n"
+        }
+      ],
+      "pricing_notes": "3-6 részes; hosszúság oszlopok",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "charisma_flat",
+      "name": "Charisma Flat",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        12,
+        13
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 12,
+          "text": "12      \nNagy fesztávolságú, alacsony \nfelépítésű medencefedés\ntömör polikarbonát üvegezéssel\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nAz árlistában szereplő árak EUR-ban értendőek és a 27% felszámítandó ÁFÁ-t nem tartalmazzák.\nA feltüntetett méretek az adott árhoz tartozó maximális méretek.\nKöztes szélesség / hosszúság esetén a következő sorhoz / oszlophoz tartozó ár érvényes!\nA Charisma Flat típus vezetősínes kialakítású, a tolásiránytól függően a  legnagyobb vagy a legkisebb szegmens alatt \ntalálható vezetősín mindkét oldalon.\nAz ártáblázatban szereplő szélességek a profilok belső vagy külső élei közötti méretek. \nAz Aquacomet medencefedések a megrendelő által jóváhagyott egyedi műszaki paraméterek alapján készülnek. Ezért a gyártás megkezdése után \nezek az adatok nem módosíthatóak. Az Aquacomet Kft. a műszaki tartalom és az árak változtatásának jogát fenntartja. Az árak 2026. április 15-től \nérvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA maximális külső szélesség 7,5 m. 7,5 m feletti szélesség nem rendelhető!\n* Kérésre / ** A legmagasabb szegmens közepén, kívül\nSzeg-\nmens\n3 szegmens\n4 szegmens\n2 borda\n3 borda\n2 borda\n3 borda\nHossz\n6,28\n7,08\n8,35\n9,42\nSzélesség \nbelső (m)\nSzél.\nkülső [m]\nÁr  (€)\nMagasság \n(mm)\nSzél.\nkülső [m]\nÁr  (€)\nMagasság \n(mm)\n5\n5,59\n11184\n13421\n721\n5,81\n14274\n17128\n829\n5,25\n5,84\n11580\n13897\n731\n6,06\n14727\n17673\n838\n5,5\n6,09\n11961\n14353\n740\n6,31\n15182\n18219\n847\n5,75\n6,34\n12341\n14809\n750\n6,56\n15636\n18764\n856\n6\n6,59\n12719\n15264\n758\n6,81\n16091\n19309\n866\n6,25\n6,84\n13083\n15700\n767\n*\n*\n*\n*\nSzeg-\nmens\n5 szegmens\n6 szegmens\n2 borda\n3 borda\n2 borda\n3 borda\nHossz\n10,42\n11,76\n12,50\n14,10\nSzélesség \nbelső (m)\nSzél.\nkülső [m]\n Ár  (€)\nMagasság \n(mm)\nSzél.\nkülső [m]\nÁr  (€)\nMagasság\n[mm]**\n5\n6,02\n17595\n21113\n937\n6,24\n21014\n25218\n1 045\n5,25\n6,27\n18137\n21765\n947\n6,49\n21628\n25953\n1 054\n5,5\n6,52\n18678\n22414\n956\n6,74\n22241\n26691\n1 064\n5,75\n6,77\n19143\n22972\n965\n6,99\n22856\n27427\n1 073\nCHARISMA FLAT\b\n"
+        },
+        {
+          "page": 13,
+          "text": "       13\nALAPKIVITEL\nKülső szélesség: 4 - 7 m\nMagasság: 0,66-1,07 m \n(A szegmensek méretétől és számától függően).)\nSzerkezet\nAlumínium profilok AImgSi 0,5 F19, F22\n(60x79,5 mm)\nProfil színválaszték - porfestett, strukturált felület\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nTömör, mindkét oldalon UV védett PC lemez*\nGumi tömítések\nPC tömítés: EPDM gumi\nA szegmensek között, a homlok- és hátfalon:\nszilikon gumi\nKerekek\nGumi kerekek, rozsdamentes acél golyóscsapágyakkal\nA vezetősínen műanyag kerekek\nÖsszetolt fedés hossza: szegmenshossz + 100 mm\nSínek\nLapos, egypályás vezetősínek (14/70 mm) - a legnagyobb \nvagy a legkisebb elem alatt, eloxált színben\nA többi szegmens sín nélküli, gumi kerekeken gurul\nHomlokfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nVégfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nSzegmens pozicionálás\nManuális arretálás marokcsavaros rögzítéssel\nFigyelem: Alapkivitelben a szerkezet nem zárható kulccsal.\nRENDELHETŐ KIEGÉSZÍTŐK\nSínhosszabbítás ( EUR / m oldalanként)\negypályás vezetősín – 70 mm széles .................................52,-\nMagasság eltérés\nKérésre, egyeztetés alapján\nSzegmenszár\nZárható marokcsavarok (darabonként )...............................49,-\nEltolható oldalajtó\n(Csak a legnagyobb szegmensre)................................... 1082,-\nHomlokfal kialakítás\nFix emelt 70 mm-es gumitömítéssel\n(30 mm-es medenceperemig)................................. felár nélkül\nFix emelt 100 mm-es gumitömítéssel\n(60 mm-es medenceperemig................................... felár nélkül\n120/150/180 mm magas felnyitható küszöb\n(90/120/150 mm-es medenceperemig)............................244,-\nEgyedi porfestés\nSpeciális színű bordák (RAL) ............................................ +15%\nKülönleges felosztás\n+1 szegmens a normál szegmenskiosztáshoz képest .............\nAz adott szélességű, alapkivitelben a kért szegmensszámmal\nrendelkező, legrövidebb fedés áráért\nCHARISMA FLAT\n"
+        }
+      ],
+      "pricing_notes": "3-6 szegmens; 2/3 borda; belső és külső szélesség",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "charisma",
+      "name": "Charisma",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        14,
+        15
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 14,
+          "text": "14      \nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nAz árlistában szereplő árak EUR-ban értendőek és a 27% felszámítandó ÁFÁ-t nem tartalmazzák.\nA feltüntetett méretek az adott árhoz tartozó maximális méretek.\nKöztes szélesség / hosszúság esetén a következő sorhoz / oszlophoz tartozó ár érvényes!\nA Charisma típus vezetősínes kialakítású, a tolásiránytól függően a  legnagyobb vagy a legkisebb szegmens alatt \ntalálható vezetősín mindkét oldalon.\nAz ártáblázatban szereplő szélességek a profilok belső vagy külső élei közötti méretek. \nAz Aquacomet medencefedések a megrendelő által jóváhagyott egyedi műszaki paraméterek alapján készülnek. Ezért a gyártás megkezdése után \nezek az adatok nem módosíthatóak. Az Aquacomet Kft. a műszaki tartalom és az árak változtatásának jogát fenntartja. Az árak 2026. április 15-től \nérvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA maximális külső szélesség 7 m. 7 me feletti szélesség nem rendelhető!\n* Kérésre / ** A legmagasabb szegmens közepén, kívül\nSzeg-\nmens\n3 szegmens\n4 szegmens\n5 szegmens\n6 szegmens\nMagas-\nság\n[m]**\n2 borda\n3 borda\n2 borda\n3 borda\n2 borda\n3 borda\n2 borda\n3 borda\nHossz\n6,28\n7,08\n8,35\n9,42\n10,42\n11,76\n12,50\n14,10\nSzélesség \nbelső (m)\nSzél.\nkülső \n[m]\nÁr  (€)\nSzél.\nkülső \n[m]\nÁr  (€)\nSzél.\nkülső \n[m]\n Ár  (€)\nSzél.\nkülső \n[m]\nÁr  (€)\n4\n4,59\n13011\n15614\n4,81\n16534\n19840\n5,02\n20126\n24151\n5,24\n22625\n27150\n2,40\n4,25\n4,84\n13501\n16202\n5,06\n17074\n20488\n5,27\n20755\n24906\n5,49\n23327\n27993\n2,40\n4,5\n5,09\n13963\n16755\n5,31\n17611\n21135\n5,52\n21386\n25663\n5,74\n24028\n28834\n2,40\n4,75\n5,34\n14427\n17312\n5,56\n18151\n21781\n5,77\n22016\n26419\n5,99\n24730\n29676\n2,40\n5\n5,59\n14890\n17867\n5,81\n18691\n22429\n6,02\n22582\n27123\n6,24\n25433\n30519\n2,40\n5,25\n5,84\n15351\n18423\n6,06\n19188\n23025\n6,27\n23188\n27825\n6,49\n26097\n31316\n2,40\n5,5\n6,09\n15772\n18927\n6,31\n19685\n23623\n6,52\n23774\n28528\n6,74\n26760\n32112\n2,40\n5,75\n6,34\n16193\n19432\n6,56\n20182\n24219\n6,77\n24360\n29233\n6,99\n27425\n32910\n2,40\n6\n6,59\n16614\n19937\n6,81\n20679\n24814\n*\n*\n*\n*\n*\n*\n2,40\n6,25\n6,84\n17050\n20460\n*\n*\n*\n2,40\nCHARISMA\b\nNagy fesztávolságú, magas \nfelépítésű medencefedés \ntömör polikarbonát üvegezéssel\n"
+        },
+        {
+          "page": 15,
+          "text": "       15\nALAPKIVITEL\nKülső szélesség: 4 - 7 m\nMagasság: 2,4 m (A legmagasabb szegmens közepén.)\nSzerkezet\nAlumínium profilok AImgSi 0,5 F19, F22\n(60x79,5 mm)\nProfil színválaszték - porfestett, strukturált felület\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nTömör, mindkét oldalon UV védett PC lemez*\nGumi tömítések\nPC tömítés: EPDM gumi\nA szegmensek között, a homlok- és hátfalon:\nszilikon gumi\nKerekek\nGumi kerekek, rozsdamentes acél golyóscsapágyakkal\nA vezetősínen műanyag kerekek \nÖsszetolt fedés hossza: szegmenshossz + 100 mm\nSínek\nLapos, egypályás vezetősínek (14/70 mm) - a legnagyobb \nvagy a legkisebb elem alatt, eloxált színben\nA többi szegmens sín nélküli, gumi kerekeken gurul\nHomlokfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nVégfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nSzegmens pozicionálás\nManuális arretálás marokcsavaros rögzítéssel\nFigyelem: Alapkivitelben a szerkezet nem zárható kulccsal.\nRENDELHETŐ KIEGÉSZÍTŐK\nSínhosszabbítás ( EUR / m oldalanként)\negypályás vezetősín – 70 mm széles .................................52,-\nMagasság eltérés\nKérésre, egyeztetés alapján\nSzegmenszár\nZárható marokcsavarok (darabonként )...............................49,-\nEltolható oldalajtó\n(Csak a legnagyobb szegmensre)......................................655,-\nHomlokfal kialakítás\nFix emelt 70 mm-es gumitömítéssel\n(30 mm-es medenceperemig)................................. felár nélkül\nFix emelt 100 mm-es gumitömítéssel\n(60 mm-es medenceperemig................................... felár nélkül\n120/150/180 mm magas felnyitható küszöb\n(90/120/150 mm-es medenceperemig)............................244,-\n400 mm magas üvegezett felnyíló.....................................710,-\nNyíló vagy tolóajtó...............................................................655,-\nEgyedi porfestés\nSpeciális színű bordák (RAL) ............................................ +15%\nKülönleges felosztás\n+1 szegmens a normál szegmenskiosztáshoz képest .............\nAz adott szélességű, alapkivitelben a kért szegmensszámmal\nrendelkező, legrövidebb fedés áráért\n*UV védelem mindkét oldalon, 3,0/3,5/4,0 mm vastagság a modell  típusától és geometriájától függően.\nCHARISMA\n"
+        }
+      ],
+      "pricing_notes": "3-6 szegmens; 2/3 borda; belső és külső szélesség",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "galaxy_i",
+      "name": "Galaxy I (standard)",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        16
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 16,
+          "text": "16      \nGALAXY I (standard)\b\nFix medencefedés\nTömör és üregkamrás  \npolikarbonát üvegezés\nA Galaxy modell fix telepítésű, sín nélküli medencefedés. A homlokfal alapkivitelben \ndupla tolóajtóval szerelt, az oldalfalak osztottan, 2 m magasságig felnyithatók.\nA fedés szegmenseinek hossza fix.\nA táblázat szerinti köztes méretek is rendelhetők egy szegmens lerövidítésével, az adott szegmensszámnak megfelelő ár figyelembevételével.\n10 méteres szélesség feletti fedések - Galaxy P170 és Galaxy P195 - rendelése külön egyeztetés alapján lehetséges akár 16 m-ig.\n** A lefedés hossza az IRIS végfal nélküli hosszat jelenti!\nAlapkivitel\nVázszerkezet \nszíne \nPorfestett\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nÜvegezés 10mm-es polikarbonát a \ntetőn;  \nTömör polikarbonát az oldalfalakon, a \nhomlok és végfalon\nHomlokfal\nVégfal\nOldalfalak\nfix, dupla tolóajtóval\nfix, ajtó nélkül\nkét részben felnyitható\nRendelhető kiegészítők\nOldalsó tolóajtó (küszöb-\nbel)\na szegmens felnyitható \noldalajtaja helyett\n1038,-\nKiegészítő tolóajtó a \nvégfalon \nszimpla\ndupla\n590,-\n983,-\nFamintázatú felületke-\nzelés \nEgyedi RAL szín\n+20%\n+15% \nIris ** homlokfal\n5,5 - 6,5 m\n6,6 - 8,0 m\n4892,-\n6159,-\nFolder homlokfal\nharmonika ajtó\n371 EUR/fm* \n* a fedés szélessé-\ngének függvényében \nmax 6,5 m\nIRIS\nFOLDER\nGalaxy P100\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott termék cseréje nem \nlehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, \naz esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n4 szegmens\n5 szegmens\n6 szegmens\n7 szegmens\n8 szegmens\n9 szegmens\n10 szegmens\n8,59\n10,72\n12,85\n14,98\n17,11\n19,24\n21,37\n5,50\n15029\n17436\n19839\n22246\n24648\n27054\n29437\n2,57\n6,00\n15635\n18137\n20640\n23140\n25642\n28144\n30647\n2,60\n6,50\n16242\n18842\n21440\n24039\n26638\n29234\n31834\n2,62\n7,00\n16919\n19626\n22335\n25038\n27749\n30454\n33159\n2,64\n7,50\n17584\n20400\n23212\n26026\n28838\n31651\n34466\n2,66\n8,00\n18245\n21163\n24084\n27004\n29922\n32841\n35758\n2,68\n8,50\n18882\n21903\n24923\n27945\n30964\n33985\n37006\n2,70\n9,00\n19600\n22736\n25871\n29010\n32143\n35262\n38416\n2,72\n9,50\n20289\n23536\n26781\n30028\n33272\n36520\n39766\n2,75\n10,00\n21062\n24432\n27803\n31172\n34542\n37912\n41283\n2,77\n"
+        }
+      ],
+      "pricing_notes": "4-10 szegmens; fix szegmenshossz",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "galaxy_ii",
+      "name": "Galaxy II (falcsatlakozással)",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        17
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 17,
+          "text": "       17\nGALAXY II (falcsatlakozással)\n** A lefedés hossza az IRIS végfal nélküli hosszat jelenti!\nRendelhető kiegészítők\nOldalsó tolóajtó\n(küszöbbel)\na szegmens felnyitható \noldalajtaja helyett\n1038,-\nKiegészítő tolóajtó a \nvégfalon \nszimpla\ndupla\n590,-\n983,-\nFamintázatú felület-\nkezelés \nEgyedi RAL szín\n+20%\n+15%\nFolder homlokfal\nharmonika ajtó\n371 EUR/fm*  –\n* a fedés szélességének \nfüggvényében max 6,5 m\nFix medencefedés\nTömör és üregkamrás \npolikarbonát üvegezés\nA Galaxy modell fix telepítésű, sín nélküli medencefedés. A homlokfal alapkivitelben \na fedés szélességétől függően szimpla vagy dupla tolóajtóval szerelt. Az oldalfalak \nosztottan 2 m magasságig felnyithatók.\nA fedés szegmenseinek hossza fix.\nA táblázat szerinti köztes méretek is rendelhetők egy szegmens lerövidítésével, az adott szegmensszámnak megfelelő ár figyelembevételével.\nAlapkivitel\nVázszerkezet \nszíne \nPorfestett\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nÜvegezés 10mm-es polikarbonát \na tetőn;  \nTömör polikarbonát az oldalfala-\nkon, a homlok és végfalon\nHomlokfal\nVégfal\nOldalfalak\nfix, dupla tolóajtóval\nfix, ajtó nélkül\nkét részben felnyitható\nAz AQUACOMET \nmedencefedések \negyedi \nfelmérés \nalapján \nkészülnek, \nezért \na \nvisszaigazolt \nvázlatrajzzal \negyező, \nlegyár-\ntott termék cseréje nem lehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. ápri-\nlis 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n4 szegmens\n5 szegmens\n6 szegmens\n7 szegmens\n8 szegmens\n9 szegmens\n10 szegmens\n8,59\n10,72\n12,85\n14,98\n17,11\n19,24\n21,37\n3,50\n10622\n12321\n14020\n15722\n17421\n19119\n20820\n2,63\n4,00\n11547\n13395\n15243\n17090\n18937\n20784\n22632\n2,68\n4,50\n12560\n14568\n16579\n18590\n20598\n22609\n24618\n2,72\n5,00\n13668\n15854\n18041\n20230\n22414\n24600\n26787\n2,77\n5,50\n14870\n17250\n19629\n22008\n24386\n26767\n29146\n2,81\n6,00\n15470\n17946\n20421\n22895\n25373\n27845\n30322\n2,85\n6,50\n16060\n18631\n21200\n23768\n26338\n28909\n31478\n2,90\n7,00\n16734\n19414\n22093\n24767\n27447\n30124\n32802\n2,94\n"
+        }
+      ],
+      "pricing_notes": "4-10 szegmens; fix szegmenshossz",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "galaxy_iii",
+      "name": "Galaxy III (meghosszabbított falcsatlakozással)",
+      "category": "pool_cover",
+      "pricing_type": "dimension_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        18
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 18,
+          "text": "18      \nGALAXY III (meghosszabbított falcsatlakozással)\nFix medencefedés\nTömör és üregkamrás \npolikarbonát üvegezés\nA Galaxy modell fix telepítésű, sín nélküli medencefedés. A homlokfal alapkivitelben \na fedés szélességétől függően szimpla vagy dupla tolóajtóval szerelt. Az oldalfalak \nosztottan 2 m magasságig felnyithatók.\nA fedés szegmenseinek hossza fix.\nA táblázat szerinti köztes méretek is rendelhetők egy szegmens lerövidítésével, az adott szegmensszámnak megfelelő ár figyelembevételével.\nA GALAXY fedéshez egyéb kiegészítők nem rendelhetők!\n** A lefedés hossza az IRIS végfal nélküli hosszat jelenti!\nAlapkivitel\nVázszerkezet \nszíne \nPorfestett\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nÜvegezés 10mm-es polikarbonát \na tetőn;  \nTömör polikarbonát az oldalfala-\nkon, a homlok és végfalon\nHomlokfal\nVégfal\nOldalfalak\nfix, dupla tolóajtóval\nfix, ajtó nélkül\nkét részben felnyitható\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott termék cseréje nem \nlehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, \naz esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nRendelhető kiegészítők\nOldalsó tolóajtó         \n(küszöbbel)\na szegmens felnyitható \noldalajtaja helyett\n1038,-\nKiegészítő tolóajtó a \nvégfalon \nszimpla\ndupla\n590,-\n983,-\nFa mintázatú felületke-\nzelés\nEgyedi RAL szín\n+20%\n+15%\nFolder homlokfal\nharmonika ajtó\n371 EUR/fm* \n* a fedés szélessé-\ngének függvényében \nmax 6,5 m\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n4 szegmens\n5 szegmens\n6 szegmens\n7 szegmens\n8 szegmens\n9 szegmens\n10 szegmens\n8,59\n10,72\n12,85\n14,98\n17,11\n19,24\n21,37\n5,50\n15462\n17937\n20411\n22883\n25355\n27831\n30305\n2,57\n6,00\n16129\n18709\n21290\n23870\n26451\n29031\n31614\n2,60\n6,50\n16770\n19453\n22138\n24822\n27503\n30188\n32870\n2,62\n7,00\n17454\n20247\n23037\n25833\n28625\n31414\n34210\n2,64\n7,50\n18120\n21019\n23919\n27814\n30816\n33816\n36815\n2,66\n8,00\n18807\n21816\n24826\n27834\n30843\n33852\n36860\n2,68\n8,50\n19475\n22592\n25706\n28823\n31940\n35056\n38171\n2,70\n9,00\n20633\n23935\n27232\n30536\n33835\n37136\n40438\n2,72\n9,50\n20928\n24280\n27626\n30973\n34323\n37672\n41020\n2,75\n10,00\n21726\n25102\n28679\n32155\n35632\n39106\n42585\n2,77\n"
+        }
+      ],
+      "pricing_notes": "4-10 szegmens; fix szegmenshossz",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "rondo",
+      "name": "Rondo",
+      "category": "pool_cover",
+      "pricing_type": "fixed_size_table",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        19
+      ],
+      "pricing_table_transcription": [
+        {
+          "page": 19,
+          "text": "       19\n\b\nRONDO\nKupola  formájú \nmasszázsmedence fedés\nA Rondo fix telepítésű, kupola formájú medencefedés,  \nami 180°-ban kinyitható!\nA RONDO fedések mérete fix.\nA táblázatban szereplőktől eltérő méret nem rendelhető!\nÜvegezés: 3 mm-es tömör polikarbonát lemez\nÜregkamrás polikarbonát üvegezés : alapár -12%\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott termék cseréje nem \nlehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, \naz esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nModell\nKülső átmérő (m)\nBelsõ átmérõ (m)\nÁr \nMagasság \n(m)\nRondo 350\n3,75\n3,49\n6655\n2,30\nRondo 400\n4,14\n3,88\n7712\n2,50      \nRondo 450\n4,75\n4,49\n7712\n2,30\n"
+        }
+      ],
+      "pricing_notes": "Fix méretű kupolafedés",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "creative",
+      "name": "Creative",
+      "category": "pool_cover",
+      "pricing_type": "custom_quote",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        20
+      ],
+      "pricing_table_transcription": [],
+      "pricing_notes": "Egyedi árazás",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "visual",
+      "name": "Visual",
+      "category": "pool_cover",
+      "pricing_type": "custom_quote",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        20
+      ],
+      "pricing_table_transcription": [],
+      "pricing_notes": "Egyedi árazás",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "visual_flat",
+      "name": "Visual Flat",
+      "category": "pool_cover",
+      "pricing_type": "custom_quote",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        20
+      ],
+      "pricing_table_transcription": [],
+      "pricing_notes": "Egyedi árazás",
+      "requires_manual_review": true
+    },
+    {
+      "product_id": "practic",
+      "name": "Practic",
+      "category": "pool_cover",
+      "pricing_type": "custom_quote",
+      "currency": "EUR",
+      "vat_included": false,
+      "source_pages": [
+        20
+      ],
+      "pricing_table_transcription": [],
+      "pricing_notes": "Egyedi árazás",
+      "requires_manual_review": true
+    }
+  ],
+  "pricing_rules": [
+    {
+      "rule_id": "intermediate_dimensions_round_up",
+      "description": "Köztes méret esetén a következő nagyobb sor/oszlop árát kell figyelembe venni.",
+      "applies_to": "A legtöbb mérettáblázatos modell; termékenkénti kivételeket a termékoldal tartalmaz.",
+      "source_pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ]
+    },
+    {
+      "rule_id": "galaxy_intermediate_dimensions",
+      "description": "Galaxy esetén a táblázat szerinti köztes méretek egy szegmens lerövidítésével rendelhetők, az adott szegmensszámnak megfelelő ár figyelembevételével.",
+      "applies_to": [
+        "galaxy_i",
+        "galaxy_ii",
+        "galaxy_iii"
+      ],
+      "source_pages": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "rule_id": "zenith_thermo_discount",
+      "description": "Zenith Thermo üregkamrás polikarbonát üvegezés: Zenith Clear alapár -12%.",
+      "discount_percent": 12,
+      "source_pages": [
+        8
+      ]
+    },
+    {
+      "rule_id": "star_discount",
+      "description": "Star üregkamrás polikarbonát üvegezés: Star Plus alapár -12%.",
+      "discount_percent": 12,
+      "source_pages": [
+        9
+      ]
+    },
+    {
+      "rule_id": "sun_discount",
+      "description": "Sun üregkamrás polikarbonát üvegezés: Sky alapár -12%.",
+      "discount_percent": 12,
+      "source_pages": [
+        10
+      ]
+    },
+    {
+      "rule_id": "harmonie_discount",
+      "description": "Harmonie üregkamrás polikarbonát üvegezés: Harmonie Plus alapár -12%.",
+      "discount_percent": 12,
+      "source_pages": [
+        11
+      ]
+    },
+    {
+      "rule_id": "rondo_hollow_pc_discount",
+      "description": "Rondo üregkamrás polikarbonát üvegezés: alapár -12%.",
+      "discount_percent": 12,
+      "source_pages": [
+        19
+      ]
+    },
+    {
+      "rule_id": "installation",
+      "description": "Helyszíni szerelés: a medencefedés árának 6%-a; Zenith és Galaxy típusnál 8%.",
+      "rate_percent": 6,
+      "exceptions": {
+        "zenith": 8,
+        "galaxy": 8
+      },
+      "source_pages": [
+        24
+      ]
+    },
+    {
+      "rule_id": "transport",
+      "description": "Szállítás a telephelytől oda-vissza útra: 1,4 EUR/km, minimum 175 EUR.",
+      "rate": 1.4,
+      "unit": "EUR/km_round_trip",
+      "minimum": 175,
+      "source_pages": [
+        24
+      ]
+    },
+    {
+      "rule_id": "vat",
+      "description": "A listaárak nettó EUR árak; a dokumentum 27% felszámítandó ÁFÁ-t jelez.",
+      "vat_rate_percent": 27,
+      "source_pages": [
+        1,
+        6,
+        24
+      ]
+    }
+  ],
+  "accessories": [
+    {
+      "code": "rail_extension_superflat_2",
+      "name": "Sínhosszabbítás – szuperlapos sín, 2-részes",
+      "price": 38,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_superflat_3",
+      "name": "Sínhosszabbítás – szuperlapos sín, 3-részes",
+      "price": 55,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_superflat_4",
+      "name": "Sínhosszabbítás – szuperlapos sín, 4-részes",
+      "price": 71,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_superflat_5",
+      "name": "Sínhosszabbítás – szuperlapos sín, 5-részes",
+      "price": 77,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_superflat_6",
+      "name": "Sínhosszabbítás – szuperlapos sín, 6-részes",
+      "price": 82,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_flat_2",
+      "name": "Sínhosszabbítás – lapos sín, 2-részes",
+      "price": 43,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_flat_3",
+      "name": "Sínhosszabbítás – lapos sín, 3-részes",
+      "price": 60,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_flat_4",
+      "name": "Sínhosszabbítás – lapos sín, 4-részes",
+      "price": 78,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_flat_5",
+      "name": "Sínhosszabbítás – lapos sín, 5-részes",
+      "price": 84,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_extension_flat_6",
+      "name": "Sínhosszabbítás – lapos sín, 6-részes",
+      "price": 90,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_frame_3",
+      "name": "Sínelhelyező keret szuperlapos sínhez, 3-részes",
+      "price": 17,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_frame_4",
+      "name": "Sínelhelyező keret szuperlapos sínhez, 4-részes",
+      "price": 20,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_frame_5",
+      "name": "Sínelhelyező keret szuperlapos sínhez, 5-részes",
+      "price": 24,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "rail_frame_6",
+      "name": "Sínelhelyező keret szuperlapos sínhez, 6-részes",
+      "price": 27,
+      "unit": "EUR/m/oldal",
+      "source_page": 22
+    },
+    {
+      "code": "height_adjustment_up_to_30cm",
+      "name": "Magasítás standard magasságtól 30 cm-ig",
+      "price_percent": 5,
+      "unit": "percent_of_base_price",
+      "source_page": 22
+    },
+    {
+      "code": "height_adjustment_over_30cm",
+      "name": "Magasítás standard magasságtól 30 cm felett",
+      "price_percent": 10,
+      "unit": "percent_of_base_price",
+      "source_page": 22
+    },
+    {
+      "code": "raised_forecourt_lok",
+      "name": "Emelt előtér (kb. 2–2,2 m)",
+      "price_percent": 15,
+      "unit": "percent_of_base_price",
+      "source_page": 22
+    },
+    {
+      "code": "lockable_segments",
+      "name": "Zárható szegmensek automata arretálásnál",
+      "price": 66,
+      "unit": "EUR/segment",
+      "source_page": 22
+    },
+    {
+      "code": "front_end_wall_removable_single",
+      "name": "Homlok- vagy végfal egyben levehető",
+      "price": 82,
+      "unit": "EUR/m",
+      "source_page": 23
+    },
+    {
+      "code": "front_end_wall_removable_multi",
+      "name": "Homlok- vagy végfal több darabban levehető",
+      "price": 104,
+      "unit": "EUR/m",
+      "source_page": 23
+    },
+    {
+      "code": "end_wall_liftable_lower",
+      "name": "Végfal alsó része 40 cm magasan felnyitható",
+      "price": 645,
+      "unit": "EUR/fixed",
+      "source_page": 23
+    },
+    {
+      "code": "liftable_threshold",
+      "name": "15–18 cm magas felnyitható küszöb, 6 m szélességig",
+      "price": 311,
+      "unit": "EUR/fixed",
+      "source_page": 23
+    },
+    {
+      "code": "swing_door_end_wall",
+      "name": "Nyíló ajtó a végfalon vagy egyenes oldalfalon",
+      "price": 590,
+      "unit": "EUR/fixed",
+      "source_page": 23
+    },
+    {
+      "code": "sliding_door_end_wall",
+      "name": "Eltolható ajtó a végfalon vagy egyenes oldalfalon",
+      "price": 590,
+      "unit": "EUR/fixed",
+      "source_page": 23
+    },
+    {
+      "code": "sliding_side_door_general",
+      "name": "Eltolható oldalajtó (csak legnagyobb szegmensnél)",
+      "price": 590,
+      "unit": "EUR/fixed",
+      "source_page": 23
+    },
+    {
+      "code": "solid_pc_panels_front_end",
+      "name": "Tömör polikarbonát üvegezés üregkamrás helyett homlok- és végfalon",
+      "price": 31,
+      "unit": "EUR/m2",
+      "source_page": 23
+    },
+    {
+      "code": "special_color_ribs",
+      "name": "Speciális színű bordák RAL színskálából",
+      "price_percent": 15,
+      "unit": "percent_of_base_price",
+      "source_page": 23
+    },
+    {
+      "code": "woodgrain_decor_foil",
+      "name": "Famintázatú dekor fólia",
+      "price_percent": 20,
+      "unit": "percent_of_base_price",
+      "source_page": 23
+    }
+  ],
+  "technical_specifications": [],
+  "commercial_terms": {
+    "price_currency": "EUR",
+    "prices_net": true,
+    "vat_rate_percent": 27,
+    "effective_from": "2026-04-15",
+    "payment_terms": "A vételár 40%-a megrendeléskor átutalással, a fennmaradó rész legkésőbb szállításkor fizetendő.",
+    "warranty": "A medencefedés anyagaira és gyártási munkálataira 3 év garancia. Az üvegezés/felületképző anyag garanciája a gyártó garanciája alapján, általában 10 év; jégverésre 5 év.",
+    "installation": "A szerelés csak a teljes vételár kiegyenlítése után kezdődik, ha nincs eltérő írásos megállapodás.",
+    "transport": "1.4 EUR/km oda-vissza, minimum 175 EUR.",
+    "installation_rate_percent": 6,
+    "installation_exceptions": {
+      "Zenith": 8,
+      "Galaxy": 8
+    },
+    "source_page": 24
+  },
+  "source_pages": [
+    {
+      "page": 1,
+      "text": "2026\nÁRLISTA\nmedencefedések\n2026. április 15- től  visszavonásig érvényes!\nAZ ÁRAK EUROBAN ÉRTENDŐEK ÉS AZ ÁFÁT NEM TARTALMAZZÁK!\n"
+    },
+    {
+      "page": 2,
+      "text": "2      \nTartalomjegyzék\b\nHorizon modellek \b\nHorizon\b\n6\nHorizon High\b\n7\nZenith modellek \t \b\nZenith Flat Clear\b\n8\nZenith Standard Clear\b\n8\nKlasszikus Aquacomet modellek  \t \b\nStar Plus\b\n9\nSky\b\n10\nHarmonie Plus\b\n11\nCharisma modellek\t\n\b\nCharisma Flat  \t\b\n12\nCharisma \b\n14\n"
+    },
+    {
+      "page": 3,
+      "text": "       3\nAquacomet 2026\nKiegészítő felszerelések\b\n23\nSzállítási és értékesítési feltételek\b\n24\nAjánlatkérő formanyomtatvány\b\n21\nGalaxy modellek\b\nGalaxy I. \b\n16\nGalaxy II. (falcsatlakozással)\b\n17\nGalaxy III.  (falcsatlakozással) \b\n18\nSPA fedés \t\n\b\nRondo\b\n19\nSpeciális modellek \nVisual / Visual Flat / Creative / Practic\b\n20\n\b\n"
+    },
+    {
+      "page": 4,
+      "text": "4      \nFelhasznált anyagok\nAlumínium  \nprofilok\nAIMgSi 0,5 F19, F22\nHőkezelt\nÖsszes típus\nFelületképzés *\nPorfestett, struktúrált felület\n      - RAL 9010 fehér\n      - RAL 9006 fehéralumínium\n      - RAL 7016 antracit szürke\n      - RAL 9007 szürkealumínium\n      - RAL 9005 mélyfekete\nÖsszes típus, kivéve Galaxy,\nZenith \n(Galaxynál: RAL 9010 és RAL 7016 \nZenith: RAL9010 és RAL9006) \nÜvegezés *\nTömör, víztiszta polikarbonát lemez,  \n3,0 / 3,5 / 4 mm \nÜrgkamrás polikarbonát lemez  \n6, 8, 10 mm,\nTípustól és a fedés geometriájától \nfüggően\nTípustól és a fedés geometriájától \nfüggően\nKonstrukciós \nelemek\nRozsdamantes csavarok (6x60),\nkrómacél idomok\nÖsszes típus\nZár\nFogantyú\nRozsdamentes zár\nTechnopolimer\n(Polyamid)\nÖsszes típus\nÖsszes típus\nVégzárók,\nPozícionáló ék\nBiamid\n(polyamid)\nÖsszes típus\nTömítések\nTömör polikarbonát  \nlemezhez EPDM\nA szegmensek között valamint a \nhomlok- és végfalons zilikongumi \ntömítések\nSky, Star Plus, Harmonie Plus, \nVisual, Visual Flat, Horizon, \nCharisma \nÖsszes típus\nKerekek *\nPolyoximethylen (POM) műanyag \nkerekek rozsdamantes golyós-\ncsapággyal\nÖsszes típus\nAz alapkivitel műszaki tartalma  \b\nAz Aquacomet Kft. a fedések gyártójaként folyamatosan fejleszti termékeit. Emiatt fenntartjuk azon műszaki tartalom változtatásának jogát, mely nem befolyásolja az \nalapvető funkciókat és paramétereket!\n*A Charisma és Rondo fedések műszaki tartalma az árlistájuk oldalán található.\n"
+    },
+    {
+      "page": 5,
+      "text": "       5\nKonstrukció\nFelosztás*\n         7,65 m - ig   3 szegmens\n\t 7,66 – 10,17 m\t 4 szegmens\n\t 10,18 – 12,7 m \t5 szegmens\n\t\n12,71 m felett\t 6 vagy  több\n                                szegmens\nÖsszes típus, kivéve Galaxy, \nHorizon, Zenith, Horizon High, \nCharisma, Charisma Flat\nSín I.*\nSzuperlapos sín (12 mm)\nHézagmentesen sorolható\nösszes árlistában szereplő \nsínpályán gördülő modell \nkivéve a Galaxy, Charisma, \nCharisma Flat\nSín II.*\nLapos sín (20 mm)\nHézagmentesen sorolható\nAz egyedi, árlistában nem \ntalálható szélességű fedések \n(Sun, Sky, Star, Star Plus, \nHarmonie, Harmonie Plus, \nCreative)\nHomlokfal \n(Zárható)*\nFix-emelt, 50-100 mm-es gumival\nFix\n150-180 mm-es felnyíló küszöb\nÖsszes típus, kivétel Galaxy,  \nHorizon, Horizon High\nGalaxy\nHorizon, Horizon High, Zenith\nVégfal*\nFix-emelt, 50-100 mm-es gumival\nFix\n75-150 mm széles gumival\nÖsszes típus, kivéve Galaxy, \nHorizon\nGalaxy\nHorizon\nRögzítés* \nAutomata arretálás\nRugós biztosítás\nFélintelligens arretálás:\nViharbiztosítás krómacél kampóval \nMarokcsavar\nSun, Sky, Star, Star Plus, Harmonie \nés Harmonie Plus 6 m-ig,\nVisual, Visual Flat\nLapos sín esetén\nZenith, Horizon és Horizon High \n(alapelhelyezés esetén)\nÖsszes típus, kivéve Galaxy \nCharisma és a Charisma Flat\nBiztonság\nZárható ajtók \nÖsszes típus\nSarok konstruk-\nciók\nAlumínium sarokprofil krómacél \nmerevítéssel \nVisual, Visual Flat, Practic, \nAquacomet 2026\n*A Charisma és Rondo fedések műszaki tartalma az árlistájuk oldalán található.\nAz Aquacomet Kft. a fedések gyártójaként folyamatosan fejleszti termékeit. Emiatt fenntartjuk azon műszaki tartalom változtatásának jogát, mely nem befolyásolja az \nalapvető funkciókat és paramétereket!\n"
+    },
+    {
+      "page": 6,
+      "text": "6      \nHORIZON\b\nSzuperlapos medencefedés  \ntömör polikarbonát üvegezéssel\n5,50 méternél szélesebb Horizon fedés NEM rendelhető. Köztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nEgyeztetés alapján akár egy oldali sínpályával is rendelhető (azonos ár), ebben az esetben az arretálás változik. \nAlapfelszereltség: 150-180 mm felnyitható küszöb a homlokfalon. \nTolóajtó a Horizon modellhez nem rendelhető!\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n3 szegmens\nMagasság       \n[mm]\n4 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n6,276\n6,348\n7,698\n8,35\n8,446\n10,246\n3,50\n6153\n6888\n7462\n382\n8154\n9146\n9880\n475\n3,75\n6547\n7331\n7930\n386\n8440\n9522\n10277\n479\n4,00\n6908\n7727\n8349\n389\n8548\n9705\n10462\n483\n4,25\n7012\n7890\n8517\n393\n8661\n9887\n10648\n486\n4,50\n7185\n8051\n8680\n397\n8843\n10066\n10828\n490\n4,75\n7291\n8215\n8846\n401\n8981\n10279\n11049\n494\n5,00\n7399\n8379\n9015\n405\n9455\n10882\n11684\n498\n5,25\n7549\n8539\n9179\n409\n9928\n11388\n12218\n502\n5,50\n7831\n8893\n9549\n412\n10400\n11958\n12818\n505\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n5 szegmens\nMagasság       \n[mm]\n6 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n10,424\n10,544\n12,794\n12,498\n12,642\n15,342\n3,50\n10121\n11328\n12168\n568\n11698\n13053\n14055\n661\n3,75\n10329\n11527\n12376\n572\n11924\n13329\n14334\n665\n4,00\n10450\n11731\n12587\n576\n12160\n13612\n14620\n669\n4,25\n10642\n11932\n12795\n579\n12386\n13890\n14903\n673\n4,50\n10785\n12136\n13007\n583\n12620\n14171\n15188\n676\n4,75\n11254\n12733\n13638\n587\n13265\n14914\n15968\n680\n5,00\n11847\n13471\n14421\n591\n14060\n15826\n16927\n684\n5,25\n12439\n14087\n15074\n595\n14721\n16597\n17736\n688\n5,50\n13031\n14799\n15829\n599\n15510\n17484\n18668\n692\n"
+    },
+    {
+      "page": 7,
+      "text": "       7\nHORIZON HIGH\nSzuperlapos medencefedés \ntömör polikarbonát üvegezéssel\n6,25 méternél szélesebb Horizon High fedés NEM rendelhető. Köztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nEgyeztetés alapján akár egyoldali sínpályával is rendelhető (azonos ár), ebben az esetben az arretálás változik. \nAlapfelszereltség: 150-180 mm felnyitható küszöb a homlokfalon\nAz eltolható oldalajtó nem része az alapfelszereltségnek, opcionálisan rendelhető, listaára 814 EUR. \n(2 bordás kivitel esetén, az 1. elem 3 bordásra készül!)\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a nagyelem külső széleinél mért távolság. \nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n3 szegmens\nMagasság       \n[mm]\n4 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n6,276\n6,348\n7,698\n8,35\n8,446\n10,246\n3,50\n6627\n7364\n7936\n552\n8629\n9620\n10355\n643\n3,75\n7029\n7815\n8413\n563\n8921\n10006\n10760\n654\n4,00\n7400\n8217\n8840\n574\n9040\n10195\n10954\n665\n4,25\n7510\n8389\n9015\n584\n9158\n10386\n11146\n676\n4,50\n7691\n8557\n9186\n595\n9349\n10572\n11335\n686\n4,75\n7805\n8729\n9361\n606\n9496\n10793\n11562\n697\n5,00\n7920\n8898\n9537\n617\n9977\n11402\n12206\n708\n5,25\n8079\n9069\n9709\n628\n10457\n11918\n12747\n719\n5,50\n8368\n9430\n10087\n639\n10938\n12495\n13354\n730\n5,75\n8733\n10123\n10872\n650\n11418\n12605\n13525\n741\n6,00\n9096\n11041\n11934\n661\n11899\n13007\n14022\n752\n6,25\n9725\n11026\n11982\n672\n12378\n14128\n15303\n763\nSzélesség \n(sín külsõ)\n[m]\nHosszúság [m]\n5 szegmens\nMagasság       \n[mm]\n6 szegmens\nMagasság       \n[mm]\n2 bordás\n3 bordás\n2 bordás\n3 bordás\nMaximális hosszúság\nMaximális hosszúság\n10,424\n10,544\n12,794\n12,498\n12,642\n15,342\n3,50\n10597\n11803\n12643\n734\n12214\n13528\n14529\n825\n3,75\n10812\n12011\n12859\n745\n12448\n13812\n14817\n836\n4,00\n10941\n12223\n13078\n756\n12693\n14102\n15112\n847\n4,25\n11140\n12431\n13294\n767\n12928\n14388\n15401\n858\n4,50\n11290\n12641\n13513\n778\n13171\n14678\n15696\n869\n4,75\n11769\n13245\n14151\n789\n13827\n15426\n16482\n880\n5,00\n12368\n13992\n14944\n800\n14631\n16346\n17449\n890\n5,25\n12969\n14616\n15603\n811\n15303\n17127\n18264\n901\n5,50\n13568\n15336\n16364\n822\n16100\n18021\n19205\n912\n5,75\n14169\n16140\n17257\n833\n16942\n18974\n20287\n923\n6,00\n14768\n16126\n17345\n843\n16712\n18773\n20130\n934\n6,25\n15368\n17403\n18769\n854\n17895\n20082\n21599\n945\n"
+    },
+    {
+      "page": 8,
+      "text": "8      \nFLAT \nKosárgörbe keresztmetszetű lefedés \nTömör polikarbonát üvegezés\nSTANDARD\nKörív keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nSzélesség \n[m]\nHosszúság [m]\nMagasság \nStandard/ \nFlat [m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,28\n7,63\n8,36\n10,16\n10,4\n12,69\n12,53\n15,17\n3,5\n4843\n5182\n5835\n6415\n6547\n7463\n7624\n8629\n 1,15/\n0,82\n3,75\n5235\n5600\n6292\n6966\n7105\n8087\n8123\n9408\n1,2/\n0,83\n4\n5617\n6038\n6804\n7492\n7691\n8727\n8785\n9922\n1,25/\n0,84\n4,25\n5997\n6375\n7057\n7642\n8278\n8848\n9037\n10055\n1,3/\n0,85\n4,5\n6119\n6482\n7191\n7777\n8428\n9000\n9449\n10209\n1,4/\n0,87\n4,75\n6176\n6521\n7255\n7845\n8507\n9083\n9834\n10294\n1,5/\n0,89\n5\n6298\n6627\n7387\n7980\n8654\n9236\n10193\n10676\n1,55/\n0,91\n5,25\n6354\n6666\n7456\n8236\n8734\n9678\n10528\n11307\n1,6/\n0,93\n5,5\n6824\n7258\n8118\n8763\n9434\n10209\n10843\n11948\n1,7/\n0,96\n5,50 méternél szélesebb Zenith fedés NEM rendelhető. Köztes méret a következő sor / oszlop árának figyelembevételével \nrendelhető. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nAlapfelszereltség: \n- 150-180 mm felnyitható küszöb a homlokfalon    \nAz eltolható oldalajtó nem része az alapfelszereltségnek, opcionálisan rendelhető, listaára 590 EUR.\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nZENITH Standard Clear / Flat Clear\nZenith Thermo (üregkamrás polikarbonát üvegezés): Zenith Clear alapár -12%\n"
+    },
+    {
+      "page": 9,
+      "text": "       9\n\b\nSTAR PLUS\nKosárgörbe keresztmetszetű lefedés \nTömör polikarbonát üvegezés\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. 6 méteres szélesség feletti fedések rendelése \nkülön egyeztetés alapján lehetséges. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nAz eltolható oldalajtó az alapfelszereltség része!\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,32\n7,67\n8,41\n10,21\n10,5\n12,75\n12,59\n15,29\n3,5\n6504\n7660\n8367\n9374\n9152\n10932\n11645\n12633\n0,82\n3,75\n6942\n7859\n8642\n9518\n9323\n11120\n11825\n12815\n0,83\n4\n7457\n8007\n8900\n9738\n9644\n11731\n12081\n13070\n0,84\n4,25\n7554\n8079\n9081\n9981\n10246\n12464\n12759\n13740\n0,85\n4,5\n7812\n8335\n9285\n10568\n10849\n13198\n13510\n14549\n0,87\n4,75\n7997\n8514\n9413\n11156\n11451\n13931\n14259\n15357\n0,89\n5\n8258\n8833\n9664\n11743\n12055\n14664\n15010\n16165\n0,91\n5,25\n8441\n9275\n10148\n12330\n12658\n15396\n15761\n16974\n0,93\n5,5\n8782\n9717\n10631\n12916\n13260\n16130\n16511\n17781\n0,96\n5,75\n9123\n10158\n11114\n13503\n13863\n16864\n17262\n18589\n0,99\n6\n9728\n10600\n11726\n14091\n14464\n17597\n18012\n19397\n1,03\nStar (üregkamrás polikarbonát üvegezés): Star Plus alapár -12%\n"
+    },
+    {
+      "page": 10,
+      "text": "10      \nSKY\nKörív keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. 6 méteres szélesség feletti fedések rendelése \nkülön egyeztetés alapján lehetséges. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nEltolható oldalajtó az alapfelszereltség része!\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,32\n7,67\n8,41\n10,21\n10,5\n12,75\n12,59\n15,29\n3,5\n6504\n7660\n8367\n9374\n9152\n10932\n11645\n12633\n1,15\n3,75\n6942\n7859\n8642\n9518\n9323\n11120\n11825\n12815\n1,2\n4\n7457\n8007\n8900\n9738\n9644\n11731\n12081\n13070\n1,25\n4,25\n7554\n8079\n9081\n9981\n10246\n12464\n12759\n13740\n1,3\n4,5\n7812\n8335\n9285\n10568\n10849\n13198\n13510\n14549\n1,4\n4,75\n7997\n8514\n9413\n11156\n11451\n13931\n14259\n15357\n1,5\n5\n8258\n8833\n9664\n11743\n12055\n14664\n15010\n16165\n1,55\n5,25\n8441\n9275\n10148\n12330\n12658\n15396\n15761\n16974\n1,6\n5,5\n8782\n9717\n10631\n12916\n13260\n16130\n16511\n17781\n1,7\n5,75\n9123\n10158\n11114\n13503\n13863\n16864\n17262\n18589\n1,75\n6\n9728\n10600\n11726\n14091\n14464\n17597\n18012\n19398\n1,8\nSun (üregkamrás polikarbonát üvegezés): Sky alapár -12%\n"
+    },
+    {
+      "page": 11,
+      "text": "       11\n\b\nHARMONIE PLUS\nMagasított kosárgörbe keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. 6 méteres szélesség feletti fedések rendelése külön \negyeztetés alapján lehetséges. A megadott magassági méret a 4 szegmenses kivitelre vonatkozik.\nAz eltolható oldal vagy homlokfali ajtó az alapfelszereltség része!\n \nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n3 részes\n4 részes\n5 részes\n6 részes\n6,32\n7,67\n8,41\n10,21\n10,5\n12,75\n12,59\n15,29\n4\n8949\n9608\n10680\n11685\n11573\n14077\n14498\n15684\n2,1\n4,25\n9064\n9694\n10898\n11978\n12296\n14957\n15311\n16488\n2,1\n4,5\n9376\n10001\n11142\n12683\n13019\n15837\n16212\n17457\n2,15\n4,75\n9596\n10218\n11296\n13387\n13743\n16717\n17110\n18428\n2,15\n5\n9909\n10600\n11598\n14091\n14465\n17597\n18012\n19398\n2,2\n5,25\n10130\n11130\n12177\n14795\n15188\n18477\n18913\n20368\n2,2\n5,5\n10539\n11659\n12757\n15500\n15912\n19355\n19813\n21338\n2,25\n5,75\n10948\n12190\n13337\n16205\n16636\n20237\n20714\n22307\n2,25\n6\n11675\n12719\n14071\n16909\n17359\n21117\n21615\n23277\n2,3\nHarmonie (üregkamrás polikarbonát üvegezés): Harmonie Plus alapár -12%\n"
+    },
+    {
+      "page": 12,
+      "text": "12      \nNagy fesztávolságú, alacsony \nfelépítésű medencefedés\ntömör polikarbonát üvegezéssel\nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nAz árlistában szereplő árak EUR-ban értendőek és a 27% felszámítandó ÁFÁ-t nem tartalmazzák.\nA feltüntetett méretek az adott árhoz tartozó maximális méretek.\nKöztes szélesség / hosszúság esetén a következő sorhoz / oszlophoz tartozó ár érvényes!\nA Charisma Flat típus vezetősínes kialakítású, a tolásiránytól függően a  legnagyobb vagy a legkisebb szegmens alatt \ntalálható vezetősín mindkét oldalon.\nAz ártáblázatban szereplő szélességek a profilok belső vagy külső élei közötti méretek. \nAz Aquacomet medencefedések a megrendelő által jóváhagyott egyedi műszaki paraméterek alapján készülnek. Ezért a gyártás megkezdése után \nezek az adatok nem módosíthatóak. Az Aquacomet Kft. a műszaki tartalom és az árak változtatásának jogát fenntartja. Az árak 2026. április 15-től \nérvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA maximális külső szélesség 7,5 m. 7,5 m feletti szélesség nem rendelhető!\n* Kérésre / ** A legmagasabb szegmens közepén, kívül\nSzeg-\nmens\n3 szegmens\n4 szegmens\n2 borda\n3 borda\n2 borda\n3 borda\nHossz\n6,28\n7,08\n8,35\n9,42\nSzélesség \nbelső (m)\nSzél.\nkülső [m]\nÁr  (€)\nMagasság \n(mm)\nSzél.\nkülső [m]\nÁr  (€)\nMagasság \n(mm)\n5\n5,59\n11184\n13421\n721\n5,81\n14274\n17128\n829\n5,25\n5,84\n11580\n13897\n731\n6,06\n14727\n17673\n838\n5,5\n6,09\n11961\n14353\n740\n6,31\n15182\n18219\n847\n5,75\n6,34\n12341\n14809\n750\n6,56\n15636\n18764\n856\n6\n6,59\n12719\n15264\n758\n6,81\n16091\n19309\n866\n6,25\n6,84\n13083\n15700\n767\n*\n*\n*\n*\nSzeg-\nmens\n5 szegmens\n6 szegmens\n2 borda\n3 borda\n2 borda\n3 borda\nHossz\n10,42\n11,76\n12,50\n14,10\nSzélesség \nbelső (m)\nSzél.\nkülső [m]\n Ár  (€)\nMagasság \n(mm)\nSzél.\nkülső [m]\nÁr  (€)\nMagasság\n[mm]**\n5\n6,02\n17595\n21113\n937\n6,24\n21014\n25218\n1 045\n5,25\n6,27\n18137\n21765\n947\n6,49\n21628\n25953\n1 054\n5,5\n6,52\n18678\n22414\n956\n6,74\n22241\n26691\n1 064\n5,75\n6,77\n19143\n22972\n965\n6,99\n22856\n27427\n1 073\nCHARISMA FLAT\b\n"
+    },
+    {
+      "page": 13,
+      "text": "       13\nALAPKIVITEL\nKülső szélesség: 4 - 7 m\nMagasság: 0,66-1,07 m \n(A szegmensek méretétől és számától függően).)\nSzerkezet\nAlumínium profilok AImgSi 0,5 F19, F22\n(60x79,5 mm)\nProfil színválaszték - porfestett, strukturált felület\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nTömör, mindkét oldalon UV védett PC lemez*\nGumi tömítések\nPC tömítés: EPDM gumi\nA szegmensek között, a homlok- és hátfalon:\nszilikon gumi\nKerekek\nGumi kerekek, rozsdamentes acél golyóscsapágyakkal\nA vezetősínen műanyag kerekek\nÖsszetolt fedés hossza: szegmenshossz + 100 mm\nSínek\nLapos, egypályás vezetősínek (14/70 mm) - a legnagyobb \nvagy a legkisebb elem alatt, eloxált színben\nA többi szegmens sín nélküli, gumi kerekeken gurul\nHomlokfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nVégfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nSzegmens pozicionálás\nManuális arretálás marokcsavaros rögzítéssel\nFigyelem: Alapkivitelben a szerkezet nem zárható kulccsal.\nRENDELHETŐ KIEGÉSZÍTŐK\nSínhosszabbítás ( EUR / m oldalanként)\negypályás vezetősín – 70 mm széles .................................52,-\nMagasság eltérés\nKérésre, egyeztetés alapján\nSzegmenszár\nZárható marokcsavarok (darabonként )...............................49,-\nEltolható oldalajtó\n(Csak a legnagyobb szegmensre)................................... 1082,-\nHomlokfal kialakítás\nFix emelt 70 mm-es gumitömítéssel\n(30 mm-es medenceperemig)................................. felár nélkül\nFix emelt 100 mm-es gumitömítéssel\n(60 mm-es medenceperemig................................... felár nélkül\n120/150/180 mm magas felnyitható küszöb\n(90/120/150 mm-es medenceperemig)............................244,-\nEgyedi porfestés\nSpeciális színű bordák (RAL) ............................................ +15%\nKülönleges felosztás\n+1 szegmens a normál szegmenskiosztáshoz képest .............\nAz adott szélességű, alapkivitelben a kért szegmensszámmal\nrendelkező, legrövidebb fedés áráért\nCHARISMA FLAT\n"
+    },
+    {
+      "page": 14,
+      "text": "14      \nKöztes méret a következő sor / oszlop árának figyelembevételével rendelhető. \nAz árlistában szereplő árak EUR-ban értendőek és a 27% felszámítandó ÁFÁ-t nem tartalmazzák.\nA feltüntetett méretek az adott árhoz tartozó maximális méretek.\nKöztes szélesség / hosszúság esetén a következő sorhoz / oszlophoz tartozó ár érvényes!\nA Charisma típus vezetősínes kialakítású, a tolásiránytól függően a  legnagyobb vagy a legkisebb szegmens alatt \ntalálható vezetősín mindkét oldalon.\nAz ártáblázatban szereplő szélességek a profilok belső vagy külső élei közötti méretek. \nAz Aquacomet medencefedések a megrendelő által jóváhagyott egyedi műszaki paraméterek alapján készülnek. Ezért a gyártás megkezdése után \nezek az adatok nem módosíthatóak. Az Aquacomet Kft. a műszaki tartalom és az árak változtatásának jogát fenntartja. Az árak 2026. április 15-től \nérvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA maximális külső szélesség 7 m. 7 me feletti szélesség nem rendelhető!\n* Kérésre / ** A legmagasabb szegmens közepén, kívül\nSzeg-\nmens\n3 szegmens\n4 szegmens\n5 szegmens\n6 szegmens\nMagas-\nság\n[m]**\n2 borda\n3 borda\n2 borda\n3 borda\n2 borda\n3 borda\n2 borda\n3 borda\nHossz\n6,28\n7,08\n8,35\n9,42\n10,42\n11,76\n12,50\n14,10\nSzélesség \nbelső (m)\nSzél.\nkülső \n[m]\nÁr  (€)\nSzél.\nkülső \n[m]\nÁr  (€)\nSzél.\nkülső \n[m]\n Ár  (€)\nSzél.\nkülső \n[m]\nÁr  (€)\n4\n4,59\n13011\n15614\n4,81\n16534\n19840\n5,02\n20126\n24151\n5,24\n22625\n27150\n2,40\n4,25\n4,84\n13501\n16202\n5,06\n17074\n20488\n5,27\n20755\n24906\n5,49\n23327\n27993\n2,40\n4,5\n5,09\n13963\n16755\n5,31\n17611\n21135\n5,52\n21386\n25663\n5,74\n24028\n28834\n2,40\n4,75\n5,34\n14427\n17312\n5,56\n18151\n21781\n5,77\n22016\n26419\n5,99\n24730\n29676\n2,40\n5\n5,59\n14890\n17867\n5,81\n18691\n22429\n6,02\n22582\n27123\n6,24\n25433\n30519\n2,40\n5,25\n5,84\n15351\n18423\n6,06\n19188\n23025\n6,27\n23188\n27825\n6,49\n26097\n31316\n2,40\n5,5\n6,09\n15772\n18927\n6,31\n19685\n23623\n6,52\n23774\n28528\n6,74\n26760\n32112\n2,40\n5,75\n6,34\n16193\n19432\n6,56\n20182\n24219\n6,77\n24360\n29233\n6,99\n27425\n32910\n2,40\n6\n6,59\n16614\n19937\n6,81\n20679\n24814\n*\n*\n*\n*\n*\n*\n2,40\n6,25\n6,84\n17050\n20460\n*\n*\n*\n2,40\nCHARISMA\b\nNagy fesztávolságú, magas \nfelépítésű medencefedés \ntömör polikarbonát üvegezéssel\n"
+    },
+    {
+      "page": 15,
+      "text": "       15\nALAPKIVITEL\nKülső szélesség: 4 - 7 m\nMagasság: 2,4 m (A legmagasabb szegmens közepén.)\nSzerkezet\nAlumínium profilok AImgSi 0,5 F19, F22\n(60x79,5 mm)\nProfil színválaszték - porfestett, strukturált felület\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nTömör, mindkét oldalon UV védett PC lemez*\nGumi tömítések\nPC tömítés: EPDM gumi\nA szegmensek között, a homlok- és hátfalon:\nszilikon gumi\nKerekek\nGumi kerekek, rozsdamentes acél golyóscsapágyakkal\nA vezetősínen műanyag kerekek \nÖsszetolt fedés hossza: szegmenshossz + 100 mm\nSínek\nLapos, egypályás vezetősínek (14/70 mm) - a legnagyobb \nvagy a legkisebb elem alatt, eloxált színben\nA többi szegmens sín nélküli, gumi kerekeken gurul\nHomlokfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nVégfal\nFix emelt 50 mm-es gumitömítéssel (10 mm-es \nmedenceperemig)\nSzegmens pozicionálás\nManuális arretálás marokcsavaros rögzítéssel\nFigyelem: Alapkivitelben a szerkezet nem zárható kulccsal.\nRENDELHETŐ KIEGÉSZÍTŐK\nSínhosszabbítás ( EUR / m oldalanként)\negypályás vezetősín – 70 mm széles .................................52,-\nMagasság eltérés\nKérésre, egyeztetés alapján\nSzegmenszár\nZárható marokcsavarok (darabonként )...............................49,-\nEltolható oldalajtó\n(Csak a legnagyobb szegmensre)......................................655,-\nHomlokfal kialakítás\nFix emelt 70 mm-es gumitömítéssel\n(30 mm-es medenceperemig)................................. felár nélkül\nFix emelt 100 mm-es gumitömítéssel\n(60 mm-es medenceperemig................................... felár nélkül\n120/150/180 mm magas felnyitható küszöb\n(90/120/150 mm-es medenceperemig)............................244,-\n400 mm magas üvegezett felnyíló.....................................710,-\nNyíló vagy tolóajtó...............................................................655,-\nEgyedi porfestés\nSpeciális színű bordák (RAL) ............................................ +15%\nKülönleges felosztás\n+1 szegmens a normál szegmenskiosztáshoz képest .............\nAz adott szélességű, alapkivitelben a kért szegmensszámmal\nrendelkező, legrövidebb fedés áráért\n*UV védelem mindkét oldalon, 3,0/3,5/4,0 mm vastagság a modell  típusától és geometriájától függően.\nCHARISMA\n"
+    },
+    {
+      "page": 16,
+      "text": "16      \nGALAXY I (standard)\b\nFix medencefedés\nTömör és üregkamrás  \npolikarbonát üvegezés\nA Galaxy modell fix telepítésű, sín nélküli medencefedés. A homlokfal alapkivitelben \ndupla tolóajtóval szerelt, az oldalfalak osztottan, 2 m magasságig felnyithatók.\nA fedés szegmenseinek hossza fix.\nA táblázat szerinti köztes méretek is rendelhetők egy szegmens lerövidítésével, az adott szegmensszámnak megfelelő ár figyelembevételével.\n10 méteres szélesség feletti fedések - Galaxy P170 és Galaxy P195 - rendelése külön egyeztetés alapján lehetséges akár 16 m-ig.\n** A lefedés hossza az IRIS végfal nélküli hosszat jelenti!\nAlapkivitel\nVázszerkezet \nszíne \nPorfestett\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nÜvegezés 10mm-es polikarbonát a \ntetőn;  \nTömör polikarbonát az oldalfalakon, a \nhomlok és végfalon\nHomlokfal\nVégfal\nOldalfalak\nfix, dupla tolóajtóval\nfix, ajtó nélkül\nkét részben felnyitható\nRendelhető kiegészítők\nOldalsó tolóajtó (küszöb-\nbel)\na szegmens felnyitható \noldalajtaja helyett\n1038,-\nKiegészítő tolóajtó a \nvégfalon \nszimpla\ndupla\n590,-\n983,-\nFamintázatú felületke-\nzelés \nEgyedi RAL szín\n+20%\n+15% \nIris ** homlokfal\n5,5 - 6,5 m\n6,6 - 8,0 m\n4892,-\n6159,-\nFolder homlokfal\nharmonika ajtó\n371 EUR/fm* \n* a fedés szélessé-\ngének függvényében \nmax 6,5 m\nIRIS\nFOLDER\nGalaxy P100\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott termék cseréje nem \nlehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, \naz esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n4 szegmens\n5 szegmens\n6 szegmens\n7 szegmens\n8 szegmens\n9 szegmens\n10 szegmens\n8,59\n10,72\n12,85\n14,98\n17,11\n19,24\n21,37\n5,50\n15029\n17436\n19839\n22246\n24648\n27054\n29437\n2,57\n6,00\n15635\n18137\n20640\n23140\n25642\n28144\n30647\n2,60\n6,50\n16242\n18842\n21440\n24039\n26638\n29234\n31834\n2,62\n7,00\n16919\n19626\n22335\n25038\n27749\n30454\n33159\n2,64\n7,50\n17584\n20400\n23212\n26026\n28838\n31651\n34466\n2,66\n8,00\n18245\n21163\n24084\n27004\n29922\n32841\n35758\n2,68\n8,50\n18882\n21903\n24923\n27945\n30964\n33985\n37006\n2,70\n9,00\n19600\n22736\n25871\n29010\n32143\n35262\n38416\n2,72\n9,50\n20289\n23536\n26781\n30028\n33272\n36520\n39766\n2,75\n10,00\n21062\n24432\n27803\n31172\n34542\n37912\n41283\n2,77\n"
+    },
+    {
+      "page": 17,
+      "text": "       17\nGALAXY II (falcsatlakozással)\n** A lefedés hossza az IRIS végfal nélküli hosszat jelenti!\nRendelhető kiegészítők\nOldalsó tolóajtó\n(küszöbbel)\na szegmens felnyitható \noldalajtaja helyett\n1038,-\nKiegészítő tolóajtó a \nvégfalon \nszimpla\ndupla\n590,-\n983,-\nFamintázatú felület-\nkezelés \nEgyedi RAL szín\n+20%\n+15%\nFolder homlokfal\nharmonika ajtó\n371 EUR/fm*  –\n* a fedés szélességének \nfüggvényében max 6,5 m\nFix medencefedés\nTömör és üregkamrás \npolikarbonát üvegezés\nA Galaxy modell fix telepítésű, sín nélküli medencefedés. A homlokfal alapkivitelben \na fedés szélességétől függően szimpla vagy dupla tolóajtóval szerelt. Az oldalfalak \nosztottan 2 m magasságig felnyithatók.\nA fedés szegmenseinek hossza fix.\nA táblázat szerinti köztes méretek is rendelhetők egy szegmens lerövidítésével, az adott szegmensszámnak megfelelő ár figyelembevételével.\nAlapkivitel\nVázszerkezet \nszíne \nPorfestett\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nÜvegezés 10mm-es polikarbonát \na tetőn;  \nTömör polikarbonát az oldalfala-\nkon, a homlok és végfalon\nHomlokfal\nVégfal\nOldalfalak\nfix, dupla tolóajtóval\nfix, ajtó nélkül\nkét részben felnyitható\nAz AQUACOMET \nmedencefedések \negyedi \nfelmérés \nalapján \nkészülnek, \nezért \na \nvisszaigazolt \nvázlatrajzzal \negyező, \nlegyár-\ntott termék cseréje nem lehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. ápri-\nlis 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n4 szegmens\n5 szegmens\n6 szegmens\n7 szegmens\n8 szegmens\n9 szegmens\n10 szegmens\n8,59\n10,72\n12,85\n14,98\n17,11\n19,24\n21,37\n3,50\n10622\n12321\n14020\n15722\n17421\n19119\n20820\n2,63\n4,00\n11547\n13395\n15243\n17090\n18937\n20784\n22632\n2,68\n4,50\n12560\n14568\n16579\n18590\n20598\n22609\n24618\n2,72\n5,00\n13668\n15854\n18041\n20230\n22414\n24600\n26787\n2,77\n5,50\n14870\n17250\n19629\n22008\n24386\n26767\n29146\n2,81\n6,00\n15470\n17946\n20421\n22895\n25373\n27845\n30322\n2,85\n6,50\n16060\n18631\n21200\n23768\n26338\n28909\n31478\n2,90\n7,00\n16734\n19414\n22093\n24767\n27447\n30124\n32802\n2,94\n"
+    },
+    {
+      "page": 18,
+      "text": "18      \nGALAXY III (meghosszabbított falcsatlakozással)\nFix medencefedés\nTömör és üregkamrás \npolikarbonát üvegezés\nA Galaxy modell fix telepítésű, sín nélküli medencefedés. A homlokfal alapkivitelben \na fedés szélességétől függően szimpla vagy dupla tolóajtóval szerelt. Az oldalfalak \nosztottan 2 m magasságig felnyithatók.\nA fedés szegmenseinek hossza fix.\nA táblázat szerinti köztes méretek is rendelhetők egy szegmens lerövidítésével, az adott szegmensszámnak megfelelő ár figyelembevételével.\nA GALAXY fedéshez egyéb kiegészítők nem rendelhetők!\n** A lefedés hossza az IRIS végfal nélküli hosszat jelenti!\nAlapkivitel\nVázszerkezet \nszíne \nPorfestett\nFehér - RAL 9010\nFehéralumínium - RAL 9006\nSzürkealumínium - RAL 9007\nAntracit szürke - RAL 7016\nMélyfekete - RAL 9005\nÜvegezés\nÜvegezés 10mm-es polikarbonát \na tetőn;  \nTömör polikarbonát az oldalfala-\nkon, a homlok és végfalon\nHomlokfal\nVégfal\nOldalfalak\nfix, dupla tolóajtóval\nfix, ajtó nélkül\nkét részben felnyitható\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott termék cseréje nem \nlehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, \naz esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nRendelhető kiegészítők\nOldalsó tolóajtó         \n(küszöbbel)\na szegmens felnyitható \noldalajtaja helyett\n1038,-\nKiegészítő tolóajtó a \nvégfalon \nszimpla\ndupla\n590,-\n983,-\nFa mintázatú felületke-\nzelés\nEgyedi RAL szín\n+20%\n+15%\nFolder homlokfal\nharmonika ajtó\n371 EUR/fm* \n* a fedés szélessé-\ngének függvényében \nmax 6,5 m\nSzélesség \n[m]\nHosszúság [m]\nMagasság \n[m]\n4 szegmens\n5 szegmens\n6 szegmens\n7 szegmens\n8 szegmens\n9 szegmens\n10 szegmens\n8,59\n10,72\n12,85\n14,98\n17,11\n19,24\n21,37\n5,50\n15462\n17937\n20411\n22883\n25355\n27831\n30305\n2,57\n6,00\n16129\n18709\n21290\n23870\n26451\n29031\n31614\n2,60\n6,50\n16770\n19453\n22138\n24822\n27503\n30188\n32870\n2,62\n7,00\n17454\n20247\n23037\n25833\n28625\n31414\n34210\n2,64\n7,50\n18120\n21019\n23919\n27814\n30816\n33816\n36815\n2,66\n8,00\n18807\n21816\n24826\n27834\n30843\n33852\n36860\n2,68\n8,50\n19475\n22592\n25706\n28823\n31940\n35056\n38171\n2,70\n9,00\n20633\n23935\n27232\n30536\n33835\n37136\n40438\n2,72\n9,50\n20928\n24280\n27626\n30973\n34323\n37672\n41020\n2,75\n10,00\n21726\n25102\n28679\n32155\n35632\n39106\n42585\n2,77\n"
+    },
+    {
+      "page": 19,
+      "text": "       19\n\b\nRONDO\nKupola  formájú \nmasszázsmedence fedés\nA Rondo fix telepítésű, kupola formájú medencefedés,  \nami 180°-ban kinyitható!\nA RONDO fedések mérete fix.\nA táblázatban szereplőktől eltérő méret nem rendelhető!\nÜvegezés: 3 mm-es tömör polikarbonát lemez\nÜregkamrás polikarbonát üvegezés : alapár -12%\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott termék cseréje nem \nlehetséges. A fedés szélessége a bordák külső széleinél mért távolság. Az árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, \naz esetleges hibákért vagy elírásokért felelősséget nem vállalunk. \nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFA-t nem tartalmazzák.\nModell\nKülső átmérő (m)\nBelsõ átmérõ (m)\nÁr \nMagasság \n(m)\nRondo 350\n3,75\n3,49\n6655\n2,30\nRondo 400\n4,14\n3,88\n7712\n2,50      \nRondo 450\n4,75\n4,49\n7712\n2,30\n"
+    },
+    {
+      "page": 20,
+      "text": "20      \nSpeciális modellek \nPavilon formájú medencefedés \nTömör polikarbonát üvegezés\nAz AQUACOMET medencefedések egyedi felmérés alapján készülnek, ezért a visszaigazolt vázlatrajzzal egyező, legyártott fedések cseréje nem \nlehetséges.\nA fedés szélessége a sínpályák külső élénél mért távolság. A táblázat szerinti köztes méretek rendelhetők, a következő érték figyelembevételével.\nAz árak 2026. április 15-től érvényesek. A közölt árak tájékoztató jellegűek, az esetleges hibákért vagy elírásokért felelősséget nem vállalunk.\nA műszaki tartalom és az árak megváltoztatásának jogát fenntartjuk. Az árak a 27% felszámítandó ÁFÁ-t nem tartalmazzák!\nFalra szerelt lefedés\nÜregkamrás vagy tömör polikarbonát üvegezés\nTrapéz keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nAlacsony, trapéz keresztmetszetű lefedés\nTömör polikarbonát üvegezés\nCREATIVE\nVISUAL\nVISUAL FLAT\nPRACTIC\nAz itt felsorolt modellek egyedi árazással rendelhetők!\n"
+    },
+    {
+      "page": 21,
+      "text": "       21\nAJÁNLATKÉRŐ\b\nAQUACOMET 2026\nDátum:...........................................\n* : kérjük húzza alá\n                  aláírás, pecsét ...........................................................\nHomlokfal:\nMozgatás iránya\nSín\nSín\nSzegmens sorszáma\nSzegmens hossza\nVevő neve: .........................................................................  Tel.: ..................................................\nIrsz., város: ....................................................  Utca, házszám: ..............................................................\nTípus: ..........................................................   Hossz: ..........................  mm  Szegmensszám: .............\nAkadály (medenceperem, létra stb.):        ...............................................    Magassága: ..................... mm\nSín külméret A= .................. mm     Sín belméret B= ................ mm     Magasság:  ...................... mm\nSzegmenskiosztás:\nAlapadatok:\nVégfal:\nfehéralumínium (RAL 9006)\nProfilszín:\nszürkealumínium (RAL 9007)  \nfehér  (RAL 9010)\nantracit (RAL 7016)\nfekete (RAL 9005)\negyéb:          famintázatú*/ RAL ............... \n  \nSzállítás és szerelés:\nSzállítás saját szállítóeszközzel\nSaját szerelés\nfix-emelt - 50..75..100* mm-es gumival\n120..150..180* mm-es felnyíló küszöbbel\n120..150..180* mm-es felnyíló küszöbbel\n............mm-es üvegezett felnyílóval\nfix  (a szegmens is fix)\n400 mm-es üvegezett  felnyílóval\nnyíló ajtóval\ntolóajtóval\n........... darabban levehető \negyéb ..........................................\nzsanér bal oldalon \njobb oldalon\nfix-emelt - 50..75..100* mm-es gumival\n............mm-es üvegezett felnyílóval\nfix  (a szegmens is fix)\n400 mm-es üvegezett  felnyílóval\nnyíló ajtóval\ntolóajtóval\n........... darabban levehető \negyéb ..........................................\nzsanér bal oldalon \njobb oldalon\nFogadófelület:\nbeton\negyéb ...........................................\nfa\nüregkamrás polikarbonát\nÜvegezés:\nvíztiszta polikarbonát lemez\nOpcionális felszereltség\nSínhosszabítás:       2x ............................. mm\nOldalsó tolóajtó         (kérjük a helyét jelölje be a szegmenskiosztás ábráján!) \nSínelhelyező keret:  2x ............................. mm\nSüllyesztett sínek (beépítőkeret nélkül):\nZárható szegmensek:\n"
+    },
+    {
+      "page": 22,
+      "text": "22      \nKiegészítő felszerelések \b\nSínhosszabbítás\nSzuperlapos sín\n(12 mm magas)\nFt/m oldalanként\n2-részes 120 mm (szélesség)\n3-részes 188 mm\n4-részes 256 mm\n5-részes 325 mm\n6-részes 393 mm\n38 EUR\n55 EUR\n71 EUR\n77 EUR\n82 EUR\nLapos sín\n(20 mm magas)\nFt/m oldalanként\n2-részes 108 mm (szélesség)\n3-részes 198 mm\n4-részes 288 mm\n5-részes 378 mm\n6-részes 468 mm\n43 EUR\n60 EUR\n78 EUR\n84 EUR\n90 EUR\nSínelhelyező keret a \nszuperlapos sínhez\nFt/m oldalanként\n(Szállítási költség \nnélküli ár)\n3-részes\n4-részes\n5-részes\n6-részes\n17 EUR\n20 EUR\n24 EUR\n27 EUR\nMagasítás / Emelt előtér\nEltérés a standard \nmagasságtól\n30 cm-ig\n \n30 cm felett\n+5 % az alapárra\n+10 % az alapárra\nEmelt előtér\n(Kb 2 – 2.2 m)\nLok\n+15% az alapárra\nBiztonság\nCsavarok\nEur/m oldalanként\n6 x 100 mm\n6 x 150 mm\n4 EUR\n5 EUR\nZárható  \nszegmensek\nAutomata arretálásnál\n66 EUR / szegmens\nAz Aquacomet Kft. a fedések gyártójaként folyamatosan fejleszti termékeit. Emiatt fenntartjuk azon műszaki tartalom változtatásának jogát, mely nem befolyásolja az \nalapvető funkciókat és paramétereket.\n"
+    },
+    {
+      "page": 23,
+      "text": "       23\nAquacomet 2026\nHomlok- és végfal megoldások\nLevehető\nEur/m (szélesség)\nAz egész homlok- vagy végfal\n - egyben levehető\n - több darabban levehető\n82 EUR/m\n104 EUR/m\nFelnyitható\nA végfal alsó része 40 cm ma-\ngasan felnyitható, alján 5-10 cm \nszilikongumival\n645 EUR\nFelnyitható küszöb\n \n15-18 cm magas felnyitható \nküszöb, 6 m szélességig\n311 EUR\nNyíló ajtó vagy eltol-\nható ajtó a végfalon \nvagy az egyenes \noldalfalon\nNyíló ajtó\nEltolható ajtó\n590 EUR\n590 EUR\nEltolható oldalajtó\nCsak a legnagyobb szegmens-\nnél!\n 590 EUR\nRendelhető kiegészítők\nTömör polikarbonát \nüvegezés (üregkamrás \nhelyett) Eur/m2\n \nA homlok- és végfalon \n31 EUR/m2\nSpeciális színű bordák\n(RAL színskálából \nválasztható)\nFamintázatú dekor fólia\nLekerekített profilhoz\n \n+15% az alapárra\n \n+20 % alapárra\nKülönleges felosztás\n+1 szegmens a normál szeg-\nmenskiosztáshoz képest\ntöbb mint 1 plusz szegmens\nAz adott szélességű, alapkivi-\ntelben a kért szegmensszám-\nmal rendelkező, legrövidebb \nfedés áráért \negyeztetés szükséges!\nAz Aquacomet Kft. a fedések gyártójaként folyamatosan fejleszti termékeit. Emiatt fenntartjuk azon műszaki tartalom változtatásának jogát, mely nem befolyásolja az \nalapvető funkciókat és paramétereket.\n"
+    },
+    {
+      "page": 24,
+      "text": "24      \nAz AQUACOMET Kft. szállítási és értékesítési feltételei\nSzállítás és szerelés\nAquacomet 2026   \b\nI. Általános feltételek\n1.\t Az Aquacomet Kft. az alábbiakban leírt feltételek alapján \nvégzi ajánlattételi, szolgáltatási, és szállítási tevékenységét. \nAmennyiben a megrendelő ezen feltételeken változtatni \nkíván, úgy ezt a megrendelést megelőzően írásban kérheti \nés ez csak akkor lép életbe, ha azt az Aquacomet Kft. \nírásban jóváhagyja.\n2.\t Ajánlatainkat mindenfajta kötelezettség nélkül adjuk \nmeg. Fenntartjuk a jogot az ajánlati rajzokon feltüntetett \nadatok, mûszaki megoldások előzetes bejelentés nélküli \nmegváltoztatására. Az árajánlatban valamint az ajánlati \nrajzokon megadott adatok és kiviteli megoldások \nvállalkozásunk szellemi tulajdondonát képezik, azokat \nharmadik fél számára írásos engedélyünk nélkül \nkiszolgáltatni nem szabad.\n3.\t A megrendelő az úszómedence lefedés megrendelésekor \naz áru vagy szolgáltatás előzetes kívánt szállítási \nhatáridejét közli. A megrendelést vállalkozásunk írásban \nvisszaigazolja, ez azonban nem jelenti az áru vagy \nszolgáltatás előzetesen kért határidejének elfogadását. A \npontos, kért szállítási határidőt a megrendelő akkor jelzi, \namikor a telepítés helye kész az úszómedence lefedés \nfogadására. A végleges szállítási – esetlegesen szerelési \nhatáridőt ezt követően írásban közöljük.\n4.\t A megrendelő  köteles a megrendelés visszaigazolását \nellenőrizni. Amennyiben a visszaigazolásban foglaltakkal \nszemben írásbeli kifogással nem él, úgy azt elfogadottnak \ntekintjük.\n5.\t Esetleges változtatási kívánságokat – ha még a gyártás \nnem kezdődött meg – törekszünk kielégíteni. Ha a \ngyártás már megkezdődött, a felmerült többletköltséget \na megrendelővel közöljük és a változtatást csak akkor \nhajtjuk végre, ha a megrendelő a többletköltséget \nelfogadta. A gyártás közbeni változtatás a szállítási \nhatáridő meghosszabodását is jelentheti.\nII. Fizetési feltételek\n1.\t Az árakat Ft-ban adjuk meg.\n2.\t A vételár 40 %- át megrendeléskor átutalással,  a hátralévő \nrészt legkésőbb a szállításkor a helyszínen kell kifizetni. \nAz árut a megrendelő, vagy az írásos meghatalmazással \nrendelkező megbízottja veszi át és fizeti ki a helyszínen. \nAmennyiben ettől eltérő írásos megállapodás a felek \nközött nincsen, az úszómedence lefedés szerelése csak \nakkor kezdődik meg, ha előzően az áru teljes vételára \nkiegyenlítést nyert.\n3.\t A megrendelő nem jogosult a fizetést megtagadni, \nha a leszállított árun vélt vagy valós hibát észlel. Ezt \nvállalkozásunk felé szóban vagy írásban kell jelezni, melyet \nvagy melyeket jelen szállítási feltételekben rögzített \nmódon, garanciális vagy szavatossági kötelezettségünk \nalapján, soron kívül kijavítunk.\n4.\t Fizetési \nkésedelem \nesetén, \na \nhelyszínen \ntörténő \nmegállapodás után jogosultak vagyunk - legfeljebb 6 \nmunkanapra szóló - fizetési póthatáridőt megállapítani, \nmelynek letelte után a letelepített úszómedence lefedést \nminden külön értesítés nélkül elszállíthatjuk.  A nemfizetés \nmiatti elszállítást a felhasználó tûrni köteles. A keletkezett \nveszteségeinkért fenntartjuk kártérítési jogunkat.\nIII. Szállítás, szerelés, mennyiségi és mûszaki átvétel \n1.\t\nAmennyiben a szállítás vállalkozásunk tehergépkocsijával \ntörténik, a szállítási kockázat vállalkozásunkat terheli. A \nmennyiségi és minő­ségi átvétel ebben az esetben a meg-\nrendelésben megadott címen történik.\n2.\t\nAmennyiben a szállítást a megrendelő végzi,  a mennyiségi \nés minőségi átvétel a telephelyünkön történik. Az átvétel \nután minden kockázatot a szállító visel.\n3.\t\nAz átvételt követően - történjék az a vállalkozásunk \ntelephelyén vagy a megrendelő által megadott címen - az \nesetleges mûszaki kifogásokat azonnal írásban rögzíteni \nkell. Az átvételt vélt vagy valós kifogás miatt megtagadni \nnem lehet. Az átvétel megtörténte a szerződés teljesítését \nis jelenti.\n4.\t\nAz úszómedence lefedést többségében 2 fő szereli. Ha a \ntelepítés helye nehezen megközelíthető vagy a lefedés a \nmérete miatt súlyos, a telepítéshez a megrendelő köteles \nsaját költségén segéderőt biztosítani.\n5.\t\nAz összes árut tulajdonjogunk fenntartásával szállítjuk, és \nazok teljes kifizetéséig tulajdonunkban maradnak.\nIV. Garancia\n1.\t\nAz Aquacomet Kft. a leszállított medencelefedés \nanyagaira és gyártási munkálataira 3 éves garanciát vállal. \nA garancia az átvétel napján kezdődik. A felületképző \nanyagokra /üvegezés/ vonatkozó garancia az azt előállító \ncég garanciája alapján biztosított, mely degresszív jellegû, \náltalában 10 év /jégverésre 5 év/.\n2.\t\nA garancia csak  a medencelefedés előírásszerû használata \nesetén érvényes. Megszûnik a garancia, ha a felhasználó \na lefedést nem védi meg a hónyomástól. Az Aquacomet \náltal gyártott lefedések folyamatos szélvédelemmel vannak \nellátva, de a biztosítási határérték feletti viharos szélerőnél \n/15m/sec./ garanciális kötelezettségünk megszûnik.\n3.\t\nA szakszerûtlen vagy hanyag kezelés miatt keletkezett \nmeghibásodások nem tartoznak a garancia körébe.\n\t\n   \t\n\t\nAQUACOMET Kft.\nSzállítás: Telephelyünktől számítva, oda-vissza útra értendő: 1,4 EUR / km, de minimum 175 EUR.\nMérettől függően a lerakodásnál szükség lehet 1 vagy 2 fő segítségére.\nHelyszíni szerelés: A medencefedés árának 6%-a, Zenith és Galaxy típusnál 8%. \nA lefedés helyszíni szereléséhez teljesen vízszintes, sík, burkolt vagy simított betonfelület szükséges.\n"
+    },
+    {
+      "page": 25,
+      "text": "       25\n\b\nJegyzet\n"
+    },
+    {
+      "page": 26,
+      "text": "A képek illusztrációk. A műszaki tartalom megváltoztatásának jogát fenntartjuk. Nyomdai hibákért nem vállalunk felelősséget. \n"
+    }
+  ]
+}

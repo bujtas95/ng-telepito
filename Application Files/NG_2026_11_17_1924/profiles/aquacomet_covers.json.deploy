@@ -1,0 +1,203 @@
+// Kinyerési profil: Aquacomet medencefedés árlista (EUR, nettó), a 2026. április 15-i kiadás alapján.
+// A modellek oldalát a tartalomjegyzék (2–3. oldal) adja. Az ártábla soronként egy szélesség, oszloponként egy
+// „Maximális hosszúság”; a köztes méret a következő nagyobb sor/oszlop ára (a felhasználó jóváhagyásával).
+// Az opciók a modell oldalán (Charisma: a következő oldalon) szereplő felárak; a kinyerő mindet megkeresi az oldalon,
+// a nyomtatott alakjukkal („printed”), és ha nem találja, az árlista nem tehető közzé.
+// Szerelés: a fedés árának 6%-a, Zenith és Galaxy típusnál 8%-a (24. oldal). Szállítás: 1,4 EUR/km oda-vissza, legalább 175 EUR.
+// Az általános felárak (22–23. oldal: magasítás, emelt előtér, RAL szín, famintázat) a klasszikus modellekhez tartoznak;
+// a Charisma és a Galaxy saját oldalán szereplő kiegészítők az övéik („A GALAXY fedéshez egyéb kiegészítők nem rendelhetők!”).
+{
+  "name": "Aquacomet medencefedés",
+  "category": "Medencefedések",
+  "currency": "EUR",
+  "tables": [],
+  "grids": {
+    "contentsPages": [2, 3],
+    "transport": { "page": 24, "perKm": 1.4, "minimum": 175, "label": "Szállítás (oda-vissza, legalább 175 EUR)", "printed": "1,4 EUR / km, de minimum 175 EUR" },
+    "models": [
+      {
+        "key": "horizon", "code": "HORIZON", "name": "Horizon medencefedés", "contents": "^Horizon$", "installationPercent": 6,
+        "note": "Szuperlapos medencefedés tömör polikarbonát üvegezéssel. 5,50 m-nél szélesebb nem rendelhető; tolóajtó nem rendelhető. Alapfelszereltség: 150–180 mm felnyitható küszöb a homlokfalon.",
+        "options": [
+          { "key": "height_30", "label": "Magasítás a standard magasságtól 30 cm-ig", "page": 22, "percent": 5, "printed": "+5 %" },
+          { "key": "height_over_30", "label": "Magasítás 30 cm felett", "page": 22, "percent": 10, "printed": "+10 %" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 23, "percent": 15, "printed": "+15%" },
+          { "key": "wood", "label": "Famintázatú dekor fólia", "page": 23, "percent": 20, "printed": "+20 %" }
+        ]
+      },
+      {
+        "key": "horizon_high", "code": "HORIZON_HIGH", "name": "Horizon High medencefedés", "contents": "^Horizon High$", "installationPercent": 6,
+        "note": "Szuperlapos medencefedés tömör polikarbonát üvegezéssel. 6,25 m-nél szélesebb nem rendelhető. 2 bordás kivitelnél az 1. elem 3 bordásra készül.",
+        "options": [
+          { "key": "side_door", "label": "Eltolható oldalajtó", "price": 814, "printed": "814 EUR" },
+          { "key": "height_30", "label": "Magasítás a standard magasságtól 30 cm-ig", "page": 22, "percent": 5, "printed": "+5 %" },
+          { "key": "height_over_30", "label": "Magasítás 30 cm felett", "page": 22, "percent": 10, "printed": "+10 %" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 23, "percent": 15, "printed": "+15%" },
+          { "key": "wood", "label": "Famintázatú dekor fólia", "page": 23, "percent": 20, "printed": "+20 %" }
+        ]
+      },
+      {
+        "key": "zenith_standard_clear", "code": "ZENITH_STANDARD_CLEAR", "name": "Zenith Standard Clear medencefedés", "contents": "^Zenith Standard Clear$", "installationPercent": 8,
+        "note": "Körív keresztmetszetű lefedés, tömör polikarbonát üvegezés. 5,50 m-nél szélesebb nem rendelhető.",
+        "options": [
+          { "key": "thermo", "label": "Zenith Thermo: üregkamrás polikarbonát üvegezés", "percent": -12, "printed": "-12%" },
+          { "key": "side_door", "label": "Eltolható oldalajtó", "price": 590, "printed": "590 EUR" },
+          { "key": "height_30", "label": "Magasítás a standard magasságtól 30 cm-ig", "page": 22, "percent": 5, "printed": "+5 %" },
+          { "key": "height_over_30", "label": "Magasítás 30 cm felett", "page": 22, "percent": 10, "printed": "+10 %" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 23, "percent": 15, "printed": "+15%" },
+          { "key": "wood", "label": "Famintázatú dekor fólia", "page": 23, "percent": 20, "printed": "+20 %" }
+        ]
+      },
+      {
+        "key": "zenith_flat_clear", "code": "ZENITH_FLAT_CLEAR", "name": "Zenith Flat Clear medencefedés", "contents": "^Zenith Flat Clear$", "installationPercent": 8,
+        "note": "Kosárgörbe keresztmetszetű lefedés, tömör polikarbonát üvegezés. 5,50 m-nél szélesebb nem rendelhető.",
+        "options": [
+          { "key": "thermo", "label": "Zenith Thermo: üregkamrás polikarbonát üvegezés", "percent": -12, "printed": "-12%" },
+          { "key": "side_door", "label": "Eltolható oldalajtó", "price": 590, "printed": "590 EUR" },
+          { "key": "height_30", "label": "Magasítás a standard magasságtól 30 cm-ig", "page": 22, "percent": 5, "printed": "+5 %" },
+          { "key": "height_over_30", "label": "Magasítás 30 cm felett", "page": 22, "percent": 10, "printed": "+10 %" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 23, "percent": 15, "printed": "+15%" },
+          { "key": "wood", "label": "Famintázatú dekor fólia", "page": 23, "percent": 20, "printed": "+20 %" }
+        ]
+      },
+      {
+        "key": "star_plus", "code": "STAR_PLUS", "name": "Star Plus medencefedés", "contents": "^Star Plus$", "installationPercent": 6,
+        "note": "Kosárgörbe keresztmetszetű lefedés, tömör polikarbonát üvegezés. Az eltolható oldalajtó az alapfelszereltség része.",
+        "options": [
+          { "key": "thermo", "label": "Star: üregkamrás polikarbonát üvegezés", "percent": -12, "printed": "-12%" },
+          { "key": "height_30", "label": "Magasítás a standard magasságtól 30 cm-ig", "page": 22, "percent": 5, "printed": "+5 %" },
+          { "key": "height_over_30", "label": "Magasítás 30 cm felett", "page": 22, "percent": 10, "printed": "+10 %" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 23, "percent": 15, "printed": "+15%" },
+          { "key": "wood", "label": "Famintázatú dekor fólia", "page": 23, "percent": 20, "printed": "+20 %" }
+        ]
+      },
+      {
+        "key": "sky", "code": "SKY", "name": "Sky medencefedés", "contents": "^Sky$", "installationPercent": 6,
+        "note": "Körív keresztmetszetű lefedés, tömör polikarbonát üvegezés. Az eltolható oldalajtó az alapfelszereltség része.",
+        "options": [
+          { "key": "thermo", "label": "Sun: üregkamrás polikarbonát üvegezés", "percent": -12, "printed": "-12%" },
+          { "key": "height_30", "label": "Magasítás a standard magasságtól 30 cm-ig", "page": 22, "percent": 5, "printed": "+5 %" },
+          { "key": "height_over_30", "label": "Magasítás 30 cm felett", "page": 22, "percent": 10, "printed": "+10 %" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 23, "percent": 15, "printed": "+15%" },
+          { "key": "wood", "label": "Famintázatú dekor fólia", "page": 23, "percent": 20, "printed": "+20 %" }
+        ]
+      },
+      {
+        "key": "harmonie_plus", "code": "HARMONIE_PLUS", "name": "Harmonie Plus medencefedés", "contents": "^Harmonie Plus$", "installationPercent": 6,
+        "note": "Magasított kosárgörbe keresztmetszetű lefedés, tömör polikarbonát üvegezés. Az eltolható oldal- vagy homlokfali ajtó az alapfelszereltség része.",
+        "options": [
+          { "key": "thermo", "label": "Harmonie: üregkamrás polikarbonát üvegezés", "percent": -12, "printed": "-12%" },
+          { "key": "height_30", "label": "Magasítás a standard magasságtól 30 cm-ig", "page": 22, "percent": 5, "printed": "+5 %" },
+          { "key": "height_over_30", "label": "Magasítás 30 cm felett", "page": 22, "percent": 10, "printed": "+10 %" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 23, "percent": 15, "printed": "+15%" },
+          { "key": "wood", "label": "Famintázatú dekor fólia", "page": 23, "percent": 20, "printed": "+20 %" }
+        ]
+      },
+      {
+        "key": "charisma_flat", "code": "CHARISMA_FLAT", "name": "Charisma Flat medencefedés", "contents": "^Charisma Flat$", "installationPercent": 6,
+        "note": "Nagy fesztávolságú, alacsony felépítésű medencefedés. A szélesség a profilok belső élei közötti méret; a külső szélesség legfeljebb 7,5 m. A * jelű méretek kérésre.",
+        "options": [
+          { "key": "rail_extension", "label": "Sínhosszabbítás (egypályás vezetősín, oldalanként)", "page": 13, "price": 52, "unit": "m", "printed": "52,-" },
+          { "key": "lock_screws", "label": "Zárható marokcsavar", "page": 13, "price": 49, "unit": "db", "printed": "49,-" },
+          { "key": "side_door", "label": "Eltolható oldalajtó (csak a legnagyobb szegmensre)", "page": 13, "price": 1082, "printed": "1082,-" },
+          { "key": "threshold", "label": "120/150/180 mm magas felnyitható küszöb", "page": 13, "price": 244, "printed": "244,-" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 13, "percent": 15, "printed": "+15%" }
+        ]
+      },
+      {
+        "key": "charisma", "code": "CHARISMA", "name": "Charisma medencefedés", "contents": "^Charisma$", "installationPercent": 6,
+        "note": "Nagy fesztávolságú, magas felépítésű medencefedés (2,4 m). A szélesség a profilok belső élei közötti méret; a külső szélesség legfeljebb 7 m. A * jelű méretek kérésre.",
+        "options": [
+          { "key": "rail_extension", "label": "Sínhosszabbítás (egypályás vezetősín, oldalanként)", "page": 15, "price": 52, "unit": "m", "printed": "52,-" },
+          { "key": "lock_screws", "label": "Zárható marokcsavar", "page": 15, "price": 49, "unit": "db", "printed": "49,-" },
+          { "key": "side_door", "label": "Eltolható oldalajtó (csak a legnagyobb szegmensre)", "page": 15, "price": 655, "printed": "655,-" },
+          { "key": "threshold", "label": "120/150/180 mm magas felnyitható küszöb", "page": 15, "price": 244, "printed": "244,-" },
+          { "key": "glazed_flap", "label": "400 mm magas üvegezett felnyíló", "page": 15, "price": 710, "printed": "710,-" },
+          { "key": "door", "label": "Nyíló vagy tolóajtó", "page": 15, "price": 655, "printed": "655,-" },
+          { "key": "ral", "label": "Speciális színű bordák (RAL)", "page": 15, "percent": 15, "printed": "+15%" }
+        ]
+      },
+      {
+        "key": "galaxy_1", "code": "GALAXY_I", "name": "Galaxy I (standard) medencefedés", "contents": "^Galaxy I\\.$", "installationPercent": 8,
+        "note": "Fix telepítésű, sín nélküli medencefedés; a homlokfal dupla tolóajtóval, az oldalfalak osztottan, 2 m magasságig felnyithatók. Köztes hossz egy szegmens lerövidítésével, a szegmensszám árán.",
+        "options": [
+          { "key": "side_door", "label": "Oldalsó tolóajtó (küszöbbel) a szegmens felnyitható oldalajtaja helyett", "price": 1038, "printed": "1038,-" },
+          { "key": "end_door_single", "label": "Kiegészítő tolóajtó a végfalon, szimpla", "price": 590, "printed": "590,-" },
+          { "key": "end_door_double", "label": "Kiegészítő tolóajtó a végfalon, dupla", "price": 983, "printed": "983,-" },
+          { "key": "iris_small", "label": "Iris homlokfal (5,5–6,5 m szélességig)", "price": 4892, "printed": "4892,-" },
+          { "key": "iris_large", "label": "Iris homlokfal (6,6–8,0 m szélességig)", "price": 6159, "printed": "6159,-" },
+          { "key": "folder", "label": "Folder homlokfal harmonika ajtó (max. 6,5 m)", "price": 371, "unit": "fm", "printed": "371 EUR/fm" },
+          { "key": "wood", "label": "Famintázatú felületkezelés", "percent": 20, "printed": "+20%" },
+          { "key": "ral", "label": "Egyedi RAL szín", "percent": 15, "printed": "+15%" }
+        ]
+      },
+      {
+        "key": "galaxy_2", "code": "GALAXY_II", "name": "Galaxy II (falcsatlakozással) medencefedés", "contents": "^Galaxy II\\. \\(falcsatlakozással\\)$", "installationPercent": 8,
+        "note": "Fix telepítésű, sín nélküli, falcsatlakozásos medencefedés; a homlokfal a szélességtől függően szimpla vagy dupla tolóajtóval. Köztes hossz egy szegmens lerövidítésével, a szegmensszám árán.",
+        "options": [
+          { "key": "side_door", "label": "Oldalsó tolóajtó (küszöbbel) a szegmens felnyitható oldalajtaja helyett", "price": 1038, "printed": "1038,-" },
+          { "key": "end_door_single", "label": "Kiegészítő tolóajtó a végfalon, szimpla", "price": 590, "printed": "590,-" },
+          { "key": "end_door_double", "label": "Kiegészítő tolóajtó a végfalon, dupla", "price": 983, "printed": "983,-" },
+          { "key": "folder", "label": "Folder homlokfal harmonika ajtó (max. 6,5 m)", "price": 371, "unit": "fm", "printed": "371 EUR/fm" },
+          { "key": "wood", "label": "Famintázatú felületkezelés", "percent": 20, "printed": "+20%" },
+          { "key": "ral", "label": "Egyedi RAL szín", "percent": 15, "printed": "+15%" }
+        ]
+      },
+      {
+        "key": "galaxy_3", "code": "GALAXY_III", "name": "Galaxy III (meghosszabbított falcsatlakozással) medencefedés", "contents": "^Galaxy III\\. \\(falcsatlakozással\\)$", "installationPercent": 8,
+        "note": "Fix telepítésű, sín nélküli, meghosszabbított falcsatlakozásos medencefedés. Köztes hossz egy szegmens lerövidítésével, a szegmensszám árán. Egyéb kiegészítő nem rendelhető.",
+        "options": [
+          { "key": "side_door", "label": "Oldalsó tolóajtó (küszöbbel) a szegmens felnyitható oldalajtaja helyett", "price": 1038, "printed": "1038,-" },
+          { "key": "end_door_single", "label": "Kiegészítő tolóajtó a végfalon, szimpla", "price": 590, "printed": "590,-" },
+          { "key": "end_door_double", "label": "Kiegészítő tolóajtó a végfalon, dupla", "price": 983, "printed": "983,-" },
+          { "key": "folder", "label": "Folder homlokfal harmonika ajtó (max. 6,5 m)", "price": 371, "unit": "fm", "printed": "371 EUR/fm" },
+          { "key": "wood", "label": "Famintázatú felületkezelés", "percent": 20, "printed": "+20%" },
+          { "key": "ral", "label": "Egyedi RAL szín", "percent": 15, "printed": "+15%" }
+        ]
+      },
+      {
+        "key": "rondo", "code": "RONDO", "name": "Rondo masszázsmedence-fedés", "contents": "^Rondo$", "installationPercent": 6,
+        "note": "Fix telepítésű, kupola formájú, 180°-ban kinyitható masszázsmedence-fedés, 3 mm-es tömör polikarbonát. A méret fix, más méret nem rendelhető.",
+        "items": [
+          { "key": "rondo_350", "label": "Rondo 350 (külső Ø 3,75 m, belső Ø 3,49 m, magasság 2,30 m)", "price": 6655 },
+          { "key": "rondo_400", "label": "Rondo 400 (külső Ø 4,14 m, belső Ø 3,88 m, magasság 2,50 m)", "price": 7712 },
+          { "key": "rondo_450", "label": "Rondo 450 (külső Ø 4,75 m, belső Ø 4,49 m, magasság 2,30 m)", "price": 7712 }
+        ],
+        "options": [
+          { "key": "thermo", "label": "Üregkamrás polikarbonát üvegezés", "percent": -12, "printed": "-12%" }
+        ]
+      },
+      {
+        "key": "special", "code": "VISUAL", "name": "Visual / Visual Flat / Creative / Practic medencefedés", "contents": "^Visual / Visual Flat / Creative / Practic$",
+        "custom": "A speciális modellek (Visual, Visual Flat, Creative, Practic) egyedi árazással rendelhetők: ajánlatkérő a 20. oldalon. Add meg egyedi árként."
+      }
+    ],
+    "accessories": [
+      { "code": "rail_extension_superflat_2", "name": "Sínhosszabbítás – szuperlapos sín, 2-részes (120 mm)", "page": 22, "price": 38, "unit": "m/oldal", "printed": "38 EUR" },
+      { "code": "rail_extension_superflat_3", "name": "Sínhosszabbítás – szuperlapos sín, 3-részes (188 mm)", "page": 22, "price": 55, "unit": "m/oldal", "printed": "55 EUR" },
+      { "code": "rail_extension_superflat_4", "name": "Sínhosszabbítás – szuperlapos sín, 4-részes (256 mm)", "page": 22, "price": 71, "unit": "m/oldal", "printed": "71 EUR" },
+      { "code": "rail_extension_superflat_5", "name": "Sínhosszabbítás – szuperlapos sín, 5-részes (325 mm)", "page": 22, "price": 77, "unit": "m/oldal", "printed": "77 EUR" },
+      { "code": "rail_extension_superflat_6", "name": "Sínhosszabbítás – szuperlapos sín, 6-részes (393 mm)", "page": 22, "price": 82, "unit": "m/oldal", "printed": "82 EUR" },
+      { "code": "rail_extension_flat_2", "name": "Sínhosszabbítás – lapos sín, 2-részes (108 mm)", "page": 22, "price": 43, "unit": "m/oldal", "printed": "43 EUR" },
+      { "code": "rail_extension_flat_3", "name": "Sínhosszabbítás – lapos sín, 3-részes (198 mm)", "page": 22, "price": 60, "unit": "m/oldal", "printed": "60 EUR" },
+      { "code": "rail_extension_flat_4", "name": "Sínhosszabbítás – lapos sín, 4-részes (288 mm)", "page": 22, "price": 78, "unit": "m/oldal", "printed": "78 EUR" },
+      { "code": "rail_extension_flat_5", "name": "Sínhosszabbítás – lapos sín, 5-részes (378 mm)", "page": 22, "price": 84, "unit": "m/oldal", "printed": "84 EUR" },
+      { "code": "rail_extension_flat_6", "name": "Sínhosszabbítás – lapos sín, 6-részes (468 mm)", "page": 22, "price": 90, "unit": "m/oldal", "printed": "90 EUR" },
+      { "code": "rail_frame_3", "name": "Sínelhelyező keret szuperlapos sínhez, 3-részes (szállítás nélkül)", "page": 22, "price": 17, "unit": "m/oldal", "printed": "17 EUR" },
+      { "code": "rail_frame_4", "name": "Sínelhelyező keret szuperlapos sínhez, 4-részes (szállítás nélkül)", "page": 22, "price": 20, "unit": "m/oldal", "printed": "20 EUR" },
+      { "code": "rail_frame_5", "name": "Sínelhelyező keret szuperlapos sínhez, 5-részes (szállítás nélkül)", "page": 22, "price": 24, "unit": "m/oldal", "printed": "24 EUR" },
+      { "code": "rail_frame_6", "name": "Sínelhelyező keret szuperlapos sínhez, 6-részes (szállítás nélkül)", "page": 22, "price": 27, "unit": "m/oldal", "printed": "27 EUR" },
+      { "code": "screws_6x100", "name": "Biztonsági csavarok 6 x 100 mm", "page": 22, "price": 4, "unit": "m/oldal", "printed": "4 EUR" },
+      { "code": "screws_6x150", "name": "Biztonsági csavarok 6 x 150 mm", "page": 22, "price": 5, "unit": "m/oldal", "printed": "5 EUR" },
+      { "code": "lockable_segments", "name": "Zárható szegmensek automata arretálásnál", "page": 22, "price": 66, "unit": "szegmens", "printed": "66 EUR" },
+      { "code": "front_end_wall_removable_single", "name": "Homlok- vagy végfal egyben levehető", "page": 23, "price": 82, "unit": "m", "printed": "82 EUR/m" },
+      { "code": "front_end_wall_removable_multi", "name": "Homlok- vagy végfal több darabban levehető", "page": 23, "price": 104, "unit": "m", "printed": "104 EUR/m" },
+      { "code": "end_wall_liftable_lower", "name": "A végfal alsó része 40 cm magasan felnyitható", "page": 23, "price": 645, "unit": "db", "printed": "645 EUR" },
+      { "code": "liftable_threshold", "name": "15–18 cm magas felnyitható küszöb, 6 m szélességig", "page": 23, "price": 311, "unit": "db", "printed": "311 EUR" },
+      { "code": "swing_door_end_wall", "name": "Nyíló ajtó a végfalon vagy az egyenes oldalfalon", "page": 23, "price": 590, "unit": "db", "printed": "590 EUR" },
+      { "code": "sliding_door_end_wall", "name": "Eltolható ajtó a végfalon vagy az egyenes oldalfalon", "page": 23, "price": 590, "unit": "db", "printed": "590 EUR" },
+      { "code": "sliding_side_door_general", "name": "Eltolható oldalajtó (csak a legnagyobb szegmensnél)", "page": 23, "price": 590, "unit": "db", "printed": "590 EUR" },
+      { "code": "solid_pc_panels_front_end", "name": "Tömör polikarbonát üvegezés üregkamrás helyett a homlok- és végfalon", "page": 23, "price": 31, "unit": "m²", "printed": "31 EUR/m" }
+    ]
+  }
+}

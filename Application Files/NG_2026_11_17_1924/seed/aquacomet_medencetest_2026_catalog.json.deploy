@@ -1,0 +1,386 @@
+{
+  "catalog_metadata": {
+    "supplier": "Aquacomet",
+    "catalog_name": "Medencetest árak 2026",
+    "source_file": "medencetest_arlista_2026_apr-HU.pdf",
+    "effective_from": "2026-04-15",
+    "validity": "visszavonásig",
+    "currency": "EUR",
+    "price_basis": "net",
+    "vat_included": false,
+    "source_pages": 1,
+    "notes": [
+      "Az árak euróban értendők és az ÁFÁ-t nem tartalmazzák.",
+      "Az árlista az árváltoztatás jogát fenntartja.",
+      "A nyomdai hibákért a kibocsátó nem vállal felelősséget."
+    ]
+  },
+  "products": [
+    {
+      "code": "smart_370",
+      "name": "Smart 370",
+      "new": true,
+      "dimensions_m": {
+        "length": 3.9,
+        "width": 2.3,
+        "depth": 1.25
+      },
+      "water_surface_m2": 6.3,
+      "prices": {
+        "protector_monochrome_eur": 5887,
+        "ceramicline_monochrome_eur": 6771
+      }
+    },
+    {
+      "code": "pico_450",
+      "name": "Pico 450",
+      "dimensions_m": {
+        "length": 4.5,
+        "width": 2.5,
+        "depth": 1.4
+      },
+      "water_surface_m2": 9.6,
+      "prices": {
+        "protector_monochrome_eur": 6182,
+        "ceramicline_monochrome_eur": 7109
+      }
+    },
+    {
+      "code": "family_560",
+      "name": "Family 560",
+      "dimensions_m": {
+        "length": 5.6,
+        "width": 2.7,
+        "depth": 1.4
+      },
+      "water_surface_m2": 13.0,
+      "prices": {
+        "protector_monochrome_eur": 6979,
+        "ceramicline_monochrome_eur": 8026
+      }
+    },
+    {
+      "code": "sirius_550",
+      "name": "Sirius 550",
+      "dimensions_m": {
+        "length": 5.5,
+        "width": 3.0,
+        "depth": 1.5
+      },
+      "water_surface_m2": 14.0,
+      "prices": {
+        "protector_monochrome_eur": 7769,
+        "ceramicline_monochrome_eur": 8934
+      }
+    },
+    {
+      "code": "solaris_550",
+      "name": "Solaris 550",
+      "dimensions_m": {
+        "length": 5.5,
+        "width": 3.0,
+        "depth": 1.5
+      },
+      "water_surface_m2": 14.0,
+      "prices": {
+        "protector_monochrome_eur": 7265,
+        "ceramicline_monochrome_eur": 8356
+      }
+    },
+    {
+      "code": "olympia_620",
+      "name": "Olympia 620",
+      "dimensions_m": {
+        "length": 6.2,
+        "width": 3.3,
+        "depth": 1.5
+      },
+      "water_surface_m2": 18.2,
+      "prices": {
+        "protector_monochrome_eur": 8174,
+        "ceramicline_monochrome_eur": 9400
+      }
+    },
+    {
+      "code": "arcadia_l_600",
+      "name": "Arcadia L-600",
+      "new": true,
+      "source_marker": "*",
+      "dimensions_m": {
+        "length": 6.24,
+        "width": 3.3,
+        "depth": 1.5
+      },
+      "water_surface_m2": 18.2,
+      "prices": {
+        "protector_monochrome_eur": 8558,
+        "ceramicline_monochrome_eur": 9841
+      }
+    },
+    {
+      "code": "arcadia_r_600",
+      "name": "Arcadia R-600",
+      "dimensions_m": {
+        "length": 6.24,
+        "width": 3.3,
+        "depth": 1.5
+      },
+      "water_surface_m2": 18.2,
+      "prices": {
+        "protector_monochrome_eur": 8558,
+        "ceramicline_monochrome_eur": 9841
+      }
+    },
+    {
+      "code": "arcadia_700",
+      "name": "Arcadia 700",
+      "dimensions_m": {
+        "length": 7.24,
+        "width": 3.3,
+        "depth": 1.5
+      },
+      "water_surface_m2": 22.7,
+      "prices": {
+        "protector_monochrome_eur": 9236,
+        "ceramicline_monochrome_eur": 10622
+      }
+    },
+    {
+      "code": "atlantis_650",
+      "name": "Atlantis 650",
+      "dimensions_m": {
+        "length": 6.5,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 22.7,
+      "prices": {
+        "protector_monochrome_eur": 8761,
+        "ceramicline_monochrome_eur": 10073
+      }
+    },
+    {
+      "code": "taurus_650",
+      "name": "Taurus 650",
+      "dimensions_m": {
+        "length": 6.5,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 22.3,
+      "prices": {
+        "protector_monochrome_eur": 9374,
+        "ceramicline_monochrome_eur": 10779
+      }
+    },
+    {
+      "code": "minerva_710",
+      "name": "Minerva 710",
+      "dimensions_m": {
+        "length": 7.1,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 24.4,
+      "prices": {
+        "protector_monochrome_eur": 9932,
+        "ceramicline_monochrome_eur": 11423
+      }
+    },
+    {
+      "code": "uranus_750",
+      "name": "Uranus 750",
+      "dimensions_m": {
+        "length": 7.5,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 25.8,
+      "prices": {
+        "protector_monochrome_eur": 11123,
+        "ceramicline_monochrome_eur": 12792
+      }
+    },
+    {
+      "code": "aurora_l_750",
+      "name": "Aurora L-750",
+      "dimensions_m": {
+        "length": 7.5,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 25.8,
+      "prices": {
+        "protector_monochrome_eur": 10665,
+        "ceramicline_monochrome_eur": 12266
+      }
+    },
+    {
+      "code": "aurora_r_750",
+      "name": "Aurora R-750",
+      "dimensions_m": {
+        "length": 7.5,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 25.8,
+      "prices": {
+        "protector_monochrome_eur": 10665,
+        "ceramicline_monochrome_eur": 12266
+      }
+    },
+    {
+      "code": "avalon_760",
+      "name": "Avalon 760",
+      "dimensions_m": {
+        "length": 7.64,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 26.5,
+      "prices": {
+        "protector_monochrome_eur": 12172,
+        "ceramicline_monochrome_eur": 13999
+      }
+    },
+    {
+      "code": "stella_800",
+      "name": "Stella 800",
+      "new": true,
+      "dimensions_m": {
+        "length": 8.24,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 28.0,
+      "prices": {
+        "protector_monochrome_eur": 12287,
+        "ceramicline_monochrome_eur": 14377
+      }
+    },
+    {
+      "code": "pegasus_800",
+      "name": "Pegasus 800",
+      "dimensions_m": {
+        "length": 8.0,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 28.0,
+      "prices": {
+        "protector_monochrome_eur": 12402,
+        "ceramicline_monochrome_eur": 14526
+      }
+    },
+    {
+      "code": "erato_800",
+      "name": "Erato 800",
+      "dimensions_m": {
+        "length": 8.0,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 28.0,
+      "prices": {
+        "protector_monochrome_eur": 11592,
+        "ceramicline_monochrome_eur": 13578
+      }
+    },
+    {
+      "code": "erato_1000",
+      "name": "Erato 1000",
+      "dimensions_m": {
+        "length": 10.0,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 35.3,
+      "prices": {
+        "protector_monochrome_eur": 15142,
+        "ceramicline_monochrome_eur": 17736
+      }
+    },
+    {
+      "code": "aphrodite_800",
+      "name": "Aphrodite 800",
+      "dimensions_m": {
+        "length": 8.0,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 28.0,
+      "prices": {
+        "protector_monochrome_eur": 12024,
+        "ceramicline_monochrome_eur": 14084
+      }
+    },
+    {
+      "code": "aphrodite_900",
+      "name": "Aphrodite 900",
+      "dimensions_m": {
+        "length": 9.0,
+        "width": 3.8,
+        "depth": 1.5
+      },
+      "water_surface_m2": 31.7,
+      "prices": {
+        "protector_monochrome_eur": 13285,
+        "ceramicline_monochrome_eur": 15544
+      }
+    },
+    {
+      "code": "riverpool_1150",
+      "name": "Riverpool 1150",
+      "dimensions_m": {
+        "length": 11.5,
+        "width": 3.0,
+        "depth": 1.5
+      },
+      "water_surface_m2": 31.0,
+      "prices": {
+        "protector_monochrome_eur": 17098,
+        "ceramicline_monochrome_eur": 20027
+      }
+    }
+  ],
+  "options": [
+    {
+      "code": "delivery",
+      "name": "Szállítás",
+      "pricing_type": "distance_rate",
+      "price_eur_per_km": 2,
+      "minimum_charge_eur": 320,
+      "calculation_note": "Győrből oda-vissza; minimum 320 EUR."
+    },
+    {
+      "code": "glitter_3d_color",
+      "name": "3D csillámos szín felár",
+      "pricing_type": "percentage_surcharge",
+      "percentage": 7
+    },
+    {
+      "code": "stairs_side_support",
+      "name": "Lépcső és oldaltámasz",
+      "pricing_type": "fixed_per_unit",
+      "price_eur": 320,
+      "unit": "db"
+    }
+  ],
+  "price_columns": [
+    {
+      "key": "protector_monochrome_eur",
+      "label": "Protector ár, monokróm",
+      "finish": "monokróm"
+    },
+    {
+      "key": "ceramicline_monochrome_eur",
+      "label": "Ceramicline ár, monokróm",
+      "finish": "monokróm"
+    }
+  ],
+  "source_traceability": {
+    "products_source": "1. oldal, fő terméktáblázat",
+    "options_source": "1. oldal, Opciós elemek táblázat",
+    "visual_source_note": "A PDF oldalán a modellekhez tartozó kis medenceábrák is szerepelnek; ezek geometriai/formaazonosító vizuális elemek, nem kerültek gépi geometriaként rekonstruálásra."
+  }
+}

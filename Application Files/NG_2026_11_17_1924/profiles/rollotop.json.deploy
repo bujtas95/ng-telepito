@@ -1,0 +1,229 @@
+// Kinyerési profil: Rollotop (Lendvai és Társa Kft.) árlista, a 2026-os kiadás elrendezése alapján.
+// A táblázatokat a fejlécük alapján keresi, nem oldalszám szerint, így egy új kiadásnál is használható.
+// x koordináták: PDF pont, a bal szélétől (A4 = 595 pt széles).
+{
+  "name": "Rollotop",
+  // A termékek főkategóriája; az alkategória a profil neve (Rollotop).
+  "category": "Medencefedések",
+  "currency": "HUF",
+  "tableOfContentsPage": 3,
+  // A táblák alatti „Telepítési költség…” blokk: a km-sávok a telepítés ára, a többi sor (felár) választható.
+  "installation": {
+    "context": "^Telepítési költség",
+    "tierLabel": "(?<upTo>\\d+)\\s*km",
+    "inputKey": "distance_km",
+    "inputLabel": "Távolság Pilisszentivántól",
+    "unit": "km"
+  },
+  "tables": [
+    {
+      "key": "vf1",
+      "name": "VF1 Standard – komplett roló lamellával",
+      "code": "VF1",
+      "heading": "^VF1 - Rollotop",
+      "endAbove": "keresztbe takarva",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      // 17. oldal: a lamella m²-ára; a szélességet 0,5 m-re felfelé kell kerekíteni.
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    },
+    {
+      "key": "vf1_cross",
+      "name": "VF1 Standard – keresztbe takarva (tengely a hosszabbik oldalon)",
+      "code": "VF1",
+      "heading": "^VF1 - Rollotop",
+      "startBelow": "keresztbe takarva",
+      "endAbove": "^Telepítési költség",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    },
+    {
+      "key": "vf2",
+      "name": "VF2 Maxi – komplett roló lamellával, alumínium burkolattal",
+      "code": "VF2",
+      "heading": "^VF2 - Rollotop",
+      "endAbove": "^Telepítési költség",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    },
+    {
+      "key": "va2",
+      "name": "VA2 Deep – komplett roló lamellával",
+      "code": "VA2",
+      "heading": "^VA2 - Rollotop",
+      "endAbove": "^Telepítési költség",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      "sideTable": {
+        "key": "va2_cover",
+        "name": "VA2 Deep – burkolat (kötelező tartozék)",
+        "columnAxisKey": "cover",
+        "columnAxisLabel": "Burkolat",
+        "columns": [
+          { "key": "plastic_tray", "label": "Burkolható műanyag tálca" },
+          { "key": "ko_tray", "label": "Burkolható KO tálca" }
+        ]
+      },
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    },
+    {
+      "key": "va1",
+      "name": "VA1 Bottom – komplett roló lamellával",
+      "code": "VA1",
+      "heading": "^VA1 - Rollotop",
+      "endAbove": "^Telepítési költség",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    },
+    {
+      "key": "va6",
+      "name": "VA6 Recess – komplett roló lamellával",
+      "code": "VA6",
+      "heading": "^VA6 - Rollotop",
+      "endAbove": "^Telepítési költség",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    },
+    {
+      "key": "va3",
+      "name": "VA3 Relax – komplett roló lamellával",
+      "code": "VA3",
+      "heading": "^VA3 - Rollotop",
+      "endAbove": "^Telepítési költség",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      "sideTable": {
+        "key": "va3_cover",
+        "name": "VA3 Relax – burkolat (kötelező tartozék)",
+        "columnAxisKey": "cover",
+        "columnAxisLabel": "Burkolat",
+        "columns": [
+          { "key": "plastic_tray", "label": "Burkolható műanyag tálca" },
+          { "key": "ko_tray", "label": "Burkolható KO tálca" }
+        ]
+      },
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    },
+    {
+      "key": "va9",
+      "name": "VA9 Sundeck – komplett roló lamellával",
+      "code": "VA9",
+      "heading": "^VA9 - Rollotop",
+      "endAbove": "^Telepítési költség",
+      "groupAxis": { "key": "width", "label": "Szélesség", "unit": "m", "xMin": 40, "xMax": 70 },
+      "rowAxis": { "key": "length", "label": "Hossz", "unit": "m", "xMin": 85, "xMax": 100 },
+      "columnAxisKey": "slat",
+      "columnAxisLabel": "Lamella",
+      "columns": [
+        { "key": "pvc", "label": "PVC" },
+        { "key": "pc_transparent", "label": "Polikarbonát áttetsző" },
+        { "key": "pc_solar", "label": "Polikarbonát szolár" },
+        { "key": "elite", "label": "Elite" }
+      ],
+      "sideTable": {
+        "key": "va9_cover",
+        "name": "VA9 Sundeck – burkolat (opcionális)",
+        "columnAxisKey": "cover",
+        "columnAxisLabel": "Burkolat",
+        "columns": [
+          { "key": "larch_grille", "label": "Vörösfenyő rács" },
+          { "key": "bridging_beams", "label": "1 pár áthidaló gerenda" }
+        ],
+        "optional": true
+      },
+      "step": {
+        "formula": "ceil_to(width, 0.5) * rate",
+        "rates": { "pvc": 34860, "pc_transparent": 62250, "pc_solar": 62250, "elite": 66400 },
+        "source": "17. oldal, Rolólamellák ára"
+      }
+    }
+  ]
+}

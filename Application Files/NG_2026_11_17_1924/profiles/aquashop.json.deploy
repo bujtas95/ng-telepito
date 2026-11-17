@@ -1,0 +1,4358 @@
+// Kinyerési profil: Aquashop Kft. magyar katalógus, a 2026-os kiadás elrendezése alapján.
+// A cikktáblákat a „Nettó ár … Bruttó ár” fejlécük alapján keresi, nem oldalszám szerint.
+// Egy cikksor: cikkszám, árcsoport (A–D), megnevezés, további oszlopok (csomag, tömeg, méretek), nettó és bruttó ár.
+// A bruttó ár a nettó 27% áfával, 100 Ft-ra kerekítve; ahol nem így van, az ár ellenőrzésre vár.
+// A „groups”, „names” és „categories” rész a 2026-os kiadás tartalmi átnézéséből jön: melyik cikk melyik termék
+// változata, mely nevek voltak hibásak a PDF-ben, és mely táblák kategóriája nem az oldal fejléce. Az árakat nem érinti.
+// A kategória a katalógus fejezete (főkategória, pl. Szkimmerek); a termékcsalád az alkategória. A „chapters” oldaltartomány
+// szerint adja a főkategóriát, a „mainCategories” név szerint (ahol a fejezet mást adna, pl. a szkimmerek a befalazó elemek között).
+{
+  "name": "Aquashop",
+  "currency": "HUF",
+  "tables": [],
+  "articles": {
+    "articleNumber": "^\\d{6}(-[0-9A-Z]{1,4})?$",
+    "priceGroup": "^[A-D]$",
+    "vatRate": 0.27,
+    "grossRounding": 100,
+    "defaultUnit": "db",
+    "units": {
+      "m": "m",
+      "m2": "m²",
+      "m²": "m²",
+      "fm": "m",
+      "db": "db",
+      "kg": "kg",
+      "l": "l",
+      "forint": "db",
+      "Ft": "db"
+    },
+    "autoGroups": false,
+    "groups": [
+      {
+        "name": "Szkimmer Inox AISI 316, KM 2”",
+        "variantLabel": "Kivitel és méret",
+        "articles": {
+          "012230": "betonos, S",
+          "012232": "fóliás, S",
+          "012231": "betonos, M",
+          "012233": "fóliás, M",
+          "012234": "betonos, Slim 450",
+          "012235": "fóliás, Slim 450"
+        }
+      },
+      {
+        "name": "Inox rács Aquamax fenékürítőhöz",
+        "variantLabel": "Típus",
+        "articles": {
+          "011312": "011310-hez",
+          "011313": "011410-hez",
+          "011412": "011311-hez",
+          "011413": "011411-hez"
+        }
+      },
+      {
+        "name": "Befúvó, inox előlappal",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "011503": "betonos",
+          "011504": "fóliás"
+        }
+      },
+      {
+        "name": "Padlóbefúvó, inox, fix, kúpos",
+        "variantLabel": "Anyag",
+        "articles": {
+          "018001": "A2",
+          "018002": "A4"
+        }
+      },
+      {
+        "name": "Porszívó csatlakozó, inox előlap",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "011803": "betonos",
+          "011804": "fóliás"
+        }
+      },
+      {
+        "name": "Design Szkimmer A400",
+        "variantLabel": "Kivitel és szín",
+        "articles": {
+          "011460": "beton, fehér",
+          "011461": "fólia, fehér",
+          "011462": "beton/fólia, antracit, Ø50",
+          "011463": "beton/fólia, szürke",
+          "011464": "beton/fólia, homok"
+        }
+      },
+      {
+        "name": "Szkimmer fóliás WIDE XXL",
+        "variantLabel": "Szín",
+        "articles": {
+          "011210": "standard",
+          "011211": "antracit",
+          "011213": "szürke",
+          "011212": "homok"
+        }
+      },
+      {
+        "name": "Design Fenékürítő fedél",
+        "variantLabel": "Szín",
+        "articles": {
+          "011451": "antracit",
+          "011452": "szürke",
+          "011453": "homok"
+        }
+      },
+      {
+        "name": "Fenékürítő fóliás Ø200mm 2”",
+        "variantLabel": "Szín",
+        "articles": {
+          "011441": "antracit",
+          "011443": "szürke",
+          "011442": "homok"
+        }
+      },
+      {
+        "name": "Szkimmer tető",
+        "variantLabel": "Szín",
+        "articles": {
+          "011490": "antracit",
+          "011491": "szürke",
+          "011492": "homok"
+        }
+      },
+      {
+        "name": "Szkimmer ajtó",
+        "variantLabel": "Szín",
+        "articles": {
+          "011495": "fehér",
+          "011496": "antracit",
+          "011497": "szürke",
+          "011498": "homok"
+        }
+      },
+      {
+        "name": "Design Befúvó 2\"KM",
+        "variantLabel": "Kivitel és szín",
+        "articles": {
+          "011550": "beton, fehér",
+          "011551": "fólia, fehér",
+          "011552": "fólia, antracit",
+          "011553": "fólia, szürke",
+          "011554": "fólia, homok"
+        }
+      },
+      {
+        "name": "Befúvó fóliás 2” KM kontra anya",
+        "variantLabel": "Szín",
+        "articles": {
+          "011612": "antracit",
+          "011614": "szürke",
+          "011613": "homok"
+        }
+      },
+      {
+        "name": "Padlóbefúvó, fóliás Gemas",
+        "variantLabel": "Szín",
+        "articles": {
+          "011607": "antracit",
+          "011609": "szürke",
+          "011608": "homok"
+        }
+      },
+      {
+        "name": "Szkimmer betonos",
+        "variantLabel": "Típus",
+        "articles": {
+          "011001": "STD",
+          "011002": "STD XL",
+          "011003": "WIDE"
+        }
+      },
+      {
+        "name": "Szkimmer fóliás",
+        "variantLabel": "Típus",
+        "articles": {
+          "011101": "STD",
+          "011102": "STD XL",
+          "011103": "WIDE"
+        }
+      },
+      {
+        "name": "Szkimmer Aquamax",
+        "variantLabel": "Típus és kivitel",
+        "articles": {
+          "012201": "Slim, betonos",
+          "012202": "Classic, betonos",
+          "012203": "Slim, fóliás",
+          "012204": "Classic, fóliás"
+        }
+      },
+      {
+        "name": "Olympic szkimmer",
+        "variantLabel": "Típus",
+        "articles": {
+          "010001": "normál",
+          "010021": "széles szájú"
+        }
+      },
+      {
+        "name": "Befúvó betonos",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "011501": "2” KM",
+          "011502": "D63",
+          "011511": "EU 13451 2” KM"
+        }
+      },
+      {
+        "name": "Befúvó Premium betonos",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "011519": "D50 EM4408",
+          "011520": "2” KM EM4410"
+        }
+      },
+      {
+        "name": "Porszívó csatlakozó",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "011801": "2” KM",
+          "011802": "D63 PN10"
+        }
+      },
+      {
+        "name": "Befúvó fóliás 2” KM",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "011601": "alap",
+          "011602": "kontra anyával",
+          "011611": "EU 13451"
+        }
+      },
+      {
+        "name": "Falátvezetés Premium 2”BM / D50",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "011921": "karimával",
+          "011920": "karima nélkül"
+        }
+      },
+      {
+        "name": "Dugó, menetes",
+        "variantLabel": "Méret",
+        "articles": {
+          "010007": "1 1/2” lapos",
+          "010008": "1 1/2”",
+          "010009": "2”"
+        }
+      },
+      {
+        "name": "Kontra anya 2”",
+        "variantLabel": "Típus",
+        "articles": {
+          "010010": "Basic",
+          "010013": "Gemas"
+        }
+      },
+      {
+        "name": "Szívó idom Ø162mm max 45m3/h",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "011870": "betonos",
+          "011871": "fóliás"
+        }
+      },
+      {
+        "name": "Poly Jet alapelem",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "011701": "D32 - D32",
+          "011702": "D50 - D20"
+        }
+      },
+      {
+        "name": "Poly Jet szabályozható fúvóka",
+        "variantLabel": "Szín",
+        "articles": {
+          "011710": "standard",
+          "011720": "antracit",
+          "011721": "szürke",
+          "011722": "homok"
+        }
+      },
+      {
+        "name": "Poly Jet ROTO fúvóka",
+        "variantLabel": "Szín",
+        "articles": {
+          "011712": "standard",
+          "011730": "antracit",
+          "011731": "szürke",
+          "011732": "homok"
+        }
+      },
+      {
+        "name": "Légbeszívó 5/4”",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "018254": "fehér",
+          "018354": "krómozott"
+        }
+      },
+      {
+        "name": "Légbeszívó masszázs rendszerhez",
+        "variantLabel": "Anyag",
+        "articles": {
+          "107532": "AISI304",
+          "107533": "AISI316"
+        }
+      },
+      {
+        "name": "Fenékürítő betonos",
+        "variantLabel": "Méret és csatlakozás",
+        "articles": {
+          "011301": "200 x 200mm, D63",
+          "011302": "200 x 200mm, D75",
+          "011304": "Ø200mm, D50",
+          "011305": "Ø200mm, D63",
+          "011306": "Ø200mm, D75"
+        }
+      },
+      {
+        "name": "Fenékürítő betonos Aquamax",
+        "variantLabel": "Méret",
+        "articles": {
+          "011310": "250 x 250mm",
+          "011311": "315 x 315mm"
+        }
+      },
+      {
+        "name": "Fenékürítő fóliás",
+        "variantLabel": "Méret és csatlakozás",
+        "articles": {
+          "011401": "200 x 200mm, 2”",
+          "011402": "200 x 200mm, 2 1/2”",
+          "011404": "Ø200mm, 6/4”",
+          "011405": "Ø200mm, 2”",
+          "011406": "Ø244mm, 6/4”",
+          "011407": "Ø244mm, 2”"
+        }
+      },
+      {
+        "name": "Fenékürítő fóliás Aquamax",
+        "variantLabel": "Méret",
+        "articles": {
+          "011410": "Ø258mm, D63/75",
+          "011411": "315 x 315mm"
+        }
+      },
+      {
+        "name": "Túlfolyó rács Square",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "013020": "standard, 200mm",
+          "013021": "antracit, 200mm",
+          "013022": "homok, 200mm",
+          "013023": "szürke, 200mm",
+          "013025": "standard, 250mm",
+          "013026": "antracit, 250mm",
+          "013027": "homok, 250mm",
+          "013028": "szürke, 250mm"
+        }
+      },
+      {
+        "name": "Túlfolyó rács Square-TP",
+        "variantLabel": "Méret",
+        "articles": {
+          "013120": "200mm",
+          "013125": "250mm"
+        }
+      },
+      {
+        "name": "Túlfolyó rács Classic",
+        "variantLabel": "Méret",
+        "articles": {
+          "014115": "150mm",
+          "014120": "200mm",
+          "014125": "250mm",
+          "014130": "300mm"
+        }
+      },
+      {
+        "name": "Túlfolyó sarok elem",
+        "variantLabel": "Szög, szín és méret",
+        "articles": {
+          "014815": "45º, 150mm",
+          "014820": "45º, 200mm",
+          "014825": "45º, 250mm",
+          "014830": "45º, 300mm",
+          "014915": "90º, 150mm",
+          "014920": "90º, 200mm",
+          "014921": "90º, antracit, 200mm",
+          "014922": "90º, homok, 200mm",
+          "014923": "90º, szürke, 200mm",
+          "014925": "90º, 250mm",
+          "014926": "90º, antracit, 250mm",
+          "014927": "90º, homok, 250mm",
+          "014928": "90º, szürke, 250mm",
+          "014930": "90º, 300mm"
+        }
+      },
+      {
+        "name": "Túlfolyó sarok elem Square-TP",
+        "variantLabel": "Szög és méret",
+        "articles": {
+          "013220": "45º, 200mm",
+          "013225": "45º, 250mm",
+          "013320": "90º, 200mm",
+          "013325": "90º, 245mm"
+        }
+      },
+      {
+        "name": "Túlfolyó rács egyenes",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "015101": "kék, 200mm",
+          "015102": "antracit, 200mm",
+          "015111": "kék, 250mm",
+          "015112": "antracit, 250mm"
+        }
+      },
+      {
+        "name": "Túlfolyó sarok elem Antracit 90°",
+        "variantLabel": "Méret",
+        "articles": {
+          "015202": "20cm",
+          "015212": "25cm"
+        }
+      },
+      {
+        "name": "Design reflektor",
+        "variantLabel": "Típus",
+        "articles": {
+          "022010": "33 LED, 10,5W, 1800 lm",
+          "022011": "48 LED, 16,6W, 2600 lm (022011)",
+          "022012": "48 LED, 16,6W, 2600 lm (022012)",
+          "022013": "48 LED, 19,7W, 1800 lm",
+          "022006": "12 LED, 42W, 2500 lm"
+        }
+      },
+      {
+        "name": "Design PAR56 izzó",
+        "variantLabel": "Típus",
+        "articles": {
+          "022031": "33 LED, 10,5W, 1800 lm",
+          "022032": "48 LED, 16,6W, 2600 lm (022032)",
+          "022033": "48 LED, 16,6W, 2600 lm (022033)",
+          "022034": "48 LED, 19,7W, 1800 lm"
+        }
+      },
+      {
+        "name": "Spottie Reflektor",
+        "variantLabel": "Típus",
+        "articles": {
+          "022101": "1 LED, 7W, 360 lm",
+          "022102": "3 LED, 10W, 790 lm",
+          "022103": "9 LED színes, 10W, 180 lm"
+        }
+      },
+      {
+        "name": "Kötődoboz",
+        "variantLabel": "Szín",
+        "articles": {
+          "022050": "standard",
+          "022051": "antracit",
+          "022052": "szürke",
+          "022053": "homok"
+        }
+      },
+      {
+        "name": "Reflektor MINI-Clicker",
+        "variantLabel": "Előlap és teljesítmény",
+        "articles": {
+          "021301": "7W, 508 lm",
+          "021311": "5W, 86 lm",
+          "021315": "AISI316, 7W, 508 lm",
+          "021344": "AISI304, 5W, 86 lm",
+          "021346": "AISI316, 5W, 86 lm"
+        }
+      },
+      {
+        "name": "Reflektor MIDI-Clicker",
+        "variantLabel": "Előlap és teljesítmény",
+        "articles": {
+          "021321": "11W, 952 lm",
+          "021331": "8W, 170 lm",
+          "021335": "AISI316, 11W, 952 lm",
+          "021354": "AISI304, 8W, 170 lm",
+          "021356": "AISI316, 8W, 170 lm"
+        }
+      },
+      {
+        "name": "Reflektor MINI-Clicker színes előlappal",
+        "variantLabel": "Szín és teljesítmény",
+        "articles": {
+          "021302": "antracit, 7W, 508 lm",
+          "021303": "homok, 7W, 508 lm",
+          "021304": "szürke, 7W, 508 lm",
+          "021312": "antracit, 5W, 86 lm",
+          "021313": "homok, 5W, 86 lm",
+          "021314": "szürke, 5W, 86 lm"
+        }
+      },
+      {
+        "name": "Reflektor MIDI-Clicker színes előlappal",
+        "variantLabel": "Szín és teljesítmény",
+        "articles": {
+          "021322": "antracit, 11W, 952 lm",
+          "021323": "homok, 11W, 952 lm",
+          "021324": "szürke, 11W, 952 lm",
+          "021332": "antracit, 8W, 170 lm",
+          "021333": "homok, 8W, 170 lm",
+          "021334": "szürke, 8W, 170 lm"
+        }
+      },
+      {
+        "name": "Reflektor STD2002 fóliás, színes előlappal",
+        "variantLabel": "Szín és teljesítmény",
+        "articles": {
+          "020224": "antracit, 40W, 3059 lm",
+          "020225": "homok, 40W, 3059 lm",
+          "020226": "szürke, 40W, 3059 lm",
+          "020227": "antracit, 31W, 900 lm",
+          "020228": "homok, 31W, 900 lm",
+          "020229": "szürke, 31W, 900 lm"
+        }
+      },
+      {
+        "name": "Reflektor Crystal LED",
+        "variantLabel": "Kivitel és teljesítmény",
+        "articles": {
+          "020122": "beton, 35W, 2739 lm",
+          "020123": "beton, 50W, 3536 lm",
+          "020132": "beton, 36W, 1011 lm",
+          "020222": "fólia, 35W, 2739 lm",
+          "020223": "fólia, 50W, 3536 lm",
+          "020232": "fólia, 35W, 1011 lm"
+        }
+      },
+      {
+        "name": "Reflektor STD2002",
+        "variantLabel": "Kivitel és izzó",
+        "articles": {
+          "020100": "beton, 300W halogén",
+          "020120": "beton, LED 20W, 1511 lm",
+          "020121": "beton, LED 40W, 3059 lm",
+          "020131": "beton, LED 31W, 900 lm",
+          "020200": "fólia, 300W halogén",
+          "020220": "fólia, LED 20W, 1511 lm",
+          "020221": "fólia, LED 40W, 3059 lm",
+          "020230": "fólia, LED 16W, 550 lm",
+          "020231": "fólia, LED 31W, 900 lm"
+        }
+      },
+      {
+        "name": "Reflektor „SLIM 2018” LED",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "020001": "35W, 2739 lm",
+          "020002": "50W, 3536 lm",
+          "020003": "35W, 1081 lm"
+        }
+      },
+      {
+        "name": "Szerelő készlet SLIM 2018 reflektorhoz",
+        "variantLabel": "Medence típusa",
+        "articles": {
+          "020009": "panel + fólia medencéhez",
+          "020010": "fóliás medencéhez",
+          "020011": "PP/poliészter medencéhez"
+        }
+      },
+      {
+        "name": "Reflektor MINI2008",
+        "variantLabel": "Kivitel és izzó",
+        "articles": {
+          "021200": "beton, 50W halogén",
+          "021210": "beton, 36 LED, 6W, 900 lm",
+          "021214": "beton, 36 LED, 6W, 282 lm",
+          "021202": "fólia, 50W halogén",
+          "021212": "fólia, 36 LED, 6W, 900 lm",
+          "021216": "fólia, 36 LED, 6W, 282 lm"
+        }
+      },
+      {
+        "name": "LED izzó SMD PAR56",
+        "variantLabel": "Típus",
+        "articles": {
+          "021500": "SMD 63, 20W, 1511 lm",
+          "021501": "SMD 252, 40W, 3059 lm",
+          "021551": "SMD 252 LED, 40W, 3059 lm",
+          "021700": "SMD 54, 16W, 550 lm",
+          "021701": "SMD 252, 31W, 900 lm"
+        }
+      },
+      {
+        "name": "LED izzó SLIM 2018/Crystal PAR56",
+        "variantLabel": "Típus",
+        "articles": {
+          "021580": "SMD252, 50W, 3536 lm",
+          "021585": "SMD81, 35W, 2739 lm",
+          "021780": "SMD252, 36W, 1011 lm"
+        }
+      },
+      {
+        "name": "Távirányító antennával",
+        "variantLabel": "Csatornaszám",
+        "articles": {
+          "021000": "HD-1, 1 csatornás",
+          "021001": "HD-2, 2 csatornás",
+          "021010": "HD-4, 4 csatornás"
+        }
+      },
+      {
+        "name": "Transzformátor",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "090065": "65VA",
+          "090105": "105VA",
+          "090205": "205VA",
+          "090315": "315VA",
+          "090630": "630VA"
+        }
+      },
+      {
+        "name": "LED SNAKE STRIP szett",
+        "variantLabel": "Szín és hossz",
+        "articles": {
+          "022200": "WHITE, 2,5m",
+          "022201": "WHITE, 4m",
+          "022202": "WHITE, 5m",
+          "022203": "RGB, 2,5m",
+          "022204": "RGB, 4m",
+          "022205": "RGB, 5m"
+        }
+      },
+      {
+        "name": "Basic Top 1 1/2”",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "030030": "Ø300mm",
+          "030045": "Ø450mm"
+        }
+      },
+      {
+        "name": "Neo 1 1/2”",
+        "variantLabel": "Kivitel és átmérő",
+        "articles": {
+          "030035": "Top, Ø350mm",
+          "030040": "Top, Ø400mm",
+          "030048": "Top, Ø480mm",
+          "030056": "Top, Ø560mm",
+          "030061": "Top, Ø610mm",
+          "030140": "Side, Ø400mm",
+          "030148": "Side, Ø480mm",
+          "030161": "Side, Ø610mm"
+        }
+      },
+      {
+        "name": "Pacific Side",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "036040": "Ø400, 1 1/2”",
+          "036050": "Ø510, 1 1/2”",
+          "036062": "Ø620, 1 1/2”",
+          "036068": "Ø680, 2”",
+          "036075": "Ø750, 2”",
+          "036090": "Ø900, 2”"
+        }
+      },
+      {
+        "name": "Balaton",
+        "variantLabel": "Kivitel és átmérő",
+        "articles": {
+          "031650": "Top, Ø500, 1 1/2”",
+          "031663": "Top, Ø630, 1 1/2”",
+          "031671": "Top, Ø710, 2”",
+          "031750": "Side, Ø500, 1 1/2”",
+          "031763": "Side, Ø630, 1 1/2”",
+          "031771": "Side, Ø710, 2”"
+        }
+      },
+      {
+        "name": "Filtrex Side",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "031345": "Ø450, 1 1/2”",
+          "031350": "Ø500, 1 1/2”",
+          "031363": "Ø630, 1 1/2”",
+          "031371": "Ø710, 2”",
+          "031383": "Ø830, 2”",
+          "031390": "Ø900, 2”",
+          "031310": "Ø1000, 2 1/2”"
+        }
+      },
+      {
+        "name": "BARENT 1m Side 2”",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "036362": "Ø620",
+          "036375": "Ø750",
+          "036390": "Ø900"
+        }
+      },
+      {
+        "name": "BARENT 1m Side",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "037101": "Ø620, D75/D50",
+          "037102": "Ø750, D90/D63",
+          "037103": "Ø900, D90/D75"
+        }
+      },
+      {
+        "name": "OCEAN 1m",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "037111": "Ø1050, D110/D90",
+          "037112": "Ø1200, D125/110",
+          "037113": "Ø1400, D140/125",
+          "037114": "Ø1600, D160/140",
+          "037115": "Ø1800, D200/160",
+          "037116": "Ø2000, D225/200"
+        }
+      },
+      {
+        "name": "INDICO 1,2m",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "037131": "Ø1050, D110/D90",
+          "037132": "Ø1200, D125/D110",
+          "037133": "Ø1400, D140/D125",
+          "037134": "Ø1600, D160/D140",
+          "037135": "Ø1800, D200/D160",
+          "037136": "Ø2000, D225/D200"
+        }
+      },
+      {
+        "name": "BARI 1m",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "037121": "Ø1050, D110/D90",
+          "037122": "Ø1200, D125/D110",
+          "037123": "Ø1400, D140/D125",
+          "037124": "Ø1600, D160/D140",
+          "037125": "Ø1800, D200/D160",
+          "037126": "Ø2000, D225/D200"
+        }
+      },
+      {
+        "name": "BALTICO 1,2m",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "037141": "Ø1050, D110/D90",
+          "037142": "Ø1200, D125/D110",
+          "037143": "Ø1400, D140/D125",
+          "037144": "Ø1600, D160/D140",
+          "037145": "Ø1800, D200/D160",
+          "037146": "Ø2000, D225/D200"
+        }
+      },
+      {
+        "name": "FHB 1m",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "031450": "Ø500, 1 1/2”",
+          "031463": "Ø630, 1 1/2”",
+          "031471": "Ø710, 2”",
+          "031480": "Ø800, 15m3/h, 2”",
+          "031490": "Ø900, 2”",
+          "031410": "Ø1000, 2 1/2”"
+        }
+      },
+      {
+        "name": "FHB Norm",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "035411": "Ø630, D75/50",
+          "035412": "Ø830, D90/63",
+          "035413": "Ø1000, D110/90",
+          "035414": "Ø1250, D125/110",
+          "035415": "Ø1400, D140/125",
+          "035416": "Ø1600, D160/140",
+          "035417": "Ø1800, D200/160",
+          "035418": "Ø2000, D225/200",
+          "035419": "Ø2200, D225/225",
+          "035420": "Ø2400, D225/225"
+        }
+      },
+      {
+        "name": "TRB 1m",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "031513": "Ø1200, D90",
+          "031514": "Ø1400, D110",
+          "031516": "Ø1600, D125",
+          "031518": "Ø1800, D140",
+          "031520": "Ø2000, D160",
+          "031522": "Ø2200, D200",
+          "031524": "Ø2400, D200"
+        }
+      },
+      {
+        "name": "TRB Norm 1,2m",
+        "variantLabel": "Átmérő és csatlakozás",
+        "articles": {
+          "035512": "Ø900, 2” D90/75",
+          "035513": "Ø1000, D110/90",
+          "035514": "Ø1200, D125/110",
+          "035515": "Ø1400, D140/125",
+          "035516": "Ø1600, D160/140",
+          "035517": "Ø1800, D200/160",
+          "035518": "Ø2000, D225/200",
+          "035519": "Ø2200, D225/225",
+          "035520": "Ø2400, D225/225"
+        }
+      },
+      {
+        "name": "Váltószelep 6-utú TOP Balaton",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "031030": "1 1/2”",
+          "031031": "2”"
+        }
+      },
+      {
+        "name": "Váltószelep 6-utú SIDE",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "031022": "1 1/2” /D50",
+          "031025": "2”",
+          "031023": "D63"
+        }
+      },
+      {
+        "name": "Emaux váltószelep 6-utú SIDE",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "032500": "2,5”",
+          "032501": "3”"
+        }
+      },
+      {
+        "name": "Peraqua váltószelep SIDE",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "032022": "1 1/2” / D50",
+          "032036": "1 1/2” / 1 1/2”",
+          "032023": "2” / D63",
+          "032037": "2” / 2”",
+          "032024": "2 1/2” / D75",
+          "032025": "3” / 3”",
+          "032026": "3” / D90"
+        }
+      },
+      {
+        "name": "Peraqua váltószelep SIDE PAC/AQU",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "032028": "1 1/2”",
+          "032029": "2”"
+        }
+      },
+      {
+        "name": "Peraqua - Hayward bekötőcső",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "032030": "6/4”",
+          "032031": "2”"
+        }
+      },
+      {
+        "name": "Peraqua - Astral bekötőcső",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "032034": "6/4”",
+          "032035": "2”"
+        }
+      },
+      {
+        "name": "Peraqua AQUASTAR EASY II 1001 SIDE",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "032124": "6/4”",
+          "032125": "2”"
+        }
+      },
+      {
+        "name": "AquaStar Control AO",
+        "variantLabel": "Méret",
+        "articles": {
+          "032331": "SM10, 1 1/2”",
+          "032332": "SM20, 2”",
+          "032333": "SM31, 3”"
+        }
+      },
+      {
+        "name": "AquaStar mp6 plc AO",
+        "variantLabel": "Méret",
+        "articles": {
+          "032335": "SM10, 1 1/2”",
+          "032336": "SM20, 2”",
+          "032337": "SM31, 3”"
+        }
+      },
+      {
+        "name": "Loxone Aquastar Air",
+        "variantLabel": "Méret",
+        "articles": {
+          "032130": "SM10, 1 1/2”",
+          "032131": "SM20, 2”"
+        }
+      },
+      {
+        "name": "Badu OmniTronic",
+        "variantLabel": "Méret",
+        "articles": {
+          "032371": "R41/3A, 1 1/2”",
+          "032372": "R51/3A, 2”"
+        }
+      },
+      {
+        "name": "Szűrő üveg",
+        "variantLabel": "Szemcseméret",
+        "articles": {
+          "033101": "Stage-1, 0,6-1,2mm",
+          "033102": "Stage-2, 0,4-1,0mm"
+        }
+      },
+      {
+        "name": "Szűrő üveg NW40",
+        "variantLabel": "Szemcseméret",
+        "articles": {
+          "033110": "1,5mm-2,5mm",
+          "033111": "0,6mm-1,2mm"
+        }
+      },
+      {
+        "name": "Szűrő alaplap",
+        "variantLabel": "Méret",
+        "articles": {
+          "033070": "800 x 450 x 50 mm",
+          "033080": "1000 x 550 x 50 mm"
+        }
+      },
+      {
+        "name": "Szűrőhomok 25kg/zsák",
+        "variantLabel": "Szemcseméret",
+        "articles": {
+          "033001": "0,5 - 1,0 mm",
+          "033002": "1,25 - 2,5 mm",
+          "033011": "0,4 - 0,8 mm"
+        }
+      },
+      {
+        "name": "Szűrőtartály oldalbúvó Ø400 mm",
+        "variantLabel": "Nyomás",
+        "articles": {
+          "031000": "2,5 bar",
+          "031001": "4,0 bar"
+        }
+      },
+      {
+        "name": "Szűrőtartály kémlelő ablak",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "031002": "Ø90 mm",
+          "031003": "Ø125 mm",
+          "031004": "Ø200 mm"
+        }
+      },
+      {
+        "name": "Levegőszelep, kettős hatás",
+        "variantLabel": "Kivitel és csatlakozás",
+        "articles": {
+          "031110": "C1 1/2”",
+          "031111": "C1 3/4”",
+          "031112": "C1 1”",
+          "031113": "C2 2”",
+          "031114": "C2 3”",
+          "031115": "C1 1” réz",
+          "031116": "C2 2” réz"
+        }
+      },
+      {
+        "name": "Glicerines inox nyomásmérő",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "032502": "axiális",
+          "032503": "radiális"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius TOP Invermaster",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048631": "530 IM20",
+          "048632": "620 IM25"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius SIDE Invermaster",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048633": "530 IM20",
+          "048634": "620 IM25",
+          "048635": "790 IM30"
+        }
+      },
+      {
+        "name": "Szűrőszett Pacific Invermaster",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042261": "510 IM20",
+          "042262": "620 IM25",
+          "042263": "680 IM25",
+          "042264": "750 IM30",
+          "042265": "900 IM30"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius TOP InverPro",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048621": "530 IP20",
+          "048622": "620 IP25"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius SIDE InverPro",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048623": "530 IP20",
+          "048624": "620 IP25",
+          "048625": "790 IP30"
+        }
+      },
+      {
+        "name": "Szűrőszett Pacific InverPro",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042101": "510 IP20",
+          "042102": "620 IP25",
+          "042103": "680 IP25",
+          "042104": "750 IP30",
+          "042105": "900 IP30"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius TOP InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042249": "450 DE15",
+          "042250": "530 DE18",
+          "042251": "620 DE23"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius SIDE InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042254": "450 DE15",
+          "042255": "530 DE18",
+          "042256": "620 DE23",
+          "042257": "790 DE28"
+        }
+      },
+      {
+        "name": "Szűrőszett Pacific Side InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042245": "510 DE18",
+          "042246": "620 DE23",
+          "042247": "680 DE28"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Top InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042230": "500 DE18",
+          "042231": "630 DE23",
+          "042232": "710 DE28"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Side InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042235": "500 DE18",
+          "042236": "630 DE23",
+          "042237": "710 DE28"
+        }
+      },
+      {
+        "name": "Szűrőszett Neo Top InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042198": "400mm DE15",
+          "042200": "480mm DE15",
+          "042201": "560mm DE18",
+          "042202": "610mm DE23"
+        }
+      },
+      {
+        "name": "Szűrőszett Neo Side InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042204": "400mm DE15",
+          "042205": "480mm DE15",
+          "042206": "610mm DE23"
+        }
+      },
+      {
+        "name": "Szűrőszett Filtrex Side InverEco",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042215": "500 DE18",
+          "042216": "630 DE23",
+          "042217": "710 DE28",
+          "042218": "830 DE28"
+        }
+      },
+      {
+        "name": "Szűrőszett Pacific BADU Top II",
+        "variantLabel": "Méret",
+        "articles": {
+          "048008": "400",
+          "048012": "510",
+          "048014": "620"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius TOP BADU Top II",
+        "variantLabel": "Méret",
+        "articles": {
+          "048408": "450",
+          "048412": "530",
+          "048414": "620"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius SIDE BADU Top II",
+        "variantLabel": "Méret",
+        "articles": {
+          "048508": "450",
+          "048512": "530",
+          "048514": "620"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius TOP WINNER",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048211": "530 WINNER 50M",
+          "048214": "620 WINNER 75M"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius SIDE WINNER",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048311": "530 WINNER 50M",
+          "048314": "620 WINNER 75M",
+          "048322": "790 WINNER 150M"
+        }
+      },
+      {
+        "name": "Szűrőszett Pacific WINNER",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "047011": "510 WINNER 50M",
+          "047014": "620 WINNER 75M",
+          "047018": "680 WINNER 100M",
+          "047021": "750 WINNER 150M",
+          "047024": "750 WINNER 200M",
+          "047029": "900 WINNER 300M"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius Plus TOP Basic",
+        "variantLabel": "Méret",
+        "articles": {
+          "048606": "450",
+          "048610": "530",
+          "048614": "620"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius Plus SIDE Basic",
+        "variantLabel": "Méret",
+        "articles": {
+          "048706": "450",
+          "048710": "530",
+          "048714": "620",
+          "048722": "790"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius TOP Euroswim",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048641": "530 Euroswim 50",
+          "048642": "620 Euroswim 75"
+        }
+      },
+      {
+        "name": "Szűrőszett Aquarius SIDE Euroswim",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "048643": "530 Euroswim 50",
+          "048644": "620 Euroswim 75",
+          "048645": "790 Euroswim 150"
+        }
+      },
+      {
+        "name": "Szűrőszett Pacific Euroswim",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "042010": "510 Euroswim 50M",
+          "042014": "620 Euroswim 75M",
+          "042018": "680 Euroswim 100M",
+          "042024": "750 Euroswim 150M",
+          "042028": "900 Euroswim 200M"
+        }
+      },
+      {
+        "name": "Szűrőszett Filtrex - Mini Streamer",
+        "variantLabel": "Méret",
+        "articles": {
+          "041308": "450",
+          "041311": "500",
+          "041315": "630"
+        }
+      },
+      {
+        "name": "Szűrőszett Filtrex OPTIMA",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "046007": "450 OPTIMA 50M",
+          "046010": "500 OPTIMA 75M",
+          "046013": "630 OPTIMA 100M"
+        }
+      },
+      {
+        "name": "Szűrőszett Filtrex WINNER",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "046014": "630 WINNER 75M",
+          "046018": "710 WINNER 100M",
+          "046024": "830 WINNER 200M",
+          "046029": "900 WINNER 300M"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Top Streamer",
+        "variantLabel": "Méret",
+        "articles": {
+          "045013": "630",
+          "045018": "710"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Top Optima",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "045109": "500 Optima 50M",
+          "045110": "500 Optima 75M",
+          "045113": "630 Optima 100M"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Top Winner",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "045111": "500 Winner 50M",
+          "045114": "630 Winner 75M",
+          "045118": "710 Winner 100M",
+          "045121": "710 Winner 150M"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Side Optima",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "045209": "500 Optima 50M",
+          "045210": "500 Optima 75M",
+          "045213": "630 Optima 100M"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Side Winner",
+        "variantLabel": "Méret és szivattyú",
+        "articles": {
+          "045211": "500 Winner 50M",
+          "045214": "630 Winner 75M",
+          "045218": "710 Winner 100M",
+          "045221": "710 Winner 150M"
+        }
+      },
+      {
+        "name": "Szűrőszett Basic Top",
+        "variantLabel": "Méret és teljesítmény",
+        "articles": {
+          "040004": "Ø300mm 0,25HP",
+          "040008": "Ø450mm 0,75HP"
+        }
+      },
+      {
+        "name": "Szűrőszett Neo Top",
+        "variantLabel": "Méret és teljesítmény",
+        "articles": {
+          "040005": "Ø350mm 0,35HP",
+          "040006": "Ø400mm 0,35HP",
+          "040009": "Ø480mm 0,75HP",
+          "040013": "Ø560mm 1,0HP",
+          "040015": "Ø610mm 1,0HP"
+        }
+      },
+      {
+        "name": "Szűrőszett Optima Top",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "040030": "Ø350mm",
+          "040031": "Ø400mm",
+          "040032": "Ø480mm",
+          "040033": "Ø560mm",
+          "040034": "Ø610mm"
+        }
+      },
+      {
+        "name": "Szűrőszett Magic Top",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "040040": "Ø350mm",
+          "040041": "Ø400mm",
+          "040042": "Ø480mm",
+          "040043": "Ø560mm"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Plus Top Basic",
+        "variantLabel": "Méret",
+        "articles": {
+          "045309": "500",
+          "045314": "630",
+          "045317": "710"
+        }
+      },
+      {
+        "name": "Szűrőszett Balaton Plus Side Basic",
+        "variantLabel": "Méret",
+        "articles": {
+          "045409": "500",
+          "045414": "630",
+          "045417": "710"
+        }
+      },
+      {
+        "name": "InverMaster",
+        "variantLabel": "Típus",
+        "articles": {
+          "056220": "IM20",
+          "056225": "IM25",
+          "056230": "IM30"
+        }
+      },
+      {
+        "name": "Inverpro Wi-Fi",
+        "variantLabel": "Típus",
+        "articles": {
+          "056120": "IP20",
+          "056125": "IP25",
+          "056130": "IP30",
+          "056140": "IP40"
+        }
+      },
+      {
+        "name": "InverEco",
+        "variantLabel": "Típus",
+        "articles": {
+          "056115": "DE15",
+          "056118": "DE18",
+          "056123": "DE23",
+          "056128": "DE28"
+        }
+      },
+      {
+        "name": "iSAVER+",
+        "variantLabel": "Típus",
+        "articles": {
+          "059601": "1100 - 230V",
+          "059602": "1100C - 400V",
+          "059603": "2200 - 230V",
+          "059604": "2200C - 400V"
+        }
+      },
+      {
+        "name": "E-Pool frekvenciaváltó",
+        "variantLabel": "Típus",
+        "articles": {
+          "059611": "TT3-11A",
+          "059613": "TT3-30A"
+        }
+      },
+      {
+        "name": "SACI E-Pool fali tartó",
+        "variantLabel": "Típus",
+        "articles": {
+          "054001": "TT3-11A",
+          "054002": "TT3-30A"
+        }
+      },
+      {
+        "name": "Basic",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "050004": "4m3/h H=6m 0,25HP/230V",
+          "050006": "6m3/h H=6m 0,35HP/230V",
+          "050008": "9m3/h H=8m 0,75HP/230V",
+          "050014": "14m3/h H=8m 1,0HP/230V",
+          "050017": "17m3/h H=8m 1,0HP/230V",
+          "050022": "22m3/h H=8m 1,5HP/230V",
+          "050024": "24m3/h H=10m 2,0HP/230V",
+          "050029": "29m3/h H=10m 3,0HP/230V"
+        }
+      },
+      {
+        "name": "OPTIMA",
+        "variantLabel": "Típus",
+        "articles": {
+          "052041": "25M",
+          "052043": "25T",
+          "052061": "33M",
+          "052063": "33T",
+          "052071": "50M",
+          "052073": "50T",
+          "052101": "75M",
+          "052103": "75T",
+          "052131": "100M",
+          "052133": "100T"
+        }
+      },
+      {
+        "name": "WINNER",
+        "variantLabel": "Típus",
+        "articles": {
+          "053111": "50M",
+          "053113": "50T",
+          "053141": "75M",
+          "053143": "75T",
+          "053181": "100M",
+          "053183": "100T",
+          "053211": "150M",
+          "053213": "150T",
+          "053241": "200M",
+          "053243": "200T",
+          "053291": "300M",
+          "053293": "300T"
+        }
+      },
+      {
+        "name": "Mini Streamer STR",
+        "variantLabel": "Típus",
+        "articles": {
+          "051006": "033M",
+          "051008": "050M",
+          "051011": "080M",
+          "051015": "100M"
+        }
+      },
+      {
+        "name": "Streamer STRN",
+        "variantLabel": "Típus",
+        "articles": {
+          "051110": "050M",
+          "051113": "080M",
+          "051118": "100M",
+          "051124": "150M",
+          "051125": "150T",
+          "051128": "200M",
+          "051129": "200T",
+          "051132": "300M",
+          "051133": "300T"
+        }
+      },
+      {
+        "name": "BADU Magic II",
+        "variantLabel": "Típus",
+        "articles": {
+          "050504": "II/4",
+          "050506": "II/6",
+          "050508": "II/8",
+          "050511": "II/11"
+        }
+      },
+      {
+        "name": "BADU Top II",
+        "variantLabel": "Típus",
+        "articles": {
+          "050208": "II/8",
+          "050212": "II/12",
+          "050214": "II/14"
+        }
+      },
+      {
+        "name": "BADU Prime",
+        "variantLabel": "Típus",
+        "articles": {
+          "050107": "7",
+          "050111": "11, 1~",
+          "050113": "13, 1~",
+          "050115": "15, 1~",
+          "050120": "20, 1~"
+        }
+      },
+      {
+        "name": "BADU Prime",
+        "variantLabel": "Típus",
+        "articles": {
+          "050125": "25, 1~",
+          "050130": "30, 1~",
+          "050325": "25, 3~",
+          "050330": "30, 3~",
+          "050440": "40, 3~",
+          "050348": "48, 3~"
+        }
+      },
+      {
+        "name": "BADU Resort, 3~",
+        "variantLabel": "Típus",
+        "articles": {
+          "050401": "30",
+          "050402": "40",
+          "050403": "45",
+          "050404": "50",
+          "050405": "55",
+          "050406": "60",
+          "050407": "70",
+          "050408": "80",
+          "050409": "110"
+        }
+      },
+      {
+        "name": "DAB Euroswim",
+        "variantLabel": "Típus",
+        "articles": {
+          "057110": "50M",
+          "057141": "75M",
+          "057143": "75T",
+          "057181": "100M",
+          "057183": "100T",
+          "057241": "150M",
+          "057243": "150T",
+          "057281": "200M",
+          "057283": "200T",
+          "057381": "300M",
+          "057383": "300T"
+        }
+      },
+      {
+        "name": "AQUAJET",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "058151": "50m3/h H-8m 3HP 230V",
+          "058153": "50m3/h H-8m 3HP 230V/400V",
+          "058165": "65m3/h H=8m 4HP 400V",
+          "058180": "80m3/h H=8m 5,5HP 400V"
+        }
+      },
+      {
+        "name": "AQUAFILT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "058351": "50m3/h H-8m 3HP 230V",
+          "058353": "50m3/h H-8m 3HP 230V/400V",
+          "058365": "65m3/h H=8m 4HP 400V",
+          "058380": "80m3/h H=8m 5,5HP 400V"
+        }
+      },
+      {
+        "name": "IE3 Bravus 230/400V",
+        "variantLabel": "Típus",
+        "articles": {
+          "054023": "300",
+          "054024": "400",
+          "054025": "550"
+        }
+      },
+      {
+        "name": "IE3 Supra 230/400V",
+        "variantLabel": "Típus",
+        "articles": {
+          "054033": "300",
+          "054034": "400",
+          "054035": "550"
+        }
+      },
+      {
+        "name": "KONTRA 230V/400V",
+        "variantLabel": "Típus",
+        "articles": {
+          "055045": "KONTRA-4 300",
+          "055058": "KONTRA-4 400",
+          "055077": "KONTRA-4 550",
+          "055105": "KONTRA-4 750",
+          "055126": "KONTRA-4 1000 IE3",
+          "055142": "KONTRA-2 1250 IE3",
+          "055180": "KONTRA-2 1500 IE3"
+        }
+      },
+      {
+        "name": "MAGNUS 230V/400V",
+        "variantLabel": "Típus",
+        "articles": {
+          "054045": "MAGNUS-4 300",
+          "054058": "MAGNUS-4 400",
+          "054077": "MAGNUS-4 550",
+          "054105": "MAGNUS-4 750",
+          "054126": "MAGNUS-4 1000 IE3",
+          "054142": "MAGNUS-2 1250 IE3",
+          "054180": "MAGNUS-2 1500 IE3"
+        }
+      },
+      {
+        "name": "Előszűrő Öntvény",
+        "variantLabel": "Csatlakozás és térfogat",
+        "articles": {
+          "059500": "DN 65/65 11L",
+          "059502": "DN 80/80 11L",
+          "059505": "DN 100/100 11L",
+          "059507": "DN 125/125 13,5L",
+          "059509": "DN 150/150 42L",
+          "059511": "DN 200/200 84L"
+        }
+      },
+      {
+        "name": "Ultra 9000 légfúvó",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "108010": "1,0HP",
+          "108015": "1,5HP",
+          "108020": "2,0HP"
+        }
+      },
+      {
+        "name": "Légfúvó DF",
+        "variantLabel": "Típus és teljesítmény",
+        "articles": {
+          "059132": "320M 1,1kW 120m3/h 280mbar",
+          "059142": "420T 1,6kW 150m3/h 280mbar",
+          "059143": "420T 2,2kW 150m3/h 420mbar",
+          "059152": "520T 3,0kW 230m3/h 410mbar",
+          "059173": "720T 4,3kW 320m3/h 380mbar",
+          "059182": "820T 7,5kW 520m3/h 400mbar"
+        }
+      },
+      {
+        "name": "Oldalcsatornás légfúvó",
+        "variantLabel": "Típus és teljesítmény",
+        "articles": {
+          "108031": "310M 0,7kW/230V, 100m3/h 150mbar",
+          "108032": "310T 0,7kW/400V, 100m3/h 150mbar",
+          "108042": "410M 1,1kW/230V, 145m3/h 190mbar",
+          "108045": "430T 1,3kW/400V, 180m3/h 180mbar",
+          "108053": "510M 1,5kW/230V, 210m3/h 200mbar",
+          "108051": "510T 1,6kW/400V, 210m3/h 190mbar",
+          "108052": "510T 2,2kW/400V, 210m3/h 270mbar",
+          "108060": "530T 2,2kW/400V, 270m3/h 230mbar",
+          "108062": "710T 3,0kW/400V, 318m3/h 270mbar",
+          "108063": "710T 4,0kW/400V, 318m3/h 360mbar",
+          "108065": "630T 3,0kW/400V, 345m3/h 220mbar",
+          "108067": "720T 5,5kW/400V, 320m3/h 500mbar",
+          "108071": "740T 5,5kW/400V, 530m3/h 300mbar",
+          "108072": "810T 7,5kW/400V, 530m3/h 430mbar"
+        }
+      },
+      {
+        "name": "Levegő szűrő",
+        "variantLabel": "Típus",
+        "articles": {
+          "108110": "MF-10",
+          "108112": "MF-12",
+          "108116": "MF-16",
+          "108120": "MF-20"
+        }
+      },
+      {
+        "name": "Hangtompító",
+        "variantLabel": "Típus",
+        "articles": {
+          "108150": "SL-10",
+          "108152": "SL-12",
+          "108156": "SL-16",
+          "108160": "SL-20"
+        }
+      },
+      {
+        "name": "InverX",
+        "variantLabel": "Típus",
+        "articles": {
+          "062710": "InverX23 10CP",
+          "062712": "InverX23 12CP",
+          "062714": "InverX23 14CP",
+          "062718": "InverX26 17CP*",
+          "062720": "InverX23 20CP",
+          "062723": "InverX26 23CP*",
+          "062727": "InverX26 27CP*",
+          "062733": "InverX26 33CPT*",
+          "062742": "InverX26 41CPT*"
+        }
+      },
+      {
+        "name": "InverX20",
+        "variantLabel": "Típus",
+        "articles": {
+          "062600": "09C",
+          "062601": "11C",
+          "062602": "14C",
+          "062609": "18C",
+          "062604": "22C",
+          "062605": "26C",
+          "062607": "32CT",
+          "062608": "40CT"
+        }
+      },
+      {
+        "name": "Inverter Plus IPHCR",
+        "variantLabel": "Típus",
+        "articles": {
+          "062507": "15",
+          "062509": "20",
+          "062511": "26",
+          "062513": "33",
+          "062515": "40",
+          "062518": "45",
+          "062521": "55"
+        }
+      },
+      {
+        "name": "Comfortline Inverter BPNCR",
+        "variantLabel": "Típus",
+        "articles": {
+          "061307": "07",
+          "061309": "09",
+          "061311": "11",
+          "061313": "13",
+          "061317": "17",
+          "061321": "21"
+        }
+      },
+      {
+        "name": "Hőszivattyú takaró",
+        "variantLabel": "Típus",
+        "articles": {
+          "061101": "31F/H",
+          "061102": "51F/H"
+        }
+      },
+      {
+        "name": "Mini HP hőszivattyú",
+        "variantLabel": "Típus",
+        "articles": {
+          "062480": "SHP03",
+          "062481": "SHP05",
+          "062482": "SHP06"
+        }
+      },
+      {
+        "name": "Hőszivattyú takaró Mini HP",
+        "variantLabel": "Típus",
+        "articles": {
+          "061104": "SHP03",
+          "061105": "SHP05, SHP06"
+        }
+      },
+      {
+        "name": "InverX JUMBO",
+        "variantLabel": "Típus",
+        "articles": {
+          "062621": "JBCR150T",
+          "062622": "JBCR300T"
+        }
+      },
+      {
+        "name": "Hőcserélő D-KWT-VA Plastic/SS316",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060801": "25 kW",
+          "060802": "45 kW",
+          "060803": "85 kW",
+          "060804": "105 kW"
+        }
+      },
+      {
+        "name": "Hőcserélő D-KWT-Ti Plastic/Titan",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060805": "25 kW",
+          "060806": "45 kW",
+          "060807": "85 kW",
+          "060808": "105 kW"
+        }
+      },
+      {
+        "name": "Hőcserélő KIT D-KWT-VA Compact",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060809": "45 kW",
+          "060810": "85 kW"
+        }
+      },
+      {
+        "name": "Hőcserélő KIT D-KWT-Ti Compact Ti",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060811": "45 kW",
+          "060812": "85 kW"
+        }
+      },
+      {
+        "name": "Hőcserélő D-HWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060101": "35 - 42 kW",
+          "060121": "54 - 63 kW",
+          "060102": "65 - 84 kW",
+          "060103": "93 - 133 kW",
+          "060119": "115 - 154 kW",
+          "060104": "122 - 175 kW",
+          "060105": "182 - 259 kW"
+        }
+      },
+      {
+        "name": "Titán hőcserélő D-TWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060110": "35 - 42 kW",
+          "060111": "65 - 84 kW",
+          "060112": "93 - 126 kW",
+          "060118": "115 - 154 kW"
+        }
+      },
+      {
+        "name": "Hőcserélő Solar D-NWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060106": "18 - 30 kW",
+          "060107": "35 - 60 kW"
+        }
+      },
+      {
+        "name": "Hőcserélő Solar D-SHWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060108": "9/35 - 18/42 kW",
+          "060109": "18/35 - 30/42 kW"
+        }
+      },
+      {
+        "name": "Lemezes hőcserélő D-PWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060901": "30 kW / 55°C",
+          "060902": "50 kW / 55°C",
+          "060903": "75 kW / 55°C"
+        }
+      },
+      {
+        "name": "Poliuretán hőszigetelő box D-PWT",
+        "variantLabel": "Méret",
+        "articles": {
+          "060910": "30",
+          "060911": "50",
+          "060912": "75"
+        }
+      },
+      {
+        "name": "Lemezes hőcserélő G-PWT",
+        "variantLabel": "Anyag és méret",
+        "articles": {
+          "063900": "AISI316 G-PWT-VA 30",
+          "063901": "AISI316 G-PWT-VA 50",
+          "063902": "AISI316 G-PWT-VA 70",
+          "064900": "Titanium G-PWT-Ti 30",
+          "064901": "Titanium G-PWT-Ti 50",
+          "064902": "Titanium G-PWT-Ti 70"
+        }
+      },
+      {
+        "name": "Lemezes hőcserélő Power X-PWT",
+        "variantLabel": "Típus",
+        "articles": {
+          "061900": "407-VA",
+          "061901": "409-VA",
+          "061902": "411-VA",
+          "061903": "415-VA",
+          "061904": "419-VA",
+          "061905": "423-VA",
+          "061906": "427-VA",
+          "061907": "431-VA",
+          "061908": "435-VA",
+          "061909": "439-VA"
+        }
+      },
+      {
+        "name": "Lemezes hőcserélő Power 13M-PWT",
+        "variantLabel": "Típus",
+        "articles": {
+          "061910": "1321M-VA",
+          "061911": "1317M-VA"
+        }
+      },
+      {
+        "name": "Fűtőpatron Evo D-EWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060252": "3 kW",
+          "060253": "6 kW",
+          "060254": "9 kW",
+          "060255": "12 kW",
+          "060256": "15 kW",
+          "060257": "18 kW"
+        }
+      },
+      {
+        "name": "Fűtőpatron Evo-Titan D-EWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060233": "3 kW",
+          "060234": "6 kW",
+          "060235": "9 kW",
+          "060236": "12 kW",
+          "060237": "18 kW"
+        }
+      },
+      {
+        "name": "Fűtőpatron Neo D-EWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060261": "1,5 kW",
+          "060262": "3 kW",
+          "060263": "6 kW",
+          "060264": "9 kW",
+          "060265": "12 kW",
+          "060266": "15 kW",
+          "060267": "18 kW"
+        }
+      },
+      {
+        "name": "Fűtőpatron Neo Titan D-EWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060272": "3 kW",
+          "060273": "6 kW",
+          "060274": "9 kW",
+          "060275": "12 kW",
+          "060277": "18 kW"
+        }
+      },
+      {
+        "name": "Fűtőpatron ragasztható csatlakozó",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "060006": "D50",
+          "060007": "D50x3/4”"
+        }
+      },
+      {
+        "name": "Fűtőszál Evo D-EWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060051": "3 kW",
+          "060052": "6 kW",
+          "060053": "9 kW",
+          "060054": "12 kW",
+          "060055": "15 kW",
+          "060056": "18 kW"
+        }
+      },
+      {
+        "name": "Fűtőszál Evo-Titan D-EWT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "060057": "3 kW",
+          "060058": "6 kW",
+          "060059": "9 kW",
+          "060060": "12 kW",
+          "060061": "18 kW"
+        }
+      },
+      {
+        "name": "ASIN Aqua HOME Pro vs",
+        "variantLabel": "Típus",
+        "articles": {
+          "072108": "pH/REDOX",
+          "072109": "pH/CLF"
+        }
+      },
+      {
+        "name": "Microdos Oxy pH/Rx/Cu",
+        "variantLabel": "Típus",
+        "articles": {
+          "074803": "50 HT-3",
+          "074806": "80 HT-3",
+          "074809": "125 HT-6",
+          "074812": "175 HT-6",
+          "074813": "400 ME3-22"
+        }
+      },
+      {
+        "name": "Microdos Pooltec pH/CLA",
+        "variantLabel": "Típus",
+        "articles": {
+          "074856": "ME3-10/10",
+          "074857": "ME3-22/22"
+        }
+      },
+      {
+        "name": "InverClear Basic",
+        "variantLabel": "Típus",
+        "articles": {
+          "075510": "ICS10",
+          "075516": "ICS16",
+          "075522": "ICS22"
+        }
+      },
+      {
+        "name": "InverClear PH",
+        "variantLabel": "Típus",
+        "articles": {
+          "075530": "ICS10",
+          "075536": "ICS16",
+          "075542": "ICS22"
+        }
+      },
+      {
+        "name": "Mr. Pure Premium MPS",
+        "variantLabel": "Típus",
+        "articles": {
+          "075714": "14",
+          "075722": "22",
+          "075730": "30",
+          "075734": "34"
+        }
+      },
+      {
+        "name": "Mr. Pure Pro MPP",
+        "variantLabel": "Típus",
+        "articles": {
+          "075616": "16",
+          "075624": "24",
+          "075632": "32",
+          "075636": "36"
+        }
+      },
+      {
+        "name": "TOUCH EVO sóbontó",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "077431": "15g/h",
+          "077432": "20g/h",
+          "077433": "25g/h",
+          "077434": "35g/h"
+        }
+      },
+      {
+        "name": "TOUCH EVO sóbontó pH, Rx, T szett",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "077436": "15g/h",
+          "077437": "20g/h",
+          "077438": "25g/h",
+          "077439": "35g/h"
+        }
+      },
+      {
+        "name": "TOUCH EVO LINK pH, Rx, T szett",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "077406": "15gr/h",
+          "077407": "20gr/h",
+          "077408": "25gr/h",
+          "077409": "35gr/h"
+        }
+      },
+      {
+        "name": "Sóbontó, XTreme",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "075015": "15gr/h 50m3",
+          "075020": "20gr/h 70m3",
+          "075025": "25gr/h 90m3",
+          "075030": "30gr/h 120m3",
+          "075035": "35gr/h 150m3",
+          "075050": "50gr/h 200m3",
+          "075075": "75gr/h 250m3",
+          "075100": "100gr/h 300m3"
+        }
+      },
+      {
+        "name": "Filtreau UV-C Slim",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078044": "40W",
+          "078048": "80W"
+        }
+      },
+      {
+        "name": "Filtreau UV-C Select",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078104": "40W",
+          "078108": "80W",
+          "078120": "Amalgam 120W"
+        }
+      },
+      {
+        "name": "Filtreau UV-C Titan",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078204": "40W",
+          "078208": "80W",
+          "078220": "Amalgam 120W"
+        }
+      },
+      {
+        "name": "Filtreau Slim trafó",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078911": "40W",
+          "078912": "80W"
+        }
+      },
+      {
+        "name": "Filtreau Pool Basic trafó",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078900": "16W",
+          "078901": "40W",
+          "078902": "80W"
+        }
+      },
+      {
+        "name": "Filtreau Select trafó",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078903": "40W",
+          "078904": "80W",
+          "078905": "120W Amalgam"
+        }
+      },
+      {
+        "name": "Filtreau Titan trafó",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078906": "40W",
+          "078907": "80W",
+          "078908": "120W Amalgam"
+        }
+      },
+      {
+        "name": "Filtreau UV-C PRO",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "078080": "80 m3",
+          "078160": "160 m3",
+          "078240": "240 m3"
+        }
+      },
+      {
+        "name": "Tablettás klóradagoló",
+        "variantLabel": "Kivitel és méret",
+        "articles": {
+          "070001": "2,5 kg, in-line",
+          "070002": "4,5 kg, in-line",
+          "070003": "16,8 kg, off-line"
+        }
+      },
+      {
+        "name": "MP2-B",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "071001": "1,5l/h - 1bar",
+          "071003": "3l/h - 1bar",
+          "071004": "4l/h - 1bar",
+          "071006": "6l/h - 1bar"
+        }
+      },
+      {
+        "name": "MP2-R",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "071011": "1,5l/h - 1bar",
+          "071014": "4l/h - 1bar",
+          "071016": "6l/h - 1bar"
+        }
+      },
+      {
+        "name": "ME2-CA",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "071103": "3l/h - 7bar",
+          "071104": "4l/h - 5bar",
+          "071105": "5l/h - 2bar"
+        }
+      },
+      {
+        "name": "ME1-CA",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "071202": "2l/h - 12bar",
+          "071203": "3l/h - 11bar",
+          "071205": "5l/h - 9bar",
+          "071206": "6l/h - 8bar",
+          "071208": "8l/h - 5bar"
+        }
+      },
+      {
+        "name": "Microdos PH szett",
+        "variantLabel": "Típus",
+        "articles": {
+          "079004": "4-7",
+          "079005": "7-9",
+          "079009": "7-10"
+        }
+      },
+      {
+        "name": "Microdos GOLD RX szett",
+        "variantLabel": "Típus",
+        "articles": {
+          "079007": "468mV",
+          "079008": "650mV"
+        }
+      },
+      {
+        "name": "Microdos Kalibráló folyadék",
+        "variantLabel": "Típus",
+        "articles": {
+          "079013": "RX468mV",
+          "079017": "RX650mV",
+          "079014": "PH4",
+          "079015": "PH7",
+          "079016": "PH9",
+          "079018": "PH10"
+        }
+      },
+      {
+        "name": "Microdos Injektor 1/2” 4 x 6mm",
+        "variantLabel": "Anyag",
+        "articles": {
+          "079022": "PP VL",
+          "079024": "PVDF SP"
+        }
+      },
+      {
+        "name": "Microdos Lábszelep 4 x 6mm",
+        "variantLabel": "Anyag",
+        "articles": {
+          "079025": "PP VL",
+          "079027": "PVDF SP"
+        }
+      },
+      {
+        "name": "ASI Sensors PH szonda",
+        "variantLabel": "Hossz",
+        "articles": {
+          "079504": "1m vezetékkel",
+          "079502": "3m vezetékkel"
+        }
+      },
+      {
+        "name": "ASI Sensors RX szonda",
+        "variantLabel": "Hossz",
+        "articles": {
+          "079505": "1m vezetékkel",
+          "079503": "3m vezetékkel"
+        }
+      },
+      {
+        "name": "XTreme Pótcella",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "075215": "15gr/h",
+          "075220": "20gr/h",
+          "075225": "25gr/h",
+          "075230": "30gr/h",
+          "075235": "35gr/h",
+          "075250": "50gr/h",
+          "075275": "75gr/h",
+          "075200": "100gr/h"
+        }
+      },
+      {
+        "name": "Nyomócső - 3 méter/szál",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "080003-3M": "D 020",
+          "080004-3M": "D 025",
+          "080005-3M": "D 032",
+          "080106-3M": "D 040",
+          "080107-3M": "D 050",
+          "080108-3M": "D 063",
+          "080109-3M": "D 075",
+          "080110-3M": "D 090"
+        }
+      },
+      {
+        "name": "Nyomócső PN 10",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "080108": "D 063",
+          "080109": "D 075",
+          "080110": "D 090",
+          "080111": "D 110",
+          "080112": "D 125",
+          "080113": "D 140",
+          "080114": "D 160",
+          "080115": "D 200",
+          "080116": "D 225",
+          "080117": "D 250",
+          "080118": "D 280",
+          "080119": "D 315"
+        }
+      },
+      {
+        "name": "Nyomócső PN 6",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "080214": "D 160",
+          "080215": "D 200",
+          "080216": "D 225",
+          "080217": "D 250",
+          "080218": "D 280",
+          "080219": "D 315",
+          "080220": "D 355",
+          "080221": "D 400"
+        }
+      },
+      {
+        "name": "Pneumatikus nyomógomb, mini",
+        "variantLabel": "Szín",
+        "articles": {
+          "090023": "fehér",
+          "090024": "krómozott"
+        }
+      },
+      {
+        "name": "Hőfokszabályozó, Digitális",
+        "variantLabel": "Típus",
+        "articles": {
+          "090008": "ESM-3710",
+          "090018": "ESM-1510"
+        }
+      },
+      {
+        "name": "Mágnesszelep BB átfoly.szab. 24V",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "090042": "1 1/2”",
+          "090043": "2”"
+        }
+      },
+      {
+        "name": "Kapcsolószekrény",
+        "variantLabel": "Típus",
+        "articles": {
+          "091201": "F1V",
+          "091202": "F2VK",
+          "091203": "F2VK - H",
+          "091204": "F2VK - E",
+          "091205": "F2VK - HE",
+          "091206": "F2VK - HP",
+          "091207": "F2VK - EHP",
+          "091209": "F2VK - HEJ1",
+          "091210": "F2VK - HEJ2",
+          "091211": "F2VK - EHPJ1",
+          "091212": "F2VK - EHPJ2",
+          "091213": "F2VK - H - P2",
+          "091214": "F2VK - HP - P2",
+          "091215": "F2VK - HE - P2",
+          "091216": "F2VK - EHP - P2",
+          "091218": "E - Piezo"
+        }
+      },
+      {
+        "name": "Falátvezetés ABS piezo nyomógombhoz",
+        "variantLabel": "Anyag",
+        "articles": {
+          "091313": "SS",
+          "091314": "ABS"
+        }
+      },
+      {
+        "name": "Piezo nyomógomb",
+        "variantLabel": "Típus",
+        "articles": {
+          "091301": "JET",
+          "091302": "AIR",
+          "091303": "LIGHT"
+        }
+      },
+      {
+        "name": "Beépítő inox doboz piezo kapcsolóhoz",
+        "variantLabel": "Méret",
+        "articles": {
+          "091351": "1 kapcsolóhoz",
+          "091352": "2 kapcsolóhoz",
+          "091353": "3 kapcsolóhoz",
+          "091354": "4 kapcsolóhoz"
+        }
+      },
+      {
+        "name": "Swim Jet",
+        "variantLabel": "Típus",
+        "articles": {
+          "103120": "M120",
+          "103180": "M180",
+          "103230": "M230"
+        }
+      },
+      {
+        "name": "Nixi ellenáramoltató",
+        "variantLabel": "Teljesítmény és szín",
+        "articles": {
+          "100231": "3HP Fehér",
+          "100232": "3HP Homok",
+          "100233": "3HP Szürke",
+          "100234": "3HP Antracit",
+          "100241": "4HP Fehér",
+          "100242": "4HP Homok",
+          "100243": "4HP Szürke",
+          "100244": "4HP Antracit"
+        }
+      },
+      {
+        "name": "Pezsgőlap",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "107505": "Fehér",
+          "107506": "Homok",
+          "107507": "Szürke",
+          "107508": "Antracit",
+          "107509": "Rozsdamentes acél AISI 316"
+        }
+      },
+      {
+        "name": "Aqua Jet XT Ellenáramoltató",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "100031": "3HP/230V",
+          "100033": "3HP/400V",
+          "100040": "4HP/400V",
+          "100055": "5,5HP/400V"
+        }
+      },
+      {
+        "name": "Aqua Jet ST Ellenáramoltató",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "100131": "3HP/230V",
+          "100133": "3HP/400V",
+          "100140": "4HP/400V",
+          "100155": "5,5HP/400V"
+        }
+      },
+      {
+        "name": "Aqua Jet vezérlő doboz",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "100003": "3HP/230V",
+          "100004": "3HP 400V",
+          "100008": "4HP/400V",
+          "100009": "5HP/400V"
+        }
+      },
+      {
+        "name": "Aqua pneumatikus nyomógomb",
+        "variantLabel": "Szín",
+        "articles": {
+          "100094": "fehér",
+          "100095": "króm"
+        }
+      },
+      {
+        "name": "Supreme Uno 4HP",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "102240": "Alap",
+          "102241": "PRO"
+        }
+      },
+      {
+        "name": "Supreme Uno Square 4HP/400V",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "102340": "Alap",
+          "102341": "PRO"
+        }
+      },
+      {
+        "name": "Supreme Duo 5,5HP",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "102255": "Alap",
+          "102256": "PRO"
+        }
+      },
+      {
+        "name": "Supreme Duo Square 5,5HP/400V",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "102355": "Alap",
+          "102356": "PRO"
+        }
+      },
+      {
+        "name": "Badu Jet Smart főegység",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "106901": "1,6kW/230V",
+          "106902": "2,2kW/400V"
+        }
+      },
+      {
+        "name": "Badu Jet Wave főegység 2,6kW/400V",
+        "variantLabel": "Világítás",
+        "articles": {
+          "106912": "W",
+          "106913": "RGB"
+        }
+      },
+      {
+        "name": "Badu Jet Vogue főegység 2,6kW/400V",
+        "variantLabel": "Világítás",
+        "articles": {
+          "106922": "W",
+          "106923": "RGB"
+        }
+      },
+      {
+        "name": "Badu Jet Primavera főegység 4kW/400V",
+        "variantLabel": "Világítás",
+        "articles": {
+          "106931": "W",
+          "106932": "RGB"
+        }
+      },
+      {
+        "name": "Badu Jet Pro beépítő egység",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "106951": "Design1",
+          "106952": "Design2"
+        }
+      },
+      {
+        "name": "Badu Jet Perla, LED_W",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "106941": "1,6kW/230V",
+          "106943": "1,6kW/400V"
+        }
+      },
+      {
+        "name": "Badu Jet Riva, LED_W",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "106945": "2,2kW/230V",
+          "106947": "2,6kW/400V"
+        }
+      },
+      {
+        "name": "TriVA Beépítő klt.",
+        "variantLabel": "Méret",
+        "articles": {
+          "106000": "75",
+          "106001": "150",
+          "106003": "225"
+        }
+      },
+      {
+        "name": "TriVA Szerelő klt.",
+        "variantLabel": "Típus",
+        "articles": {
+          "106004": "75 3",
+          "106005": "150 3",
+          "106006": "150 1",
+          "106008": "225 3",
+          "106009": "225 3~",
+          "106010": "150 3~"
+        }
+      },
+      {
+        "name": "TriVA Tömítés klt.",
+        "variantLabel": "Méret",
+        "articles": {
+          "106011": "75",
+          "106012": "150",
+          "106013": "225",
+          "106014": "150/225"
+        }
+      },
+      {
+        "name": "LIDO Szerelő klt.",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "106505": "3,2 kW fehér",
+          "106507": "3,5 kW kör",
+          "106509": "3,2 kW kör",
+          "106512": "3,5 kW négyzet"
+        }
+      },
+      {
+        "name": "LIDO 2 Szerelő klt.",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "106506": "3,2 kW fehér",
+          "106508": "3,5 kW kör",
+          "106510": "3,2 kW kör",
+          "106513": "3,5 kW négyzet"
+        }
+      },
+      {
+        "name": "LIDO/VIVA pneu nyomógomb",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "106608": "fehér kör",
+          "106609": "inox kör",
+          "106610": "inox négyzet"
+        }
+      },
+      {
+        "name": "LIDO/VIVA piezo nyomógomb, inox",
+        "variantLabel": "Forma",
+        "articles": {
+          "106611": "kör",
+          "106612": "négyzet"
+        }
+      },
+      {
+        "name": "VIVA Szerelő klt.",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "106602": "3,2 kW, fehér",
+          "106603": "3,5 kW kör",
+          "106604": "3,2 kW kör",
+          "106605": "3,5 kW négyzet"
+        }
+      },
+      {
+        "name": "Vízkés LED",
+        "variantLabel": "Méret",
+        "articles": {
+          "109203": "PB-600-150, 8w",
+          "109205": "PB-900-150, 12w",
+          "109207": "PB-1200-150, 16w"
+        }
+      },
+      {
+        "name": "Moon nyakzuhany",
+        "variantLabel": "Méret és anyag",
+        "articles": {
+          "109100": "300 AISI304 D50",
+          "109101": "300 AISI316 LC D50",
+          "109102": "400 AISI304 D50",
+          "109103": "400 AISI316 LC D50",
+          "109104": "500 AISI304 D63",
+          "109105": "500 AISI316 LC D63"
+        }
+      },
+      {
+        "name": "Cobra nyakzuhany",
+        "variantLabel": "Méret és anyag",
+        "articles": {
+          "109106": "400 AISI304 D50",
+          "109107": "400 AISI316 LC D50",
+          "109108": "500 AISI304 D63",
+          "109109": "500 AISI316 LC D63"
+        }
+      },
+      {
+        "name": "Design nyakzuhany",
+        "variantLabel": "Méret és anyag",
+        "articles": {
+          "109110": "310 AISI304 D50",
+          "109111": "310 AISI316 LC D50",
+          "109112": "375 AISI304 D63",
+          "109113": "375 AISI316 LC D63"
+        }
+      },
+      {
+        "name": "Pezsgőlap",
+        "variantLabel": "Kivitel és méret",
+        "articles": {
+          "107500": "fóliás medencéhez, 500mm",
+          "107501": "betonos medencéhez, 500mm",
+          "107250": "fóliás medencéhez, 250mm",
+          "107251": "betonos medencéhez, 250mm",
+          "107502": "fóliás medencéhez, AISI304",
+          "107503": "betonos medencéhez, AISI304"
+        }
+      },
+      {
+        "name": "Levegő befúvó D50",
+        "variantLabel": "Anyag",
+        "articles": {
+          "107530": "AISI304",
+          "107531": "AISI316"
+        }
+      },
+      {
+        "name": "Pezsgőágy",
+        "variantLabel": "Kivitel, anyag és méret",
+        "articles": {
+          "107515": "fóliás, AISI304, 2 x 60mm",
+          "107517": "fóliás, AISI316, 2 x 60mm",
+          "107524": "betonos, AISI304, 2 x 40mm",
+          "107526": "betonos, AISI304, 2 x 60mm"
+        }
+      },
+      {
+        "name": "Vízkés",
+        "variantLabel": "Anyag és méret",
+        "articles": {
+          "109190": "AISI304 500mm 1 x 6/4”BM",
+          "109191": "AISI304 1000mm 2 x 6/4”BM",
+          "109192": "AISI304 1500mm 4 x 2”BM",
+          "109193": "AISI304 2000mm 4 x 2”BM",
+          "109194": "AISI316 500mm 1 x 6/4”BM",
+          "109195": "AISI316 1000mm 2 x 6/4”BM",
+          "109196": "AISI316 1500mm 4 x 2”BM",
+          "109197": "AISI316 2000mm 4 x 2”BM"
+        }
+      },
+      {
+        "name": "Szívóidom",
+        "variantLabel": "Csatlakozás és kivitel",
+        "articles": {
+          "109020": "1 1/2” fóliás",
+          "109021": "1 1/2” betonos",
+          "109022": "2” fóliás",
+          "109023": "2” betonos",
+          "109024": "2 1/2” fóliás",
+          "109025": "2 1/2” betonos",
+          "109026": "3” fóliás",
+          "109027": "3” betonos",
+          "109028": "4” fóliás",
+          "109029": "4” betonos"
+        }
+      },
+      {
+        "name": "Létra, kis ívű",
+        "variantLabel": "Fokszám és anyag",
+        "articles": {
+          "110002": "2 fokos AISI304",
+          "110003": "3 fokos AISI304",
+          "110004": "4 fokos AISI304",
+          "110005": "5 fokos AISI304",
+          "110012": "2 fokos AISI316",
+          "110013": "3 fokos AISI316",
+          "110014": "4 fokos AISI316",
+          "110015": "5 fokos AISI316"
+        }
+      },
+      {
+        "name": "Létra, nagy ívű",
+        "variantLabel": "Fokszám és anyag",
+        "articles": {
+          "111002": "2 fokos AISI304",
+          "111003": "3 fokos AISI304",
+          "111004": "4 fokos AISI304",
+          "111005": "5 fokos AISI304",
+          "111012": "2 fokos AISI316",
+          "111013": "3 fokos AISI316",
+          "111014": "4 fokos AISI316",
+          "111015": "5 fokos AISI316"
+        }
+      },
+      {
+        "name": "Létra, extra nagy ívű",
+        "variantLabel": "Fokszám",
+        "articles": {
+          "113013": "3 fokos",
+          "113014": "4 fokos",
+          "113015": "5 fokos"
+        }
+      },
+      {
+        "name": "Létra, osztott AISI316",
+        "variantLabel": "Fokszám",
+        "articles": {
+          "114012": "2 fokos",
+          "114013": "3 fokos",
+          "114014": "4 fokos",
+          "114015": "5 fokos"
+        }
+      },
+      {
+        "name": "Kétágú inox létra",
+        "variantLabel": "Fokszám",
+        "articles": {
+          "118000": "3 + 3 fokos, max 1,0m",
+          "118001": "4 + 4 fokos, max 1,2m",
+          "118002": "5 + 5 fokos, max 1,5m",
+          "118003": "1 + 4 fokos, max 1,2m",
+          "118004": "1 + 5 fokos, max 1,5m"
+        }
+      },
+      {
+        "name": "Korlát FX-05 AISI316",
+        "variantLabel": "Méret",
+        "articles": {
+          "119006": "660 x 1219mm",
+          "119007": "915 x 1524mm",
+          "119008": "1169 x 1829mm"
+        }
+      },
+      {
+        "name": "Létra fok, csúszásmentes",
+        "variantLabel": "Anyag",
+        "articles": {
+          "115005": "AISI304",
+          "115006": "AISI316"
+        }
+      },
+      {
+        "name": "Létra takaró rózsa",
+        "variantLabel": "Anyag",
+        "articles": {
+          "115009": "AISI304",
+          "115010": "AISI316"
+        }
+      },
+      {
+        "name": "Medence lépcső",
+        "variantLabel": "Méret",
+        "articles": {
+          "112005": "500 - 1180-1380",
+          "112006": "500 - 1390-1590",
+          "112007": "500 - 1600-1800",
+          "112015": "700 - 1180-1380",
+          "112016": "700 - 1390-1590",
+          "112017": "700 - 1600-1800"
+        }
+      },
+      {
+        "name": "Szolárzuhany, lábmosóval 28L",
+        "variantLabel": "Szín",
+        "articles": {
+          "125281": "antracit",
+          "125282": "famintás",
+          "125285": "ezüst"
+        }
+      },
+      {
+        "name": "Szolárzuhany, lábmosóval 40L",
+        "variantLabel": "Szín",
+        "articles": {
+          "125401": "fekete",
+          "125402": "famintás"
+        }
+      },
+      {
+        "name": "Csúszda lépcsős 1,75m",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "120006": "egyenes",
+          "120013": "balos",
+          "120014": "jobbos"
+        }
+      },
+      {
+        "name": "Trambulin üvegszálas Bali 1,6m",
+        "variantLabel": "Szín",
+        "articles": {
+          "120210": "fehér",
+          "120211": "kék"
+        }
+      },
+      {
+        "name": "Aknafedél kiemelhető AISI304",
+        "variantLabel": "Méret",
+        "articles": {
+          "127600": "600/15",
+          "127700": "700/15",
+          "127800": "800/15"
+        }
+      },
+      {
+        "name": "Aknafedél teleszkópos",
+        "variantLabel": "Méret és anyag",
+        "articles": {
+          "127601": "600/15 AISI304",
+          "127701": "700/15 AISI304",
+          "127801": "800/15 AISI304",
+          "127602": "600/25 AISI304",
+          "127606": "600/65 AISI304",
+          "127703": "700/25 AISI304",
+          "127704": "700/25 AISI316",
+          "127707": "700/65 AISI304",
+          "127802": "800/25 AISI304",
+          "127807": "800/65 AISI304",
+          "127904": "900/35 AISI316",
+          "127990": "1000/25 AISI304"
+        }
+      },
+      {
+        "name": "Sávelválasztó FINA",
+        "variantLabel": "Hossz",
+        "articles": {
+          "126001": "25m-es",
+          "126002": "50m-es"
+        }
+      },
+      {
+        "name": "Sávelválasztó Rome",
+        "variantLabel": "Hossz",
+        "articles": {
+          "126006": "25m",
+          "126007": "50m"
+        }
+      },
+      {
+        "name": "Sávelválasztó tároló állvány",
+        "variantLabel": "Méret",
+        "articles": {
+          "126013": "1,5 m",
+          "126015": "2,0 m"
+        }
+      },
+      {
+        "name": "Sávelválasztó tároló tekercselő",
+        "variantLabel": "Méret",
+        "articles": {
+          "126014": "1,5 m",
+          "126016": "2,0 m"
+        }
+      },
+      {
+        "name": "Inverter Plus páramentesítő",
+        "variantLabel": "Típus",
+        "articles": {
+          "132248": "IDHR60",
+          "132272": "IDHR96",
+          "132296": "IDHR120"
+        }
+      },
+      {
+        "name": "Páramentesítő elektromos fűtés",
+        "variantLabel": "Típus",
+        "articles": {
+          "132297": "IDHR60",
+          "132298": "IDHR96/120"
+        }
+      },
+      {
+        "name": "CAREL Gőzgenerátor HSW",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "130910": "5kg/h 3,75kW",
+          "130911": "9kg/h 6,75kW",
+          "130912": "15kg/h 11,25kW",
+          "130913": "25kg/h 18,75kW",
+          "130914": "35kg/h 26,25kW"
+        }
+      },
+      {
+        "name": "Gőztömlő / m",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "130921": "Ø 30 mm",
+          "130922": "Ø 40 mm"
+        }
+      },
+      {
+        "name": "Elektróda + tömítő KIT",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "130924": "5kg/h",
+          "130925": "9kg/h"
+        }
+      },
+      {
+        "name": "Gőzbefúvó fej, krómozott",
+        "variantLabel": "Típus és csatlakozás",
+        "articles": {
+          "130900": "CA1, 1/2”",
+          "130902": "CA1, 3/4”",
+          "130901": "CA3, 1/2”",
+          "130903": "CA3, 3/4”"
+        }
+      },
+      {
+        "name": "Szauna és gőzillat 1L",
+        "variantLabel": "Illat",
+        "articles": {
+          "150514": "EUCAMENTOL",
+          "150515": "EUCALIPTUS"
+        }
+      },
+      {
+        "name": "Porszívófej, alumínium",
+        "variantLabel": "Méret",
+        "articles": {
+          "140046": "35cm",
+          "140047": "45cm"
+        }
+      },
+      {
+        "name": "Kefe, hajlított Basic",
+        "variantLabel": "Méret",
+        "articles": {
+          "140026": "250mm",
+          "140027": "450mm"
+        }
+      },
+      {
+        "name": "Porszívónyél Basic",
+        "variantLabel": "Hossz",
+        "articles": {
+          "141330": "1,0 - 3,0m",
+          "142336": "1,2 - 3,6m",
+          "141348": "1,5 - 4,5m",
+          "141036": "1,8 - 3,6m",
+          "142048": "2,4 - 4,8m"
+        }
+      },
+      {
+        "name": "Porszívónyél Navy Blue",
+        "variantLabel": "Hossz",
+        "articles": {
+          "141136": "1,8 - 3,6m",
+          "142148": "2,4 - 4,8m"
+        }
+      },
+      {
+        "name": "Porszívócső Kék, dobozban",
+        "variantLabel": "Méret",
+        "articles": {
+          "140042": "D38 x 7,5m",
+          "140043": "D38 x 9,0m",
+          "140045": "D38 x 10,5m",
+          "140048": "D38 x 12m",
+          "140049": "D32 x 6,4m"
+        }
+      },
+      {
+        "name": "Porszívócső, tagolt",
+        "variantLabel": "Szín, átmérő és tagolás",
+        "articles": {
+          "142332": "fehér D32 - tagolás: 1,1m*",
+          "142238": "kék D38 - tagolás: 1,5m*",
+          "142438": "kék D38 - tagolás: 1m",
+          "142432": "kék D32 - tagolás: 1m"
+        }
+      },
+      {
+        "name": "Porszívótömlő csatlakozó",
+        "variantLabel": "Csatlakozás",
+        "articles": {
+          "140037": "38-32mm x 6/4”",
+          "140038": "38mm x 6/4”",
+          "140040": "32/38mm x D50"
+        }
+      },
+      {
+        "name": "Hőmérő gumicsónak",
+        "variantLabel": "Típus",
+        "articles": {
+          "140502": "csajszival",
+          "140503": "pasival"
+        }
+      },
+      {
+        "name": "VOLTERA vezeték nélküli porszívó",
+        "variantLabel": "Típus",
+        "articles": {
+          "142011": "56",
+          "142012": "75",
+          "142013": "105"
+        }
+      },
+      {
+        "name": "Porszívónyél Revolution",
+        "variantLabel": "Hossz",
+        "articles": {
+          "141045": "1,5-4,5m",
+          "141048": "2,4-4,8m"
+        }
+      },
+      {
+        "name": "PoolLab 2.0 hordtáska",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "147008": "puha",
+          "147009": "műanyag"
+        }
+      },
+      {
+        "name": "NIYA TRACKER EU",
+        "variantLabel": "Típus",
+        "articles": {
+          "148335": "35",
+          "148355": "55"
+        }
+      },
+      {
+        "name": "Fairland iGarden",
+        "variantLabel": "Típus",
+        "articles": {
+          "148550": "M1-50",
+          "148580": "M1-80"
+        }
+      },
+      {
+        "name": "DOLPHIN EON",
+        "variantLabel": "Típus",
+        "articles": {
+          "148310": "100",
+          "148312": "120"
+        }
+      },
+      {
+        "name": "Aquacorrect Klórgranulátum 56%",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150011": "1 kg",
+          "150015": "5 kg"
+        }
+      },
+      {
+        "name": "Aquacorrect Klórtabletta 20gr 56%",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150041": "1 kg",
+          "150045": "5 kg"
+        }
+      },
+      {
+        "name": "Aquacorrect Klórtabletta 200gr 90%",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150031": "1 kg",
+          "150035": "5 kg"
+        }
+      },
+      {
+        "name": "Aquacorrect Total Blue 20g",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150051": "1 kg",
+          "150055": "5 kg"
+        }
+      },
+      {
+        "name": "Aquacorrect Quattrotabs 200g",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150061": "1 kg",
+          "150065": "5 kg"
+        }
+      },
+      {
+        "name": "Aquacorrect pH Mínusz Granulátum",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150071": "1,5 kg",
+          "150077": "7,5 kg"
+        }
+      },
+      {
+        "name": "Aquacorrect pH Plusz Granulátum",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150081": "1 kg",
+          "150085": "5 kg"
+        }
+      },
+      {
+        "name": "CRYSTALCARE Klór és Bróm semlegesítő",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150292": "2kg",
+          "150295": "5kg"
+        }
+      },
+      {
+        "name": "Aquacorrect Algecid koncentrátum",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150001": "1 L",
+          "150005": "5 L"
+        }
+      },
+      {
+        "name": "Aquacorrect Téliesítő folyadék",
+        "variantLabel": "Kiszerelés",
+        "articles": {
+          "150171": "1 L",
+          "150175": "5 L"
+        }
+      },
+      {
+        "name": "Longoxi 25kg/kanna",
+        "variantLabel": "Koncentráció",
+        "articles": {
+          "150336": "35%",
+          "150337": "50%"
+        }
+      },
+      {
+        "name": "Kristálysav",
+        "variantLabel": "Koncentráció és kiszerelés",
+        "articles": {
+          "150215": "14 %-os 20kg/kanna",
+          "150237": "37 %-os 25kg/kanna"
+        }
+      },
+      {
+        "name": "Kanna 25 kg",
+        "variantLabel": "Szín",
+        "articles": {
+          "150520": "kék",
+          "150510": "fehér",
+          "150500": "zöld"
+        }
+      },
+      {
+        "name": "Sopremapool Design - Mineral",
+        "variantLabel": "Szín",
+        "articles": {
+          "163211": "Amber",
+          "163212": "Sapphire",
+          "163213": "Jade"
+        }
+      },
+      {
+        "name": "Sopremapool 3D - Sensitive",
+        "variantLabel": "Szín",
+        "articles": {
+          "163317": "Mineral Amber",
+          "163318": "Mineral Sapphire",
+          "163319": "Jade"
+        }
+      },
+      {
+        "name": "Sopremapool Feeling",
+        "variantLabel": "Szín",
+        "articles": {
+          "163321": "Azure Blue",
+          "163322": "Sand",
+          "163323": "White",
+          "163324": "Medium Grey",
+          "163325": "Basalt Grey"
+        }
+      },
+      {
+        "name": "Sopremapool 3D - Sensitive",
+        "variantLabel": "Szín",
+        "articles": {
+          "163303": "Bali",
+          "163304": "White",
+          "163305": "Black",
+          "163306": "Sand",
+          "163307": "Grey",
+          "163308": "Bali Sand",
+          "163309": "Bali XL",
+          "163310": "Wood",
+          "163311": "Sahara",
+          "163312": "Ocean",
+          "163313": "Rock",
+          "163314": "Infinite",
+          "163315": "Vanilla",
+          "163316": "White Wood"
+        }
+      },
+      {
+        "name": "Sopremapool One",
+        "variantLabel": "Szín",
+        "articles": {
+          "163001": "Light Blue",
+          "163002": "Azure Blue",
+          "163003": "Sapphire Blue",
+          "163005": "Sand",
+          "163006": "White",
+          "163007": "Caribbean Green",
+          "163008": "Natural Green",
+          "163009": "Light Grey",
+          "163010": "Medium Grey",
+          "163011": "Basalt Grey"
+        }
+      },
+      {
+        "name": "Sopremapool Grip",
+        "variantLabel": "Szín",
+        "articles": {
+          "163401": "Light Blue",
+          "163402": "Azure Blue",
+          "163403": "Sapphire Blue",
+          "163405": "Sand",
+          "163406": "White",
+          "163407": "Caribbean Green",
+          "163408": "Natural Green",
+          "163409": "Light Grey",
+          "163410": "Medium Grey",
+          "163411": "Basalt Grey"
+        }
+      },
+      {
+        "name": "Sopremapool Premium",
+        "variantLabel": "Szín",
+        "articles": {
+          "163101": "Light Blue",
+          "163102": "Azure Blue",
+          "163104": "Dark Blue",
+          "163105": "Sand",
+          "163106": "White",
+          "163109": "Light Grey",
+          "163110": "Medium Grey",
+          "163111": "Basalt Grey",
+          "163112": "Black"
+        }
+      },
+      {
+        "name": "Sopremapool Design",
+        "variantLabel": "Szín",
+        "articles": {
+          "163201": "Blue Mosaic",
+          "163202": "Marbella Blue Mosaic",
+          "163203": "Marbella Grey Mosaic",
+          "163205": "Pearl Black",
+          "163206": "Sky Blue",
+          "163208": "Bali",
+          "163210": "Wood*"
+        }
+      },
+      {
+        "name": "Sopremapool Grip",
+        "variantLabel": "Szín",
+        "articles": {
+          "163413": "Blue Mosaic*",
+          "163414": "Marbella Mosaic",
+          "163418": "Bali"
+        }
+      },
+      {
+        "name": "Sopremapool Liquid PVC",
+        "variantLabel": "Szín",
+        "articles": {
+          "163500": "Transparent",
+          "163501": "Light Blue",
+          "163502": "Azure Blue",
+          "163503": "Sapphire Blue",
+          "163504": "Dark Blue 1l",
+          "163505": "Sand 1l",
+          "163506": "White 1l",
+          "163507": "Caribbean Green",
+          "163508": "Natural Green",
+          "163509": "Light Grey",
+          "163510": "Medium Grey",
+          "163511": "Basalt Grey",
+          "163512": "Black 1l",
+          "163513": "Marbella 1l*",
+          "163514": "Bali Sand 1l",
+          "163515": "Bali & Bali XL",
+          "163516": "Wood 1l",
+          "163519": "Sensitive Sand",
+          "163522": "Infinite - Rock",
+          "163523": "Sensitive Sahara",
+          "163524": "Sensitive Ocean",
+          "163525": "Sensitive Vanilla",
+          "163526": "Mineral Amber",
+          "163527": "Mineral Sapphire",
+          "163528": "Mineral Jade"
+        }
+      },
+      {
+        "name": "Szürke fóliabádog - 2m",
+        "variantLabel": "Méret",
+        "articles": {
+          "165141": "4/1cm",
+          "165152": "5/2cm",
+          "165182": "8/2cm",
+          "165104": "4cm"
+        }
+      },
+      {
+        "name": "Szürke fóliabádog, vályú - 2m",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "165105": "belső",
+          "165106": "külső"
+        }
+      },
+      {
+        "name": "Kék fóliabádog - inox, vályú - 2m",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "165205": "belső",
+          "165206": "külső"
+        }
+      },
+      {
+        "name": "Geotextília, hőkezelt 300gr/m2",
+        "variantLabel": "Méret",
+        "articles": {
+          "165600": "2,20x50m",
+          "165601": "2,00x50m"
+        }
+      },
+      {
+        "name": "Gránit szegélykő",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "167041": "Silver 100 x 23 x 3 cm",
+          "167021": "Silver 100 x 28 x 3 cm",
+          "167001": "Silver 100 x 33 x 3 cm",
+          "167101": "Antracit 100 x 33 x 3 cm",
+          "167201": "Sand 100 x 33 x 3 cm"
+        }
+      },
+      {
+        "name": "Gránit szegélykő sarok elem",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "167051": "Silver 23cm",
+          "167031": "Silver 28cm",
+          "167011": "Silver 33cm",
+          "167111": "Antracit 33cm",
+          "167211": "Sand 33cm"
+        }
+      },
+      {
+        "name": "Szolártakaró OXO Blue 500",
+        "variantLabel": "Méret",
+        "articles": {
+          "172311": "3,0 x 6,0m",
+          "172312": "3,5 x 7,0m",
+          "172313": "4,0 x 8,0m",
+          "172314": "4,5 x 9,0m",
+          "172315": "5,0 x 10,0m",
+          "172316": "5,5 x 11,0m",
+          "172317": "6,0 x 12,0m"
+        }
+      },
+      {
+        "name": "Szolártakaró OXO Heat 500",
+        "variantLabel": "Méret",
+        "articles": {
+          "172321": "3,0 x 6,0m",
+          "172322": "3,5 x 7,0m",
+          "172323": "4,0 x 8,0m",
+          "172324": "4,5 x 9,0m",
+          "172325": "5,0 x 10,0m",
+          "172326": "5,5 x 11,0m",
+          "172327": "6,0 x 12,0m"
+        }
+      },
+      {
+        "name": "Szolártakaró OXO Blue 500 JUMBO",
+        "variantLabel": "Méret",
+        "articles": {
+          "172350": "3,0x50m",
+          "172400": "4,0x50m",
+          "172450": "5,0x50m",
+          "172500": "6,0x50m"
+        }
+      },
+      {
+        "name": "Szolártakaró Blue 180",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "172003": "Ø3,70m",
+          "172004": "Ø4,60m",
+          "172005": "Ø5,50m"
+        }
+      },
+      {
+        "name": "Szolártakaró Blue 250",
+        "variantLabel": "Méret",
+        "articles": {
+          "172009": "Ø6,00m",
+          "172015": "3,6 x 5,5m",
+          "172016": "3,6 x 6,1m",
+          "172017": "3,7 x 7,3m",
+          "172018": "4,6 x 8,3m"
+        }
+      },
+      {
+        "name": "Szolártakaró Blue 300",
+        "variantLabel": "Méret",
+        "articles": {
+          "172024": "2,5 x 5,0m",
+          "172025": "3,0 x 6,0m"
+        }
+      },
+      {
+        "name": "Szolártakaró Blue 400",
+        "variantLabel": "Méret",
+        "articles": {
+          "172026": "3,0 x 6,0m",
+          "172027": "3,5 x 7,0m",
+          "172028": "4,0 x 8,0m",
+          "172029": "4,5 x 9,0m",
+          "172030": "5,0 x 10,0m",
+          "172031": "5,5 x 11,0m",
+          "172032": "6,0 x 12,0m"
+        }
+      },
+      {
+        "name": "Szolártakaró Blue12-400 JUMBO",
+        "variantLabel": "Méret",
+        "articles": {
+          "172150": "3,0 x 50m",
+          "172200": "4,0 x 50m",
+          "172250": "5,0 x 50m"
+        }
+      },
+      {
+        "name": "Szolár fehér védő fólia",
+        "variantLabel": "Szélesség",
+        "articles": {
+          "172404": "4,0m",
+          "172405": "5,0m",
+          "172406": "6,0m"
+        }
+      },
+      {
+        "name": "Tekercselő, mobil inox láb",
+        "variantLabel": "Méret",
+        "articles": {
+          "171005": "3,4 - 4,7m-ig",
+          "171006": "4,0 - 5,6m-ig",
+          "171007": "4,0 - 6,5m-ig"
+        }
+      },
+      {
+        "name": "Téli takaró Deluxe PE",
+        "variantLabel": "Átmérő",
+        "articles": {
+          "173001": "Ø3,6m",
+          "173002": "Ø4,5m",
+          "173003": "Ø5,4m",
+          "173016": "Ø6,0m"
+        }
+      },
+      {
+        "name": "Téli takaró Supreme PE",
+        "variantLabel": "Méret",
+        "articles": {
+          "173004": "3,6 x 5,4m",
+          "173005": "3,6 x 7,2m",
+          "173006": "4,5 x 9,0m"
+        }
+      },
+      {
+        "name": "Téli takaró Silverado",
+        "variantLabel": "Méret",
+        "articles": {
+          "173106": "6,0 x 3,0m",
+          "173107": "7,0 x 3,5m",
+          "173108": "8,0 x 4,0m",
+          "173109": "9,0 x 4,5m",
+          "173110": "10,0 x 5,0m",
+          "173112": "12,0 x 6,0m",
+          "173114": "14,0 x 7,0m",
+          "173116": "16,0 x 8,0m"
+        }
+      },
+      {
+        "name": "Téliesítő gumidugó",
+        "variantLabel": "Méret",
+        "articles": {
+          "173202": "6/4” 41/49",
+          "173203": "2” 53/63"
+        }
+      },
+      {
+        "name": "Porocell BigBlock ívelő ék",
+        "variantLabel": "Sugár",
+        "articles": {
+          "181016": "R = 0m",
+          "181018": "R = 1,25m",
+          "181019": "R = 1,5m",
+          "181020": "R = 1,75m",
+          "181021": "R = 2m",
+          "181022": "R = 2,5m",
+          "181023": "R = 3m",
+          "181024": "R = 3,5m",
+          "181025": "R = 5m",
+          "181026": "R = 7m"
+        }
+      },
+      {
+        "name": "Porocell Eco ívelő ék",
+        "variantLabel": "Sugár",
+        "articles": {
+          "181003": "R = 0m",
+          "181004": "R = 1m",
+          "181005": "R = 1,25m",
+          "181006": "R = 1,5m",
+          "181007": "R = 2m",
+          "181008": "R = 2,5m",
+          "181009": "R = 3m",
+          "181010": "R = 3,5m",
+          "181011": "R = 5m",
+          "181012": "R = 7m"
+        }
+      },
+      {
+        "name": "Porocell bélés fólia",
+        "variantLabel": "Méret",
+        "articles": {
+          "180013": "3,00 x 6,00 x 1,50m",
+          "180016": "3,50 x 7,00 x 1,50m",
+          "180019": "4,00 x 8,00 x 1,50m"
+        }
+      },
+      {
+        "name": "POROCELL szett",
+        "variantLabel": "Kivitel és méret",
+        "articles": {
+          "181501": "Basic, 3,00 x 6,00 x 1,50m",
+          "181502": "Pro, 3,00 x 6,00 x 1,50m",
+          "181511": "Basic, 3,50 x 7,00 x 1,50m",
+          "181512": "Pro, 3,50 x 7,00 x 1,50m",
+          "181521": "Basic, 4,00 x 8,00 x 1,50m",
+          "181522": "Pro, 4,00 x 8,00 x 1,50m"
+        }
+      },
+      {
+        "name": "Szegélykő szett",
+        "variantLabel": "Méret",
+        "articles": {
+          "167231": "3,00 x 6,00 x 1,50m",
+          "167232": "3,50 x 7,00 x 1,50m",
+          "167233": "4,00 x 8,00 x 1,50m"
+        }
+      },
+      {
+        "name": "Azuro kör B-W, kék",
+        "variantLabel": "Méret és kivitel",
+        "articles": {
+          "184100": "2,4x0,9m",
+          "184101": "2,4x0,9m Skimfilter",
+          "184102": "3,6x0,9m",
+          "184103": "3,6x0,9m Skimfilter",
+          "184104": "4,6x0,9m"
+        }
+      },
+      {
+        "name": "Azuro kör G-W, kék",
+        "variantLabel": "Méret",
+        "articles": {
+          "184105": "3,6x0,9m",
+          "184106": "3,6x1,2m",
+          "184107": "4,6x1,2m",
+          "184108": "5,0x1,2m"
+        }
+      },
+      {
+        "name": "Azuro kör Rattan, kék",
+        "variantLabel": "Méret",
+        "articles": {
+          "184110": "3,6x1,2m",
+          "184111": "4,6x1,2m",
+          "184112": "5,0x1,2m"
+        }
+      },
+      {
+        "name": "Azuro kör Stone, kék",
+        "variantLabel": "Méret",
+        "articles": {
+          "184114": "3,6x0,9m",
+          "184115": "3,6x1,2m",
+          "184116": "4,0x1,2m",
+          "184117": "4,6x1,2m",
+          "184118": "5,0x1,2m"
+        }
+      },
+      {
+        "name": "Azuro kör Wood, kék",
+        "variantLabel": "Méret",
+        "articles": {
+          "184120": "3,6x1,2m",
+          "184121": "4,6x1,2m",
+          "184122": "5,5x1,2m"
+        }
+      },
+      {
+        "name": "Azuro oval Wood, kék",
+        "variantLabel": "Méret",
+        "articles": {
+          "184123": "5,5x3,7x1,2m",
+          "184124": "7,3x3,7x1,2m"
+        }
+      },
+      {
+        "name": "Ibiza kör",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "184000": "kék; 3,60 x 1,20m",
+          "184001": "kék; 4,00 x 1,20m",
+          "184002": "kék; 4,60 x 1,20m",
+          "184003": "kék; 5,00 x 1,20m",
+          "184004": "kék; 6,00 x 1,20m",
+          "184005": "kék; 4,00 x 1,50m",
+          "184006": "kék; 5,00 x 1,50m",
+          "184007": "kék; 6,00 x 1,50m",
+          "184025": "sand; 5,00 x 1,50m",
+          "184026": "sand; 6,00 x 1,50m"
+        }
+      },
+      {
+        "name": "Ibiza oval",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "184500": "kék; 3,20 x 5,25 x 1,20m",
+          "184501": "kék; 3,20 x 6,00 x 1,20m",
+          "184502": "kék; 3,50 x 7,00 x 1,20m",
+          "184503": "kék; 4,16 x 8,00 x 1,20m",
+          "184504": "kék; 3,20 x 5,25 x 1,50m",
+          "184505": "kék; 3,20 x 6,00 x 1,50m",
+          "184506": "kék; 3,50 x 7,00 x 1,50m",
+          "184507": "kék; 4,16 x 8,00 x 1,50m",
+          "184508": "kék; 4,16 x 10,0 x 1,50m",
+          "184509": "kék; 5,00 x 9,00 x 1,50m",
+          "184510": "kék; 5,00 x 11,0 x 1,50m",
+          "184511": "kék; 6,00 x 12,0 x 1,50m",
+          "184521": "sand; 3,20 x 5,25 x 1,20m",
+          "184523": "sand; 3,50 x 7,00 x 1,20m",
+          "184524": "sand; 3,20 x 5,25 x 1,50m",
+          "184525": "sand; 3,20 x 6,00 x 1,50m",
+          "184526": "sand; 3,50 x 7,00 x 1,50m",
+          "184527": "sand; 4,16 x 8,00 x 1,50m"
+        }
+      },
+      {
+        "name": "Ibiza fólia",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "185300": "kék, 3,60 x 1,20m",
+          "185301": "kék, 4,00 x 1,20m",
+          "185302": "kék, 4,20 x 1,20m",
+          "185303": "kék, 4,60 x 1,20m",
+          "185304": "kék, 5,00 x 1,20m",
+          "185305": "kék, 6,00 x 1,20m",
+          "185306": "kék, 3,20 x 5,25 x 1,20m",
+          "185307": "kék, 3,20 x 6,00 x 1,20m",
+          "185308": "kék, 3,50 x 7,00 x 1,20m",
+          "185311": "kék, 5,00 x 1,50m",
+          "185313": "kék, 3,20 x 5,25 x 1,50m",
+          "185314": "kék, 3,20 x 6,00 x 1,50m",
+          "185315": "kék, 3,50 x 7,00 x 1,50m",
+          "185316": "kék, 3,60 x 6,23 x 1,50m",
+          "185317": "kék, 4,16 x 8,00 x 1,50m",
+          "185336": "sand, 3,20 x 5,25 x 1,50m",
+          "185337": "sand, 3,20 x 6,00 x 1,50m",
+          "185338": "sand, 3,50 x 7,00 x 1,50m"
+        }
+      },
+      {
+        "name": "Azuro fólia Lagoon",
+        "variantLabel": "Vastagság és méret",
+        "articles": {
+          "185350": "2,40 x 0,90m",
+          "185351": "3,00 x 0,90m",
+          "185356": "0,25 mm; 3,60 x 0,90m",
+          "185361": "0,25 mm; 3,60 x 1,20m",
+          "185362": "0,25 mm; 4,60 x 1,20m",
+          "185363": "0,40mm; 3,00 x 0,90m",
+          "185365": "0,40mm; 3,60 x 0,90m",
+          "185366": "0,40mm; 4,60 x 0,90m",
+          "185367": "0,40mm; 3,60 x 1,10m",
+          "185369": "0,40mm; 3,50 x 1,20m",
+          "185370": "0,40mm; 3,60 x 1,20m",
+          "185372": "0,40mm; 4,60 x 1,20m",
+          "185376": "7,30 x 3,70 x 1,20m",
+          "185378": "0,50mm; 3,60 x 0,90m",
+          "185380": "0,50mm; 3,50 x 1,20m",
+          "185381": "0,50mm; 3,60 x 1,20m",
+          "185383": "0,50mm; 4,50 x 1,20m",
+          "185384": "0,50mm; 4,60 x 1,20m",
+          "185386": "0,50mm; 5,50 x 1,20m",
+          "185387": "5,50 x 3,70 x 1,20m"
+        }
+      },
+      {
+        "name": "Ibiza round profilsín",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "186000": "Blue; 3,60m",
+          "186001": "Blue; 4,00m",
+          "186002": "Blue; 4,60m",
+          "186003": "Blue; 5,00m",
+          "186004": "Blue; 6,00m",
+          "186011": "Sand; 4,00m",
+          "186013": "Sand; 5,00m",
+          "186014": "Sand; 6,00m"
+        }
+      },
+      {
+        "name": "Ibiza oval profilsín",
+        "variantLabel": "Szín és méret",
+        "articles": {
+          "186100": "Blue; 3,20 x 5,25m",
+          "186101": "Blue; 3,20 x 6,00m",
+          "186102": "Blue; 3,50 x 7,00m",
+          "186103": "Blue; 4,16 x 8,00m",
+          "186104": "Blue; 4,16 x 10,0m",
+          "186105": "Blue; 5,00 x 9,00m",
+          "186106": "Blue; 5,00 x 11,0m",
+          "186107": "Blue; 6,00 x 12,0m",
+          "186120": "Sand; 3,20 x 5,25m",
+          "186121": "Sand; 3,20 x 6,00m",
+          "186122": "Sand; 3,50 x 7,00m",
+          "186123": "Sand; 4,16 x 8,00m"
+        }
+      },
+      {
+        "name": "Geotextília",
+        "variantLabel": "Méret",
+        "articles": {
+          "185404": "5,5 x 3,7 m",
+          "185405": "7,3 x 3,7 m",
+          "185406": "9,1 x 4,6 m"
+        }
+      },
+      {
+        "name": "Azuro homokszűrő időzítővel",
+        "variantLabel": "Teljesítmény",
+        "articles": {
+          "185421": "4m3/h",
+          "185422": "6m3/h"
+        }
+      },
+      {
+        "name": "Biztonsági létra",
+        "variantLabel": "Méret",
+        "articles": {
+          "185433": "91cm / 3 lépcsőfok",
+          "185434": "120cm / 4 lépcsőfok"
+        }
+      },
+      {
+        "name": "MIRA 390",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186390": "Basewall",
+          "186391": "Basewall + PU hab szigetelés",
+          "186392": "Ceramicwall",
+          "186393": "Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "SAPHIR 450",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186451": "Basewall",
+          "186452": "Basewall + PU hab szigetelés",
+          "186453": "Ceramicwall",
+          "186454": "Ceramicwall + PU",
+          "186455": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "SHELL 600",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186601": "Basewall",
+          "186602": "Basewall + PU hab szigetelés",
+          "186603": "Ceramicwall",
+          "186604": "Ceramicwall + PU",
+          "186605": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "SHELL 720",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186721": "Basewall",
+          "186722": "Basewall + PU hab szigetelés",
+          "186723": "Ceramicwall",
+          "186724": "Ceramicwall + PU",
+          "186725": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "CORAL 550",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186551": "Basewall",
+          "186552": "Basewall + PU hab szigetelés",
+          "186553": "Ceramicwall",
+          "186554": "Ceramicwall + PU",
+          "186555": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "CORAL 620",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186621": "Basewall",
+          "186622": "Basewall + PU hab szigetelés",
+          "186623": "Ceramicwall",
+          "186624": "Ceramicwall + PU",
+          "186625": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "CORAL 700",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186701": "Basewall",
+          "186702": "Basewall + PU hab szigetelés",
+          "186703": "Ceramicwall",
+          "186704": "Ceramicwall + PU",
+          "186705": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "RUBIN 670",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186671": "Basewall",
+          "186672": "Basewall + PU hab szigetelés",
+          "186673": "Ceramicwall",
+          "186674": "Ceramicwall + PU",
+          "186675": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "TÜRKIZ 600",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186801": "Basewall",
+          "186802": "Basewall + PU hab szigetelés",
+          "186803": "Ceramicwall",
+          "186804": "Ceramicwall + PU",
+          "186805": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "JADE 670",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "187671": "Basewall",
+          "187672": "Basewall + PU hab szigetelés",
+          "187673": "Ceramicwall",
+          "187674": "Ceramicwall + PU hab szigetelés",
+          "187675": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "DIAMANT 750",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "186751": "Basewall",
+          "186752": "Basewall + PU hab szigetelés",
+          "186753": "Ceramicwall",
+          "186754": "Ceramicwall + PU",
+          "186755": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "BRILL 750",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "187751": "Basewall",
+          "187752": "Basewall + PU hab szigetelés",
+          "187753": "Ceramicwall",
+          "187754": "Ceramicwall + PU",
+          "187755": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "NEPTUNE 850",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "188851": "Basewall",
+          "188852": "Basewall + PU hab szigetelés",
+          "188853": "Ceramicwall",
+          "188854": "Ceramicwall + PU",
+          "188855": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "PLATINUM 800",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "188801": "Basewall",
+          "188802": "Basewall + PU",
+          "188803": "Ceramicwall",
+          "188804": "Ceramicwall + PU",
+          "188805": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "PLATINUM 900",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "188901": "Basewall",
+          "188902": "Basewall + PU",
+          "188903": "Ceramicwall",
+          "188904": "Ceramicwall + PU",
+          "188905": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "PLATINUM 1000",
+        "variantLabel": "Kivitel",
+        "articles": {
+          "188911": "Basewall",
+          "188912": "Basewall + PU",
+          "188913": "Ceramicwall",
+          "188914": "Ceramicwall + PU",
+          "188915": "POLIAMID + Ceramicwall + PU"
+        }
+      },
+      {
+        "name": "Basic KIT",
+        "variantLabel": "Méret",
+        "articles": {
+          "192635": "635",
+          "192735": "735",
+          "192835": "835"
+        }
+      },
+      {
+        "name": "Classic KIT",
+        "variantLabel": "Méret",
+        "articles": {
+          "193635": "635",
+          "193735": "735",
+          "193835": "835"
+        }
+      },
+      {
+        "name": "Standard pályás sín",
+        "variantLabel": "Típus",
+        "articles": {
+          "195533": "3 pályás",
+          "195534": "4 pályás",
+          "195535": "5 pályás"
+        }
+      },
+      {
+        "name": "Comet A KIT",
+        "variantLabel": "Méret",
+        "articles": {
+          "190062": "620",
+          "190083": "830",
+          "190104": "1040"
+        }
+      },
+      {
+        "name": "Comet T KIT",
+        "variantLabel": "Méret",
+        "articles": {
+          "191065": "650",
+          "191075": "750",
+          "191086": "860",
+          "191096": "960",
+          "191106": "1060"
+        }
+      },
+      {
+        "name": "Comet 7016S T KIT",
+        "variantLabel": "Méret",
+        "articles": {
+          "191165": "650",
+          "191175": "750",
+          "191186": "860",
+          "191196": "960",
+          "191206": "1060"
+        }
+      }
+    ],
+    "names": {
+      "011462": "Design Skimmer Ø50 beton/fólia A400 antracit",
+      "011464": "Design Szkimmer beton/fólia A400 homok",
+      "020003": "Reflektor „SLIM 2018”",
+      "020009": "Szerelő készlet panel + fólia medencéhez",
+      "020010": "Szerelő készlet fóliás medencéhez",
+      "020011": "Szerelő készlet PP/Poliészter medencéhez",
+      "021310": "Reflektor MINI-Clicker C-PCB",
+      "021336": "Szerelőkészlet MIDI/MINI Clicker fóliás medencéhez",
+      "022056": "TLC3 On.e Bluetooth világítás vezérlő",
+      "031516": "TRB Ø1600 1m D125",
+      "031520": "TRB Ø2000 1m D160",
+      "042215": "Szűrőszett Filtrex Side 500 DE18",
+      "042230": "Szűrőszett Balaton Top 500 DE18",
+      "042235": "Szűrőszett Balaton Side 500 DE18",
+      "042245": "Szűrőszett Pacific Side 510 DE18",
+      "048211": "Szűrőszett Aquarius TOP 530 WINNER 50M",
+      "048645": "Szűrőszett Aquarius SIDE 790 Euroswim 150",
+      "077406": "TOUCH EVO LINK pH, Rx, T szett 15gr/h",
+      "077407": "TOUCH EVO LINK pH, Rx, T szett 20gr/h",
+      "077408": "TOUCH EVO LINK pH, Rx, T szett 25gr/h",
+      "077409": "TOUCH EVO LINK pH, Rx, T szett 35gr/h",
+      "077437": "TOUCH EVO sóbontó pH, Rx, T szett 20g/h",
+      "077438": "TOUCH EVO sóbontó pH, Rx, T szett 25g/h",
+      "077439": "TOUCH EVO sóbontó pH, Rx, T szett 35g/h",
+      "089506": "Griffon SFT-101 Repair",
+      "090042": "Mágnesszelep 1 1/2” BB átfoly.szab. 24V",
+      "105020": "FitStar Taifun/Taifun Duo tömítés készlet",
+      "106610": "LIDO/VIVA pneu nyomógomb, inox négyzet",
+      "106941": "Badu Jet Perla 1,6kW/230V, LED_W",
+      "106951": "Badu Jet Pro beépítő egység Design1",
+      "106953": "Badu Jet Pro főegység 3,0kW/400V",
+      "126007": "Sávelválasztó Rome - 50m",
+      "148182": "Dolphin Caddy",
+      "148184": "Dolphin Caddy takaró Premium Silver",
+      "149001": "LeakTrac LT2400 szivárgás detektor",
+      "149003": "XLT30H akusztikus szivárgás kereső",
+      "149011": "Ultrahangos Áramlásmérő TUF-2000H",
+      "150500": "Kanna 25 kg / zöld",
+      "150510": "Kanna 25 kg / fehér",
+      "150520": "Kanna 25 kg / kék",
+      "163202": "Sopremapool Design - Marbella Blue Mosaic",
+      "163203": "Sopremapool Design - Marbella Grey Mosaic",
+      "163318": "Sopremapool 3D - Sensitive Mineral Sapphire",
+      "163526": "Sopremapool Liquid PVC Mineral Amber",
+      "163527": "Sopremapool Liquid PVC Mineral Sapphire",
+      "163528": "Sopremapool Liquid PVC Mineral Jade",
+      "184102": "Azuro kör B-W, kék 3,6x0,9m",
+      "184104": "Azuro kör B-W, kék 4,6x0,9m",
+      "184105": "Azuro kör G-W, kék 3,6x0,9m",
+      "184110": "Azuro kör Rattan, kék 3,6x1,2m",
+      "184112": "Azuro kör Rattan, kék 5,0x1,2m",
+      "186000": "Ibiza round profilsín Blue; 3,60m",
+      "188907": "Rolókamra",
+      "188915": "PLATINUM 1000 POLIAMID + Ceramicwall + PU",
+      "188990": "Acél medence támasz",
+      "188991": "Állítható lépcső merevítő",
+      "188999": "Szerelvény kivágás / db"
+    },
+    "categories": {
+      "art-p14-1": "ACIS A400 szkimmer",
+      "art-p35-1": "ACIS Spottie mini reflektorok",
+      "art-p35-2": "ACIS világítás vezérlő",
+      "art-p73-1": "Automata váltószelep (iWash)",
+      "art-p74-1": "Hi-Tech szűrőüveg",
+      "art-p75-1": "NW40 szűrőüveg",
+      "art-p94-1": "InverMax",
+      "art-p96-1": "Frekvenciaváltók",
+      "art-p99-3": "Búvárszivattyúk",
+      "art-p100-1": "Basic szivattyúk",
+      "art-p106-1": "BADU Magic szivattyúk",
+      "art-p107-1": "BADU Top II szivattyúk",
+      "art-p108-1": "BADU Prime szivattyúk",
+      "art-p109-1": "BADU Prime szivattyúk",
+      "art-p110-1": "BADU Resort szivattyúk",
+      "art-p133-1": "InverX hőszivattyúk",
+      "art-p141-1": "InverX JUMBO hőszivattyúk",
+      "art-p155-1": "Asin Aqua",
+      "art-p157-1": "Asin Aqua",
+      "art-p161-1": "Microdos Oxy",
+      "art-p164-1": "InverClear sóbontó",
+      "art-p165-1": "Mr. Pure sóbontó",
+      "art-p167-1": "Mr. Pure sóbontó",
+      "art-p182-1": "Mérő és szabályzó alkatrészek",
+      "art-p183-1": "Mérő és szabályzó alkatrészek",
+      "art-p183-2": "Mérő és szabályzó alkatrészek",
+      "art-p183-3": "Sóbontó alkatrészek",
+      "art-p221-1": "iGarden vezérlés",
+      "art-p222-2": "Hőfokszabályozók",
+      "art-p222-3": "Áramláskapcsolók",
+      "art-p223-2": "Mágnesszelepek",
+      "art-p223-3": "Transzformátorok",
+      "art-p225-1": "Vízszint szabályozás",
+      "art-p233-1": "Swim Jet ellenáramoltatók",
+      "art-p249-1": "Vízkések",
+      "art-p258-2": "Nagy ívű létra",
+      "art-p259-2": "Osztott létra",
+      "art-p259-3": "Kétágú létra",
+      "art-p277-1": "Páramentesítők",
+      "art-p279-1": "Gőzgenerátorok",
+      "art-p279-2": "Gőzgenerátorok",
+      "art-p285-1": "Hőmérők",
+      "art-p286-1": "Akkumulátoros medenceporszívók",
+      "art-p295-1": "Lakossági medencetisztító robotok",
+      "art-p296-1": "Lakossági medencetisztító robotok",
+      "art-p297-1": "Lakossági medencetisztító robotok",
+      "art-p298-1": "Lakossági medencetisztító robotok",
+      "art-p299-1": "Lakossági medencetisztító robotok",
+      "art-p300-1": "Lakossági medencetisztító robotok",
+      "art-p301-1": "Lakossági medencetisztító robotok",
+      "art-p306-1": "Lakossági medencetisztító robotok",
+      "art-p307-1": "Közületi medencetisztító robotok",
+      "art-p311-1": "Medencetisztító robot kiegészítők",
+      "art-p314-1": "Medence só",
+      "art-p315-1": "Tisztítószerek",
+      "art-p317-1": "pH szabályozás",
+      "art-p319-1": "Vízkezelő szerek",
+      "art-p321-1": "Közületi vegyszerek",
+      "art-p329-1": "Medencefóliák",
+      "art-p331-1": "Medencefóliák",
+      "art-p333-1": "Medencefóliák",
+      "art-p335-1": "Medencefóliák",
+      "art-p337-1": "Medencefóliák",
+      "art-p339-1": "Sopremapool medencefólia",
+      "art-p343-1": "Gránit szegélykő",
+      "art-p347-1": "Tekercselő",
+      "art-p349-1": "Szolártakarók",
+      "art-p352-2": "Téli takarók",
+      "art-p360-2": "Porocell bélés fólia",
+      "art-p373-1": "Medencetestek",
+      "art-p375-1": "Medencetestek",
+      "art-p377-1": "Medencetestek"
+    },
+    "mainCategories": {
+      "ACIS A400 szkimmer": "Szkimmerek",
+      "Wide xxl szkimmer": "Szkimmerek",
+      "Szkimmer alkatrészek": "Szkimmerek",
+      "Gemas betonos szkimmerek": "Szkimmerek",
+      "Gemas fóliás szkimmerek": "Szkimmerek",
+      "Aquamax szkimmerek": "Szkimmerek",
+      "Szkimmerek, szintszabályzók": "Szkimmerek",
+      "Acis fenékürítő ø50": "Fenékürítők",
+      "Színes fenékürítők és kiegészítők": "Fenékürítők",
+      "Betonos fenékürítők": "Fenékürítők",
+      "Fóliás fenékürítők": "Fenékürítők",
+      "Masszázs rendszerek": "Ellenáramoltatók és élményelemek",
+      "Szivattyú előszűrők": "Szivattyúk és légfúvók",
+      "Sóbontó alkatrészek": "Vízkezelés és adagolás",
+      "Hőmérő, úszó vegyszeradagoló": "Medencetisztítás és karbantartás",
+      "Hőmérők": "Medencetisztítás és karbantartás",
+      "Elektronikus detektorok": "Vízelemzés",
+      "Medencetisztító robot kiegészítők": "Medencetisztító robotok",
+      "Gránit szegélykő": "Medencefóliák és szegélykövek"
+    },
+    "chapters": [
+      {
+        "firstPage": 12,
+        "lastPage": 31,
+        "category": "Befalazó elemek"
+      },
+      {
+        "firstPage": 32,
+        "lastPage": 47,
+        "category": "Világítás"
+      },
+      {
+        "firstPage": 48,
+        "lastPage": 67,
+        "category": "Szűrőtartályok"
+      },
+      {
+        "firstPage": 68,
+        "lastPage": 73,
+        "category": "Váltószelepek"
+      },
+      {
+        "firstPage": 74,
+        "lastPage": 79,
+        "category": "Szűrőtartályok"
+      },
+      {
+        "firstPage": 80,
+        "lastPage": 89,
+        "category": "Szűrőszettek"
+      },
+      {
+        "firstPage": 90,
+        "lastPage": 129,
+        "category": "Szivattyúk és légfúvók"
+      },
+      {
+        "firstPage": 130,
+        "lastPage": 153,
+        "category": "Hőszivattyúk és fűtés"
+      },
+      {
+        "firstPage": 154,
+        "lastPage": 185,
+        "category": "Vízkezelés és adagolás"
+      },
+      {
+        "firstPage": 186,
+        "lastPage": 219,
+        "category": "Csövek és idomok"
+      },
+      {
+        "firstPage": 220,
+        "lastPage": 231,
+        "category": "Vezérlés és automatika"
+      },
+      {
+        "firstPage": 232,
+        "lastPage": 256,
+        "category": "Ellenáramoltatók és élményelemek"
+      },
+      {
+        "firstPage": 257,
+        "lastPage": 263,
+        "category": "Létrák, korlátok, lépcsők"
+      },
+      {
+        "firstPage": 264,
+        "lastPage": 269,
+        "category": "Zuhanyok"
+      },
+      {
+        "firstPage": 270,
+        "lastPage": 275,
+        "category": "Medencekiegészítők"
+      },
+      {
+        "firstPage": 276,
+        "lastPage": 280,
+        "category": "Páramentesítők és gőzgenerátorok"
+      },
+      {
+        "firstPage": 281,
+        "lastPage": 289,
+        "category": "Medencetisztítás és karbantartás"
+      },
+      {
+        "firstPage": 290,
+        "lastPage": 294,
+        "category": "Vízelemzés"
+      },
+      {
+        "firstPage": 295,
+        "lastPage": 312,
+        "category": "Medencetisztító robotok"
+      },
+      {
+        "firstPage": 313,
+        "lastPage": 326,
+        "category": "Vegyszerek"
+      },
+      {
+        "firstPage": 327,
+        "lastPage": 345,
+        "category": "Medencefóliák és szegélykövek"
+      },
+      {
+        "firstPage": 346,
+        "lastPage": 356,
+        "category": "Takarók és tekercselők"
+      },
+      {
+        "firstPage": 357,
+        "lastPage": 400,
+        "category": "Medencék és medenceszettek"
+      },
+      {
+        "firstPage": 401,
+        "lastPage": 428,
+        "category": "Medencefedések"
+      }
+    ]
+  }
+}
